@@ -1,14 +1,12 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 27
-
-
+    compileSdkVersion 23
+    buildToolsVersion '25.0.0'
 
     defaultConfig {
-        applicationId "com.example.audiorecoder"
-        buildToolsVersion '24.0.1'
-        minSdkVersion 15
+        applicationId "com.sogou.wifi"
+        minSdkVersion 19
         targetSdkVersion 21
         versionCode 1
         versionName "1.0"
@@ -16,18 +14,17 @@ android {
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
 
     }
-
     buildTypes {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
-
-    buildToolsVersion '25.0.0'
 }
 
 dependencies {
-    fileTree(dir: 'libs', include: ['*.jar'])
-
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
 }
