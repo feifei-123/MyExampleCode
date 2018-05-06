@@ -1,1 +1,1 @@
-include ':app', ':audiorecoder', ':mybinder', ':intentserviceexample'
+include ':app', ':audiorecoder', ':mybinder', ':intentserviceexample',':wifi'

@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/audiorecoder/audiorecoder.iml" filepath="$PROJECT_DIR$/audiorecoder/audiorecoder.iml" />
       <module fileurl="file://$PROJECT_DIR$/intentserviceexample/intentserviceexample.iml" filepath="$PROJECT_DIR$/intentserviceexample/intentserviceexample.iml" />
       <module fileurl="file://$PROJECT_DIR$/mybinder/mybinder.iml" filepath="$PROJECT_DIR$/mybinder/mybinder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wifi/wifi.iml" filepath="$PROJECT_DIR$/wifi/wifi.iml" />
     </modules>
   </component>
 </project>
