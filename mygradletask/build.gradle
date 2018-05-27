@@ -1,0 +1,72 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 27
+
+
+
+    defaultConfig {
+        applicationId "com.example.mygradletask"
+        minSdkVersion 15
+        targetSdkVersion 27
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    implementation 'com.android.support.constraint:constraint-layout:1.1.0'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+}
+
+task task1{
+    println("hello execute task1")
+}
+
+task task2{
+    println("hello exuecte task2")
+}
+
+task task3{
+    println "action0+++++"
+    doFirst{
+        println "action1++++"
+    }
+
+    doFirst{
+        println "action3++++"
+    }
+    doLast{
+        println "action2++++"
+    }
+
+}
+
+
+
+task taskMake(type:Copy){
+
+    from ('src/script/model'){
+        exclude 'src/script/model/conf/'
+    }
+    into 'src/script/output'
+}
+
+task taskDelete(type:Delete){
+    delete('src/script/output')
+}

@@ -6,7 +6,13 @@
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/audiorecoder/audiorecoder.iml" filepath="$PROJECT_DIR$/audiorecoder/audiorecoder.iml" />
       <module fileurl="file://$PROJECT_DIR$/intentserviceexample/intentserviceexample.iml" filepath="$PROJECT_DIR$/intentserviceexample/intentserviceexample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myanimation/myanimation.iml" filepath="$PROJECT_DIR$/myanimation/myanimation.iml" />
       <module fileurl="file://$PROJECT_DIR$/mybinder/mybinder.iml" filepath="$PROJECT_DIR$/mybinder/mybinder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybreakpointdownload/mybreakpointdownload.iml" filepath="$PROJECT_DIR$/mybreakpointdownload/mybreakpointdownload.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mygradletask/mygradletask.iml" filepath="$PROJECT_DIR$/mygradletask/mygradletask.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myhook/myhook.iml" filepath="$PROJECT_DIR$/myhook/myhook.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mywindowmanager/mywindowmanager.iml" filepath="$PROJECT_DIR$/mywindowmanager/mywindowmanager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testfiledownloader/testfiledownloader.iml" filepath="$PROJECT_DIR$/testfiledownloader/testfiledownloader.iml" />
       <module fileurl="file://$PROJECT_DIR$/wifi/wifi.iml" filepath="$PROJECT_DIR$/wifi/wifi.iml" />
     </modules>
   </component>

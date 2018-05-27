@@ -1,1 +1,1 @@
-include ':app', ':audiorecoder', ':mybinder', ':intentserviceexample',':wifi'
+include ':app', ':audiorecoder', ':mybinder', ':intentserviceexample',':wifi', ':testfiledownloader', ':testfiledownloader', ':mywindowmanager', ':myhook', ':myanimation', ':mybreakpointdownload', ':mygradletask'
