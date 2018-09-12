@@ -9,10 +9,23 @@
       <module fileurl="file://$PROJECT_DIR$/myanimation/myanimation.iml" filepath="$PROJECT_DIR$/myanimation/myanimation.iml" />
       <module fileurl="file://$PROJECT_DIR$/mybinder/mybinder.iml" filepath="$PROJECT_DIR$/mybinder/mybinder.iml" />
       <module fileurl="file://$PROJECT_DIR$/mybreakpointdownload/mybreakpointdownload.iml" filepath="$PROJECT_DIR$/mybreakpointdownload/mybreakpointdownload.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myclassloader/myclassloader.iml" filepath="$PROJECT_DIR$/myclassloader/myclassloader.iml" />
       <module fileurl="file://$PROJECT_DIR$/mygradletask/mygradletask.iml" filepath="$PROJECT_DIR$/mygradletask/mygradletask.iml" />
       <module fileurl="file://$PROJECT_DIR$/myhook/myhook.iml" filepath="$PROJECT_DIR$/myhook/myhook.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myinstrument/myinstrument.iml" filepath="$PROJECT_DIR$/myinstrument/myinstrument.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mylifecircle/mylifecircle.iml" filepath="$PROJECT_DIR$/mylifecircle/mylifecircle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mylock/mylock.iml" filepath="$PROJECT_DIR$/mylock/mylock.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myndk/myndk.iml" filepath="$PROJECT_DIR$/myndk/myndk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myndk_invoke/myndk_1.iml" filepath="$PROJECT_DIR$/myndk_invoke/myndk_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myreplugin/myreplugin.iml" filepath="$PROJECT_DIR$/myreplugin/myreplugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myroom/myroom.iml" filepath="$PROJECT_DIR$/myroom/myroom.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myviewmodel/myviewmodel.iml" filepath="$PROJECT_DIR$/myviewmodel/myviewmodel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mywebview/mywebview.iml" filepath="$PROJECT_DIR$/mywebview/mywebview.iml" />
       <module fileurl="file://$PROJECT_DIR$/mywindowmanager/mywindowmanager.iml" filepath="$PROJECT_DIR$/mywindowmanager/mywindowmanager.iml" />
       <module fileurl="file://$PROJECT_DIR$/testfiledownloader/testfiledownloader.iml" filepath="$PROJECT_DIR$/testfiledownloader/testfiledownloader.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testjvm/testjvm.iml" filepath="$PROJECT_DIR$/testjvm/testjvm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testkotlin2/testkotlin2.iml" filepath="$PROJECT_DIR$/testkotlin2/testkotlin2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/teststring/teststring.iml" filepath="$PROJECT_DIR$/teststring/teststring.iml" />
       <module fileurl="file://$PROJECT_DIR$/wifi/wifi.iml" filepath="$PROJECT_DIR$/wifi/wifi.iml" />
     </modules>
   </component>

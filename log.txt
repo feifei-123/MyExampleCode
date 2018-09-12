@@ -1,0 +1,1581 @@
+--------- beginning of system
+06-19 10:11:04.302   601   638 V XJDAN   : KeyEvent.KEYCODE_POWER [true] bIgnorePower [false]
+--------- beginning of main
+06-19 10:11:04.304   601   638 W TelecomManager: Telecom Service not found.
+06-19 10:11:04.304   601   638 I PowerManagerService: Waking up from sleep (uid 1000)...
+06-19 10:11:04.305   601   623 I DisplayPowerController: Blocking screen on until initial contents have been drawn.
+06-19 10:11:04.305   601   601 V KeyguardServiceDelegate: onStartedWakingUp()
+06-19 10:11:04.326   601   623 V KeyguardServiceDelegate: onScreenTurnedOn(showListener = com.android.server.policy.PhoneWindowManager$2@ef3696d)
+06-19 10:11:04.341   328   371 D AudioHardwareTiny: adev_set_parameters: kvpairs = screen_state=on
+06-19 10:11:04.346   601   621 I DisplayManagerService: Display device changed state: "内置屏幕", ON
+06-19 10:11:04.346   236   236 D SurfaceFlinger: Set power mode=2, type=0 flinger=0x7aa2e48000
+06-19 10:11:04.359   601   767 V KeyguardServiceDelegate: **** SHOWN CALLED ****
+06-19 10:11:04.400  8030  8030 I System.out: zhl—— SCREEN_ON ——
+06-19 10:11:04.401  8030  8030 I LogService: com.sogou.teemo.watch.log|com.sogou.teemo.watch.log.service.LogService
+06-19 10:11:04.401  8030  8030 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1357 android.content.ContextWrapper.startService:613 com.sogou.teemo.watch.log.utils.TimoLogUtils.doLog:255 com.sogou.teemo.watch.log.utils.TimoLogUtils.log:233 com.sogou.teemo.watch.log.utils.TimoLogUtils.statisticsTiming:140 
+06-19 10:11:04.402   236   245 D GRALLOC-ROCKCHIP: enter, w : 480, h : 800, format : 0x1, usage : 0xb00.
+06-19 10:11:04.410 12859 12876 D GRALLOC-ROCKCHIP: enter, w : 480, h : 800, format : 0x1, usage : 0xb00.
+06-19 10:11:04.416  1362  1362 I LogService: LogService|onStartCommand
+06-19 10:11:04.427  1362 12795 I LogUtils: getFileNames|排除tmlog.log
+06-19 10:11:04.427  1362 12795 I LogUtils: read|[/storage/emulated/0/log/statistics/tmlog.log.2018-06-15, /storage/emulated/0/log/statistics/tmlog.log.2018-06-18]
+06-19 10:11:04.508   601   638 V XJDAN   : KeyEvent.KEYCODE_POWER [false] bIgnorePower [false]
+06-19 10:11:05.116  7447  7447 I wpa_supplicant: wlan0: CTRL-EVENT-DRIVER-STATE STARTED
+06-19 10:11:05.159   601   662 D wifi    : android_net_wifi_get_firmware_version = 0x7becbae720
+06-19 10:11:05.160   601   662 E WifiHAL : Failed to register debug response; result = -95
+06-19 10:11:05.160   601   662 E wifi    : Fail to get Firmware version
+06-19 10:11:05.160   601   662 D wifi    : android_net_wifi_get_driver_version = 0x7becbae720
+06-19 10:11:05.160   601   662 E WifiHAL : Failed to register debug response; result = -95
+06-19 10:11:05.160   601   662 E wifi    : Fail to get driver version
+06-19 10:11:05.160   601   662 D wifi    : android_net_wifi_set_log_handler = 0x7becbae720
+06-19 10:11:05.160   601   662 D wifi    : android_net_wifi_get_ring_buffer_status = 0x7becbae720
+06-19 10:11:05.160   601   662 E WifiHAL : Failed to register debug response; result = -95
+06-19 10:11:05.160   601   662 E WifiLogger: no ring buffers found
+06-19 10:11:05.160   601   662 D WifiHAL : Start get packet fate command
+06-19 10:11:05.160   601   662 D WifiHAL : createRequest Monitor packet fate request
+06-19 10:11:05.160   601   662 E WifiHAL : Failed to register get pkt fate response; result = -95
+06-19 10:11:05.160   601   662 E WifiLogger: Failed to start packet fate monitoring
+06-19 10:11:05.184   601   701 D SurfaceControl: Excessive delay in setPowerMode(): 838ms
+06-19 10:11:05.201   601   615 D SensorsHal: Couldn't open /dev/mma8452_daemon (No such file or directory)
+06-19 10:11:05.201   601   615 E SensorService: Error activating sensor 0 (Operation not permitted)
+06-19 10:11:05.202   601   623 I DisplayPowerController: Unblocked screen on after 897 ms
+06-19 10:11:05.208   601   623 V KeyguardServiceDelegate: onScreenTurnedOn()
+06-19 10:11:05.208   601   701 E Lights Hal: write_int failed to open /sys/class/backlight/rk28_bl/brightness
+06-19 10:11:05.208   601   623 I VrManagerService: VR mode is allowed
+06-19 10:11:05.250   601   662 D wifi    : android_net_wifi_setLinkLayerStats: 1
+06-19 10:11:05.251   601   601 D RttService: SCAN_AVAILABLE : 3
+06-19 10:11:05.251   601   664 I WifiScanningService: wifi driver loaded with scan capabilities: max buckets=16
+06-19 10:11:05.251   601   665 D RttService: DefaultState got{ when=0 what=160512 target=com.android.internal.util.StateMachine$SmHandler }
+06-19 10:11:05.252   601   662 I WifiConnectivityManager: Set WiFi enabled
+06-19 10:11:05.254   601   662 I WifiConnectivityManager: scheduleWatchdogTimer
+06-19 10:11:05.254   704  1013 D XJDAN   : ---------------ABNORMAL WIFI ICON[2130838318]
+06-19 10:11:05.259   337   597 W CommandListener: Failed to retrieve HW addr for p2p0 (No such device)
+06-19 10:11:05.262   337   597 D CommandListener: Setting iface cfg
+06-19 10:11:05.265   601   662 E wifi    : wifi_get_supported_feature_set returned error = 0xffffffa1
+06-19 10:11:05.266   601   617 E BatteryStatsService: no controller energy info supplied
+06-19 10:11:05.272   601   660 E WifiP2pService: Unable to change interface settings: java.lang.IllegalStateException: command '1040 interface setcfg p2p0 0.0.0.0 0 up' failed with '400 1040 Failed to clear address (No such device)'
+06-19 10:11:05.272   601   660 D WifiMonitor: startMonitoring(p2p0) with mConnected = true
+06-19 10:11:05.274   601   662 E wifi    : wifi_get_supported_feature_set returned error = 0xffffffa1
+06-19 10:11:05.275   601   617 E BatteryStatsService: no controller energy info supplied
+06-19 10:11:05.283   601   660 D WifiNative-HAL: p2pGetDeviceAddress
+06-19 10:11:05.284   601   660 D WifiNative-HAL: p2pGetDeviceAddress returning c6:f1:d1:1d:ea:75
+06-19 10:11:06.034   236   243 D GRALLOC-ROCKCHIP: enter, w : 480, h : 800, format : 0x1, usage : 0xb00.
+06-19 10:11:06.039 12859 12876 D GRALLOC-ROCKCHIP: enter, w : 480, h : 800, format : 0x1, usage : 0xb00.
+06-19 10:11:06.133 12859 12859 D MainActivity: testData2: origin 1
+06-19 10:11:06.134 12859 12859 D MainActivity: testData2: origin 2
+06-19 10:11:06.134 12859 12859 D MainActivity: testData2: origin 3
+06-19 10:11:06.134 12859 12859 D MainActivity: testData2: origin 4
+06-19 10:11:06.134 12859 12859 D MainActivity: testData2: origin 5
+06-19 10:11:06.137   328   362 D AudioHardwareTiny: out_set_parameters: kvpairs = routing=2
+06-19 10:11:06.141   328   362 D AudioHardwareTiny: start_output_stream
+06-19 10:11:06.142   328   362 D alsa_route: route_info->sound_card 0, route_info->devices 0  
+06-19 10:11:06.181 12859 12859 F art     : art/runtime/java_vm_ext.cc:470] JNI DETECTED ERROR IN APPLICATION: use of invalid jobject 0xffa35658
+06-19 10:11:06.181 12859 12859 F art     : art/runtime/java_vm_ext.cc:470]     from void com.example.myndk.JNIUtils.operationArray2(int[])
+06-19 10:11:06.181 12859 12859 F art     : art/runtime/java_vm_ext.cc:470] "main" prio=5 tid=1 Runnable
+06-19 10:11:06.181 12859 12859 F art     : art/runtime/java_vm_ext.cc:470]   | group="main" sCount=0 dsCount=0 obj=0x743944a0 self=0xf2485400
+06-19 10:11:06.181 12859 12859 F art     : art/runtime/java_vm_ext.cc:470]   | sysTid=12859 nice=-10 cgrp=default sched=0/0 handle=0xf529a534
+06-19 10:11:06.181 12859 12859 F art     : art/runtime/java_vm_ext.cc:470]   | state=R schedstat=( 217706534 51372709 293 ) utm=15 stm=5 core=0 HZ=100
+06-19 10:11:06.181 12859 12859 F art     : art/runtime/java_vm_ext.cc:470]   | stack=0xff23a000-0xff23c000 stackSize=8MB
+06-19 10:11:06.181 12859 12859 F art     : art/runtime/java_vm_ext.cc:470]   | held mutexes= "mutator lock"(shared held)
+06-19 10:11:06.181 12859 12859 F art     : art/runtime/java_vm_ext.cc:470]   native: #00 pc 00350ab5  /system/lib/libart.so (_ZN3art15DumpNativeStackERNSt3__113basic_ostreamIcNS0_11char_traitsIcEEEEiP12BacktraceMapPKcPNS_9ArtMethodEPv+128)
+06-19 10:11:06.181 12859 12859 F art     : art/runtime/java_vm_ext.cc:470]   native: #01 pc 003311f9  /system/lib/libart.so (_ZNK3art6Thread9DumpStackERNSt3__113basic_ostreamIcNS1_11char_traitsIcEEEEbP12BacktraceMap+308)
+06-19 10:11:06.181 12859 12859 F art     : art/runtime/java_vm_ext.cc:470]   native: #02 pc 00239895  /system/lib/libart.so (_ZN3art9JavaVMExt8JniAbortEPKcS2_+848)
+06-19 10:11:06.181 12859 12859 F art     : art/runtime/java_vm_ext.cc:470]   native: #03 pc 00239e2b  /system/lib/libart.so (_ZN3art9JavaVMExt9JniAbortFEPKcS2_z+66)
+06-19 10:11:06.182 12859 12859 F art     : art/runtime/java_vm_ext.cc:470]   native: #04 pc 00334c63  /system/lib/libart.so (_ZNK3art6Thread13DecodeJObjectEP8_jobject+302)
+06-19 10:11:06.182 12859 12859 F art     : art/runtime/java_vm_ext.cc:470]   native: #05 pc 000ca195  /system/lib/libart.so (_ZN3art11ScopedCheck10CheckArrayERNS_18ScopedObjectAccessEP7_jarray+28)
+06-19 10:11:06.182 12859 12859 F art     : art/runtime/java_vm_ext.cc:470]   native: #06 pc 000c985f  /system/lib/libart.so (_ZN3art11ScopedCheck22CheckPossibleHeapValueERNS_18ScopedObjectAccessEcNS_12JniValueTypeE+74)
+06-19 10:11:06.182 12859 12859 F art     : art/runtime/java_vm_ext.cc:470]   native: #07 pc 000c8d0b  /system/lib/libart.so (_ZN3art11ScopedCheck5CheckERNS_18ScopedObjectAccessEbPKcPNS_12JniValueTypeE+802)
+06-19 10:11:06.182 12859 12859 F art     : art/runtime/java_vm_ext.cc:470]   native: #08 pc 000d1563  /system/lib/libart.so (_ZN3art8CheckJNI23SetPrimitiveArrayRegionEPKcNS_9Primitive4TypeEP7_JNIEnvP7_jarrayiiPKv+478)
+06-19 10:11:06.182 12859 12859 F art     : art/runtime/java_vm_ext.cc:470]   native: #09 pc 000c60c7  /system/lib/libart.so (_ZN3art8CheckJNI17SetIntArrayRegionEP7_JNIEnvP10_jintArrayiiPKi+26)
+06-19 10:11:06.182 12859 12859 F art     : art/runtime/java_vm_ext.cc:470]   native: #10 pc 00000a79  /data/app/com.example.myndk-1/lib/arm/libhello-lib.so (Java_com_example_myndk_JNIUtils_operationArray2+172)
+06-19 10:11:06.182 12859 12859 F art     : art/runtime/java_vm_ext.cc:470]   native: #11 pc 00002e15  /data/app/com.example.myndk-1/oat/arm/base.odex (Java_com_example_myndk_JNIUtils_operationArray2___3I+96)
+06-19 10:11:06.182 12859 12859 F art     : art/runtime/java_vm_ext.cc:470]   at com.example.myndk.JNIUtils.operationArray2(Native method)
+06-19 10:11:06.182 12859 12859 F art     : art/runtime/java_vm_ext.cc:470]   at com.example.myndk.MainActivity.onClick(MainActivity.java:43)
+06-19 10:11:06.182 12859 12859 F art     : art/runtime/java_vm_ext.cc:470]   at java.lang.reflect.Method.invoke!(Native method)
+06-19 10:11:06.182 12859 12859 F art     : art/runtime/java_vm_ext.cc:470]   at android.view.View$DeclaredOnClickListener.onClick(View.java:4720)
+06-19 10:11:06.182 12859 12859 F art     : art/runtime/java_vm_ext.cc:470]   at android.view.View.performClick(View.java:5637)
+06-19 10:11:06.182 12859 12859 F art     : art/runtime/java_vm_ext.cc:470]   at android.view.View$PerformClick.run(View.java:22445)
+06-19 10:11:06.182 12859 12859 F art     : art/runtime/java_vm_ext.cc:470]   at android.os.Handler.handleCallback(Handler.java:755)
+06-19 10:11:06.182 12859 12859 F art     : art/runtime/java_vm_ext.cc:470]   at android.os.Handler.dispatchMessage(Handler.java:95)
+06-19 10:11:06.182 12859 12859 F art     : art/runtime/java_vm_ext.cc:470]   at android.os.Looper.loop(Looper.java:154)
+06-19 10:11:06.182 12859 12859 F art     : art/runtime/java_vm_ext.cc:470]   at android.app.ActivityThread.main(ActivityThread.java:6121)
+06-19 10:11:06.182 12859 12859 F art     : art/runtime/java_vm_ext.cc:470]   at java.lang.reflect.Method.invoke!(Native method)
+06-19 10:11:06.182 12859 12859 F art     : art/runtime/java_vm_ext.cc:470]   at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:912)
+06-19 10:11:06.182 12859 12859 F art     : art/runtime/java_vm_ext.cc:470]   at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:802)
+06-19 10:11:06.182 12859 12859 F art     : art/runtime/java_vm_ext.cc:470] 
+06-19 10:11:06.326 12859 12859 F art     : art/runtime/runtime.cc:422] Runtime aborting...
+06-19 10:11:06.327 12859 12859 F art     : art/runtime/runtime.cc:422] Aborting thread:
+06-19 10:11:06.327 12859 12859 F art     : art/runtime/runtime.cc:422] "main" prio=10 tid=1 Native
+06-19 10:11:06.327 12859 12859 F art     : art/runtime/runtime.cc:422]   | group="" sCount=0 dsCount=0 obj=0x743944a0 self=0xf2485400
+06-19 10:11:06.327 12859 12859 F art     : art/runtime/runtime.cc:422]   | sysTid=12859 nice=-10 cgrp=default sched=0/0 handle=0xf529a534
+06-19 10:11:06.327 12859 12859 F art     : art/runtime/runtime.cc:422]   | state=R schedstat=( 252301996 53379666 313 ) utm=17 stm=6 core=2 HZ=100
+06-19 10:11:06.327 12859 12859 F art     : art/runtime/runtime.cc:422]   | stack=0xff23a000-0xff23c000 stackSize=8MB
+06-19 10:11:06.327 12859 12859 F art     : art/runtime/runtime.cc:422]   | held mutexes= "abort lock"
+06-19 10:11:06.327 12859 12859 F art     : art/runtime/runtime.cc:422]   native: #00 pc 00350ab5  /system/lib/libart.so (_ZN3art15DumpNativeStackERNSt3__113basic_ostreamIcNS0_11char_traitsIcEEEEiP12BacktraceMapPKcPNS_9ArtMethodEPv+128)
+06-19 10:11:06.327 12859 12859 F art     : art/runtime/runtime.cc:422]   native: #01 pc 003311f9  /system/lib/libart.so (_ZNK3art6Thread9DumpStackERNSt3__113basic_ostreamIcNS1_11char_traitsIcEEEEbP12BacktraceMap+308)
+06-19 10:11:06.327 12859 12859 F art     : art/runtime/runtime.cc:422]   native: #02 pc 003242b1  /system/lib/libart.so (_ZNK3art10AbortState10DumpThreadERNSt3__113basic_ostreamIcNS1_11char_traitsIcEEEEPNS_6ThreadE+24)
+06-19 10:11:06.327 12859 12859 F art     : art/runtime/runtime.cc:422]   native: #03 pc 00324139  /system/lib/libart.so (_ZNK3art10AbortState4DumpERNSt3__113basic_ostreamIcNS1_11char_traitsIcEEEE+424)
+06-19 10:11:06.327 12859 12859 F art     : art/runtime/runtime.cc:422]   native: #04 pc 0031ae25  /system/lib/libart.so (_ZN3art7Runtime5AbortEPKc+92)
+06-19 10:11:06.327 12859 12859 F art     : art/runtime/runtime.cc:422]   native: #05 pc 000b5285  /system/lib/libart.so (_ZN3art10LogMessageD2Ev+1132)
+06-19 10:11:06.327 12859 12859 F art     : art/runtime/runtime.cc:422]   native: #06 pc 00239bc5  /system/lib/libart.so (_ZN3art9JavaVMExt8JniAbortEPKcS2_+1664)
+06-19 10:11:06.327 12859 12859 F art     : art/runtime/runtime.cc:422]   native: #07 pc 00239e2b  /system/lib/libart.so (_ZN3art9JavaVMExt9JniAbortFEPKcS2_z+66)
+06-19 10:11:06.327 12859 12859 F art     : art/runtime/runtime.cc:422]   native: #08 pc 00334c63  /system/lib/libart.so (_ZNK3art6Thread13DecodeJObjectEP8_jobject+302)
+06-19 10:11:06.327 12859 12859 F art     : art/runtime/runtime.cc:422]   native: #09 pc 000ca195  /system/lib/libart.so (_ZN3art11ScopedCheck10CheckArrayERNS_18ScopedObjectAccessEP7_jarray+28)
+06-19 10:11:06.327 12859 12859 F art     : art/runtime/runtime.cc:422]   native: #10 pc 000c985f  /system/lib/libart.so (_ZN3art11ScopedCheck22CheckPossibleHeapValueERNS_18ScopedObjectAccessEcNS_12JniValueTypeE+74)
+06-19 10:11:06.327 12859 12859 F art     : art/runtime/runtime.cc:422]   native: #11 pc 000c8d0b  /system/lib/libart.so (_ZN3art11ScopedCheck5CheckERNS_18ScopedObjectAccessEbPKcPNS_12JniValueTypeE+802)
+06-19 10:11:06.327 12859 12859 F art     : art/runtime/runtime.cc:422]   native: #12 pc 000d1563  /system/lib/libart.so (_ZN3art8CheckJNI23SetPrimitiveArrayRegionEPKcNS_9Primitive4TypeEP7_JNIEnvP7_jarrayiiPKv+478)
+06-19 10:11:06.327 12859 12859 F art     : art/runtime/runtime.cc:422]   native: #13 pc 000c60c7  /system/lib/libart.so (_ZN3art8CheckJNI17SetIntArrayRegionEP7_JNIEnvP10_jintArrayiiPKi+26)
+06-19 10:11:06.327 12859 12859 F art     : art/runtime/runtime.cc:422]   native: #14 pc 00000a79  /data/app/com.example.myndk-1/lib/arm/libhello-lib.so (Java_com_example_myndk_JNIUtils_operationArray2+172)
+06-19 10:11:06.327 12859 12859 F art     : art/runtime/runtime.cc:422]   native: #15 pc 00002e15  /data/app/com.example.myndk-1/oat/arm/base.odex (???)
+06-19 10:11:06.327 12859 12859 F art     : art/runtime/runtime.cc:422]   at com.example.myndk.JNIUtils.operationArray2(Native method)
+06-19 10:11:06.327 12859 12859 F art     : art/runtime/runtime.cc:422]   at com.example.myndk.MainActivity.onClick(MainActivity.java:43)
+06-19 10:11:06.327 12859 12859 F art     : art/runtime/runtime.cc:422]   at java.lang.reflect.Method.invoke!(Native method)
+06-19 10:11:06.327 12859 12859 F art     : art/runtime/runtime.cc:422]   at android.view.View$DeclaredOnClickListener.onClick(View.java:4720)
+06-19 10:11:06.327 12859 12859 F art     : art/runtime/runtime.cc:422]   at android.view.View.performClick(View.java:5637)
+06-19 10:11:06.327 12859 12859 F art     : art/runtime/runtime.cc:422]   at android.view.View$PerformClick.run(View.java:22445)
+06-19 10:11:06.327 12859 12859 F art     : art/runtime/runtime.cc:422]   at android.os.Handler.handleCallback(Handler.java:755)
+06-19 10:11:06.327 12859 12859 F art     : art/runtime/runtime.cc:422]   at android.os.Handler.dispatchMessage(Handler.java:95)
+06-19 10:11:06.327 12859 12859 F art     : art/runtime/runtime.cc:422]   at android.os.Looper.loop(Looper.java:154)
+06-19 10:11:06.327 12859 12859 F art     : art/runtime/runtime.cc:422]   at android.app.ActivityThread.main(ActivityThread.java:6121)
+06-19 10:11:06.327 12859 12859 F art     : art/runtime/runtime.cc:422]   at java.lang.reflect.Method.invoke!(Native method)
+06-19 10:11:06.327 12859 12859 F art     : art/runtime/runtime.cc:422]   at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:912)
+06-19 10:11:06.327 12859 12859 F art     : art/runtime/runtime.cc:422]   at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:802)
+06-19 10:11:06.327 12859 12859 F art     : art/runtime/runtime.cc:422] Dumping all threads without appropriate locks held: thread list lock mutator lock
+06-19 10:11:06.327 12859 12859 F art     : art/runtime/runtime.cc:422] All threads:
+06-19 10:11:06.327 12859 12859 F art     : art/runtime/runtime.cc:422] DALVIK THREADS (13):
+06-19 10:11:06.327 12859 12859 F art     : art/runtime/runtime.cc:422] "main" prio=10 tid=1 Runnable
+06-19 10:11:06.327 12859 12859 F art     : art/runtime/runtime.cc:422]   | group="" sCount=0 dsCount=0 obj=0x743944a0 self=0xf2485400
+06-19 10:11:06.327 12859 12859 F art     : art/runtime/runtime.cc:422]   | sysTid=12859 nice=-10 cgrp=default sched=0/0 handle=0xf529a534
+06-19 10:11:06.327 12859 12859 F art     : art/runtime/runtime.cc:422]   | state=R schedstat=( 292291828 54520083 316 ) utm=21 stm=7 core=2 HZ=100
+06-19 10:11:06.327 12859 12859 F art     : art/runtime/runtime.cc:422]   | stack=0xff23a000-0xff23c000 stackSize=8MB
+06-19 10:11:06.327 12859 12859 F art     : art/runtime/runtime.cc:422]   | held mutexes= "abort lock" "mutator lock"(shared held)
+06-19 10:11:06.327 12859 12859 F art     : art/runtime/runtime.cc:422]   native: #00 pc 00350ab5  /system/lib/libart.so (_ZN3art15DumpNativeStackERNSt3__113basic_ostreamIcNS0_11char_traitsIcEEEEiP12BacktraceMapPKcPNS_9ArtMethodEPv+128)
+06-19 10:11:06.327 12859 12859 F art     : art/runtime/runtime.cc:422]   native: #01 pc 003311f9  /system/lib/libart.so (_ZNK3art6Thread9DumpStackERNSt3__113basic_ostreamIcNS1_11char_traitsIcEEEEbP12BacktraceMap+308)
+06-19 10:11:06.327 12859 12859 F art     : art/runtime/runtime.cc:422]   native: #02 pc 00343221  /system/lib/libart.so (_ZN3art14DumpCheckpoint3RunEPNS_6ThreadE+620)
+06-19 10:11:06.327 12859 12859 F art     : art/runtime/runtime.cc:422]   native: #03 pc 0033d22b  /system/lib/libart.so (_ZN3art10ThreadList13RunCheckpointEPNS_7ClosureE+330)
+06-19 10:11:06.327 12859 12859 F art     : art/runtime/runtime.cc:422]   native: #04 pc 0033cf27  /system/lib/libart.so (_ZN3art10ThreadList4DumpERNSt3__113basic_ostreamIcNS1_11char_traitsIcEEEEb+586)
+06-19 10:11:06.327 12859 12859 F art     : art/runtime/runtime.cc:422]   native: #05 pc 00324105  /system/lib/libart.so (_ZNK3art10AbortState4DumpERNSt3__113basic_ostreamIcNS1_11char_traitsIcEEEE+372)
+06-19 10:11:06.327 12859 12859 F art     : art/runtime/runtime.cc:422]   native: #06 pc 0031ae25  /system/lib/libart.so (_ZN3art7Runtime5AbortEPKc+92)
+06-19 10:11:06.327 12859 12859 F art     : art/runtime/runtime.cc:422]   native: #07 pc 000b5285  /system/lib/libart.so (_ZN3art10LogMessageD2Ev+1132)
+06-19 10:11:06.327 12859 12859 F art     : art/runtime/runtime.cc:422]   native: #08 pc 00239bc5  /system/lib/libart.so (_ZN3art9JavaVMExt8JniAbortEPKcS2_+1664)
+06-19 10:11:06.327 12859 12859 F art     : art/runtime/runtime.cc:422]   native: #09 pc 00239e2b  /system/lib/libart.so (_ZN3art9JavaVMExt9JniAbortFEPKcS2_z+66)
+06-19 10:11:06.327 12859 12859 F art     : art/runtime/runtime.cc:422]   native: #10 pc 00334c63  /system/lib/libart.so (_ZNK3art6Thread13DecodeJObjectEP8_jobject+302)
+06-19 10:11:06.327 12859 12859 F art     : art/runtime/runtime.cc:422]   native: #11 pc 000ca195  /system/lib/libart.so (_ZN3art11ScopedCheck10CheckArrayERNS_18ScopedObjectAccessEP7_jarray+28)
+06-19 10:11:06.327 12859 12859 F art     : art/runtime/runtime.cc:422]   native: #12 pc 000c985f  /system/lib/libart.so (_ZN3art11ScopedCheck22CheckPossibleHeapValueERNS_18ScopedObjectAccessEcNS_12JniValueTypeE+74)
+06-19 10:11:06.327 12859 12859 F art     : art/runtime/runtime.cc:422]   native: #13 pc 000c8d0b  /system/lib/libart.so (_ZN3art11ScopedCheck5CheckERNS_18ScopedObjectAccessEbPKcPNS_12JniValueTypeE+802)
+06-19 10:11:06.327 12859 12859 F art     : art/runtime/runtime.cc:422]   native: #14 pc 000d1563  /system/lib/libart.so (_ZN3art8CheckJNI23SetPrimitiveArrayRegionEPKcNS_9Primitive4TypeEP7_JNIEnvP7_jarrayiiPKv+478)
+06-19 10:11:06.327 12859 12859 F art     : art/runtime/runtime.cc:422]   native: #15 pc 000c60c7  /system/lib/libart.so (_ZN3art8CheckJNI17SetIntArrayRegionEP7_JNIEnvP10_jintArrayiiPKi+26)
+06-19 10:11:06.327 12859 12859 F art     : art/runtime/runtime.cc:422]   native: #16 pc 00000a79  /data/app/com.example.myndk-1/lib/arm/libhello-lib.so (Java_com_example_myndk_JNIUtils_operationArray2+172)
+06-19 10:11:06.327 12859 12859 F art     : art/runtime/runtime.cc:422]   native: #17 pc 00002e15  /data/app/com.example.myndk-1/oat/arm/base.odex (Java_com_example_myndk_JNIUtils_operationArray2___3I+96)
+06-19 10:11:06.327 12859 12859 F art     : art/runtime/runtime.cc:422]   at com.example.myndk.JNIUtils.operationArray2(Native method)
+06-19 10:11:06.327 12859 12859 F art     : art/runtime/runtime.cc:422]   at com.example.myndk.MainActivity.onClick(MainActivity.java:43)
+06-19 10:11:06.327 12859 12859 F art     : art/runtime/runtime.cc:422]   at java.lang.reflect.Method.invoke!(Native method)
+06-19 10:11:06.327 12859 12859 F art     : art/runtime/runtime.cc:422]   at android.view.View$DeclaredOnClickListener.onClick(View.java:4720)
+06-19 10:11:06.328 12859 12859 F art     : art/runtime/runtime.cc:422]   at android.view.View.performClick(View.java:5637)
+06-19 10:11:06.328 12859 12859 F art     : art/runtime/runtime.cc:422]   at android.view.View$PerformClick.run(View.java:22445)
+06-19 10:11:06.328 12859 12859 F art     : art/runtime/runtime.cc:422]   at android.os.Handler.handleCallback(Handler.java:755)
+06-19 10:11:06.328 12859 12859 F art     : art/runtime/runtime.cc:422]   at android.os.Handler.dispatchMessage(Handler.java:95)
+06-19 10:11:06.328 12859 12859 F art     : art/runtime/runtime.cc:422]   at android.os.Looper.loop(Looper.java:154)
+06-19 10:11:06.328 12859 12859 F art     : art/runtime/runtime.cc:422]   at android.app.ActivityThread.main(ActivityThread.java:6121)
+06-19 10:11:06.328 12859 12859 F art     : art/runtime/runtime.cc:422]   at java.lang.reflect.Method.invoke!(Native method)
+06-19 10:11:06.328 12859 12859 F art     : art/runtime/runtime.cc:422]   at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:912)
+06-19 10:11:06.328 12859 12859 F art     : art/runtime/runtime.cc:422]   at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:802)
+06-19 10:11:06.328 12859 12859 F art     : art/runtime/runtime.cc:422] 
+06-19 10:11:06.328 12859 12859 F art     : art/runtime/runtime.cc:422] "Jit thread pool worker thread 0" prio=10 tid=2 Native
+06-19 10:11:06.328 12859 12859 F art     : art/runtime/runtime.cc:422]   | group="" sCount=1 dsCount=0 obj=0x12c17ca0 self=0xe958c000
+06-19 10:11:06.328 12859 12859 F art     : art/runtime/runtime.cc:422]   | sysTid=12864 nice=9 cgrp=default sched=0/0 handle=0xf1ba6920
+06-19 10:11:06.328 12859 12859 F art     : art/runtime/runtime.cc:422]   | state=S schedstat=( 1912459 1216709 2 ) utm=0 stm=0 core=2 HZ=100
+06-19 10:11:06.328 12859 12859 F art     : art/runtime/runtime.cc:422]   | stack=0xf1aa8000-0xf1aaa000 stackSize=1022KB
+06-19 10:11:06.328 12859 12859 F art     : art/runtime/runtime.cc:422]   | held mutexes=
+06-19 10:11:06.328 12859 12859 F art     : art/runtime/runtime.cc:422]   kernel: __switch_to+0x9c/0xa8
+06-19 10:11:06.328 12859 12859 F art     : art/runtime/runtime.cc:422]   kernel: futex_wait_queue_me+0xcc/0x130
+06-19 10:11:06.328 12859 12859 F art     : art/runtime/runtime.cc:422]   kernel: futex_wait+0xe8/0x1ec
+06-19 10:11:06.328 12859 12859 F art     : art/runtime/runtime.cc:422]   kernel: do_futex+0xdc/0x4e0
+06-19 10:11:06.328 12859 12859 F art     : art/runtime/runtime.cc:422]   kernel: compat_SyS_futex+0xdc/0x168
+06-19 10:11:06.328 12859 12859 F art     : art/runtime/runtime.cc:422]   kernel: el0_svc_naked+0x24/0x28
+06-19 10:11:06.328 12859 12859 F art     : art/runtime/runtime.cc:422]   native: #00 pc 00017404  /system/lib/libc.so (syscall+28)
+06-19 10:11:06.328 12859 12859 F art     : art/runtime/runtime.cc:422]   native: #01 pc 000b6e49  /system/lib/libart.so (_ZN3art17ConditionVariable16WaitHoldingLocksEPNS_6ThreadE+92)
+06-19 10:11:06.328 12859 12859 F art     : art/runtime/runtime.cc:422]   native: #02 pc 00344785  /system/lib/libart.so (_ZN3art10ThreadPool7GetTaskEPNS_6ThreadE+160)
+06-19 10:11:06.328 12859 12859 F art     : art/runtime/runtime.cc:422]   native: #03 pc 00343fa7  /system/lib/libart.so (_ZN3art16ThreadPoolWorker3RunEv+62)
+06-19 10:11:06.328 12859 12859 F art     : art/runtime/runtime.cc:422]   native: #04 pc 00343acf  /system/lib/libart.so (_ZN3art16ThreadPoolWorker8CallbackEPv+78)
+06-19 10:11:06.328 12859 12859 F art     : art/runtime/runtime.cc:422]   native: #05 pc 000470c3  /system/lib/libc.so (_ZL15__pthread_startPv+22)
+06-19 10:11:06.328 12859 12859 F art     : art/runtime/runtime.cc:422]   native: #06 pc 00019e3d  /system/lib/libc.so (__start_thread+6)
+06-19 10:11:06.328 12859 12859 F art     : art/runtime/runtime.cc:422]   (no managed stack frames)
+06-19 10:11:06.328 12859 12859 F art     : art/runtime/runtime.cc:422] 
+06-19 10:11:06.328 12859 12859 F art     : art/runtime/runtime.cc:422] "Signal Catcher" prio=10 tid=3 WaitingInMainSignalCatcherLoop
+06-19 10:11:06.328 12859 12859 F art     : art/runtime/runtime.cc:422]   | group="" sCount=1 dsCount=0 obj=0x12c17d30 self=0xe6d3ce00
+06-19 10:11:06.328 12859 12859 F art     : art/runtime/runtime.cc:422]   | sysTid=12865 nice=0 cgrp=default sched=0/0 handle=0xf1aa5920
+06-19 10:11:06.328 12859 12859 F art     : art/runtime/runtime.cc:422]   | state=S schedstat=( 871209 298958 2 ) utm=0 stm=0 core=3 HZ=100
+06-19 10:11:06.328 12859 12859 F art     : art/runtime/runtime.cc:422]   | stack=0xf19a9000-0xf19ab000 stackSize=1014KB
+06-19 10:11:06.328 12859 12859 F art     : art/runtime/runtime.cc:422]   | held mutexes=
+06-19 10:11:06.328 12859 12859 F art     : art/runtime/runtime.cc:422]   kernel: __switch_to+0x9c/0xa8
+06-19 10:11:06.328 12859 12859 F art     : art/runtime/runtime.cc:422]   kernel: do_sigtimedwait+0xe0/0x1c0
+06-19 10:11:06.328 12859 12859 F art     : art/runtime/runtime.cc:422]   kernel: compat_SyS_rt_sigtimedwait+0xb0/0x104
+06-19 10:11:06.328 12859 12859 F art     : art/runtime/runtime.cc:422]   kernel: el0_svc_naked+0x24/0x28
+06-19 10:11:06.328 12859 12859 F art     : art/runtime/runtime.cc:422]   native: #00 pc 000488a4  /system/lib/libc.so (__rt_sigtimedwait+12)
+06-19 10:11:06.328 12859 12859 F art     : art/runtime/runtime.cc:422]   native: #01 pc 0001e24b  /system/lib/libc.so (sigwait+34)
+06-19 10:11:06.328 12859 12859 F art     : art/runtime/runtime.cc:422]   native: #02 pc 00327363  /system/lib/libart.so (_ZN3art9SignalSet4WaitEv+22)
+06-19 10:11:06.328 12859 12859 F art     : art/runtime/runtime.cc:422]   native: #03 pc 00326f5d  /system/lib/libart.so (_ZN3art13SignalCatcher13WaitForSignalEPNS_6ThreadERNS_9SignalSetE+168)
+06-19 10:11:06.328 12859 12859 F art     : art/runtime/runtime.cc:422]   native: #04 pc 00325cc1  /system/lib/libart.so (_ZN3art13SignalCatcher3RunEPv+276)
+06-19 10:11:06.328 12859 12859 F art     : art/runtime/runtime.cc:422]   native: #05 pc 000470c3  /system/lib/libc.so (_ZL15__pthread_startPv+22)
+06-19 10:11:06.328 12859 12859 F art     : art/runtime/runtime.cc:422]   native: #06 pc 00019e3d  /system/lib/libc.so (__start_thread+6)
+06-19 10:11:06.328 12859 12859 F art     : art/runtime/runtime.cc:422]   (no managed stack frames)
+06-19 10:11:06.328 12859 12859 F art     : art/runtime/runtime.cc:422] 
+06-19 10:11:06.328 12859 12859 F art     : art/runtime/runtime.cc:422] "JDWP" prio=10 tid=4 WaitingInMainDebuggerLoop
+06-19 10:11:06.328 12859 12859 F art     : art/runtime/runtime.cc:422]   | group="" sCount=1 dsCount=0 obj=0x12c17dc0 self=0xe958d400
+06-19 10:11:06.328 12859 12859 F art     : art/runtime/runtime.cc:422]   | sysTid=12866 nice=0 cgrp=default sched=0/0 handle=0xf19a6920
+06-19 10:11:06.328 12859 12859 F art     : art/runtime/runtime.cc:422]   | state=S schedstat=( 4624375 749290 24 ) utm=0 stm=0 core=1 HZ=100
+06-19 10:11:06.328 12859 12859 F art     : art/runtime/runtime.cc:422]   | stack=0xf18aa000-0xf18ac000 stackSize=1014KB
+06-19 10:11:06.328 12859 12859 F art     : art/runtime/runtime.cc:422]   | held mutexes=
+06-19 10:11:06.328 12859 12859 F art     : art/runtime/runtime.cc:422]   kernel: __switch_to+0x9c/0xa8
+06-19 10:11:06.328 12859 12859 F art     : art/runtime/runtime.cc:422]   kernel: poll_schedule_timeout+0x4c/0x7c
+06-19 10:11:06.328 12859 12859 F art     : art/runtime/runtime.cc:422]   kernel: do_select+0x4ac/0x504
+06-19 10:11:06.328 12859 12859 F art     : art/runtime/runtime.cc:422]   kernel: compat_core_sys_select+0x16c/0x224
+06-19 10:11:06.328 12859 12859 F art     : art/runtime/runtime.cc:422]   kernel: compat_SyS_pselect6+0x1f8/0x2ac
+06-19 10:11:06.328 12859 12859 F art     : art/runtime/runtime.cc:422]   kernel: el0_svc_naked+0x24/0x28
+06-19 10:11:06.328 12859 12859 F art     : art/runtime/runtime.cc:422]   native: #00 pc 0004877c  /system/lib/libc.so (__pselect6+20)
+06-19 10:11:06.328 12859 12859 F art     : art/runtime/runtime.cc:422]   native: #01 pc 0001d045  /system/lib/libc.so (select+88)
+06-19 10:11:06.328 12859 12859 F art     : art/runtime/runtime.cc:422]   native: #02 pc 003fba77  /system/lib/libart.so (_ZN3art4JDWP12JdwpAdbState15ProcessIncomingEv+302)
+06-19 10:11:06.328 12859 12859 F art     : art/runtime/runtime.cc:422]   native: #03 pc 002487a7  /system/lib/libart.so (_ZN3art4JDWP9JdwpState3RunEv+650)
+06-19 10:11:06.328 12859 12859 F art     : art/runtime/runtime.cc:422]   native: #04 pc 00247f4b  /system/lib/libart.so (_ZN3art4JDWPL15StartJdwpThreadEPv+22)
+06-19 10:11:06.328 12859 12859 F art     : art/runtime/runtime.cc:422]   native: #05 pc 000470c3  /system/lib/libc.so (_ZL15__pthread_startPv+22)
+06-19 10:11:06.328 12859 12859 F art     : art/runtime/runtime.cc:422]   native: #06 pc 00019e3d  /system/lib/libc.so (__start_thread+6)
+06-19 10:11:06.328 12859 12859 F art     : art/runtime/runtime.cc:422]   (no managed stack frames)
+06-19 10:11:06.328 12859 12859 F art     : art/runtime/runtime.cc:422] 
+06-19 10:11:06.328 12859 12859 F art     : art/runtime/runtime.cc:422] "ReferenceQueueDaemon" prio=10 tid=5 Waiting
+06-19 10:11:06.328 12859 12859 F art     : art/runtime/runtime.cc:422]   | group="" sCount=1 dsCount=0 obj=0x12c17e50 self=0xe6d3e200
+06-19 10:11:06.328 12859 12859 F art     : art/runtime/runtime.cc:422]   | sysTid=12867 nice=0 cgrp=default sched=0/0 handle=0xf18a7920
+06-19 10:11:06.329 12859 12859 F art     : art/runtime/runtime.cc:422]   | state=S schedstat=( 586249 425250 6 ) utm=0 stm=0 core=1 HZ=100
+06-19 10:11:06.329 12859 12859 F art     : art/runtime/runtime.cc:422]   | stack=0xf17a5000-0xf17a7000 stackSize=1038KB
+06-19 10:11:06.329 12859 12859 F art     : art/runtime/runtime.cc:422]   | held mutexes=
+06-19 10:11:06.329 12859 12859 F art     : art/runtime/runtime.cc:422]   kernel: __switch_to+0x9c/0xa8
+06-19 10:11:06.329 12859 12859 F art     : art/runtime/runtime.cc:422]   kernel: futex_wait_queue_me+0xcc/0x130
+06-19 10:11:06.329 12859 12859 F art     : art/runtime/runtime.cc:422]   kernel: futex_wait+0xe8/0x1ec
+06-19 10:11:06.329 12859 12859 F art     : art/runtime/runtime.cc:422]   kernel: do_futex+0xdc/0x4e0
+06-19 10:11:06.329 12859 12859 F art     : art/runtime/runtime.cc:422]   kernel: compat_SyS_futex+0xdc/0x168
+06-19 10:11:06.329 12859 12859 F art     : art/runtime/runtime.cc:422]   kernel: el0_svc_naked+0x24/0x28
+06-19 10:11:06.329 12859 12859 F art     : art/runtime/runtime.cc:422]   native: #00 pc 00017404  /system/lib/libc.so (syscall+28)
+06-19 10:11:06.329 12859 12859 F art     : art/runtime/runtime.cc:422]   native: #01 pc 000b6e49  /system/lib/libart.so (_ZN3art17ConditionVariable16WaitHoldingLocksEPNS_6ThreadE+92)
+06-19 10:11:06.329 12859 12859 F art     : art/runtime/runtime.cc:422]   native: #02 pc 0029f17b  /system/lib/libart.so (_ZN3art7Monitor4WaitEPNS_6ThreadExibNS_11ThreadStateE+514)
+06-19 10:11:06.329 12859 12859 F art     : art/runtime/runtime.cc:422]   native: #03 pc 002a09ab  /system/lib/libart.so (_ZN3art7Monitor4WaitEPNS_6ThreadEPNS_6mirror6ObjectExibNS_11ThreadStateE+258)
+06-19 10:11:06.329 12859 12859 F art     : art/runtime/runtime.cc:422]   native: #04 pc 002af1c7  /system/lib/libart.so (_ZN3artL11Object_waitEP7_JNIEnvP8_jobject+32)
+06-19 10:11:06.329 12859 12859 F art     : art/runtime/runtime.cc:422]   native: #05 pc 00000557  /system/framework/arm/boot.oat (Java_java_lang_Object_wait__+74)
+06-19 10:11:06.329 12859 12859 F art     : art/runtime/runtime.cc:422]   at java.lang.Object.wait!(Native method)
+06-19 10:11:06.329 12859 12859 F art     : art/runtime/runtime.cc:422]   - waiting on <0x008c9d8c> (a java.lang.Class<java.lang.ref.ReferenceQueue>)
+06-19 10:11:06.329 12859 12859 F art     : art/runtime/runtime.cc:422]   at java.lang.Daemons$ReferenceQueueDaemon.run(Daemons.java:150)
+06-19 10:11:06.329 12859 12859 F art     : art/runtime/runtime.cc:422]   - locked <0x008c9d8c> (a java.lang.Class<java.lang.ref.ReferenceQueue>)
+06-19 10:11:06.329 12859 12859 F art     : art/runtime/runtime.cc:422]   at java.lang.Thread.run(Thread.java:761)
+06-19 10:11:06.329 12859 12859 F art     : art/runtime/runtime.cc:422] 
+06-19 10:11:06.329 12859 12859 F art     : art/runtime/runtime.cc:422] "FinalizerWatchdogDaemon" prio=10 tid=6 Waiting
+06-19 10:11:06.329 12859 12859 F art     : art/runtime/runtime.cc:422]   | group="" sCount=1 dsCount=0 obj=0x12c17f70 self=0xe6d3ec00
+06-19 10:11:06.329 12859 12859 F art     : art/runtime/runtime.cc:422]   | sysTid=12869 nice=0 cgrp=default sched=0/0 handle=0xf169d920
+06-19 10:11:06.329 12859 12859 F art     : art/runtime/runtime.cc:422]   | state=S schedstat=( 665583 717667 4 ) utm=0 stm=0 core=0 HZ=100
+06-19 10:11:06.329 12859 12859 F art     : art/runtime/runtime.cc:422]   | stack=0xf159b000-0xf159d000 stackSize=1038KB
+06-19 10:11:06.329 12859 12859 F art     : art/runtime/runtime.cc:422]   | held mutexes=
+06-19 10:11:06.329 12859 12859 F art     : art/runtime/runtime.cc:422]   kernel: __switch_to+0x9c/0xa8
+06-19 10:11:06.329 12859 12859 F art     : art/runtime/runtime.cc:422]   kernel: futex_wait_queue_me+0xcc/0x130
+06-19 10:11:06.329 12859 12859 F art     : art/runtime/runtime.cc:422]   kernel: futex_wait+0xe8/0x1ec
+06-19 10:11:06.329 12859 12859 F art     : art/runtime/runtime.cc:422]   kernel: do_futex+0xdc/0x4e0
+06-19 10:11:06.329 12859 12859 F art     : art/runtime/runtime.cc:422]   kernel: compat_SyS_futex+0xdc/0x168
+06-19 10:11:06.329 12859 12859 F art     : art/runtime/runtime.cc:422]   kernel: el0_svc_naked+0x24/0x28
+06-19 10:11:06.329 12859 12859 F art     : art/runtime/runtime.cc:422]   native: #00 pc 00017404  /system/lib/libc.so (syscall+28)
+06-19 10:11:06.329 12859 12859 F art     : art/runtime/runtime.cc:422]   native: #01 pc 000b6e49  /system/lib/libart.so (_ZN3art17ConditionVariable16WaitHoldingLocksEPNS_6ThreadE+92)
+06-19 10:11:06.329 12859 12859 F art     : art/runtime/runtime.cc:422]   native: #02 pc 0029f17b  /system/lib/libart.so (_ZN3art7Monitor4WaitEPNS_6ThreadExibNS_11ThreadStateE+514)
+06-19 10:11:06.329 12859 12859 F art     : art/runtime/runtime.cc:422]   native: #03 pc 002a09ab  /system/lib/libart.so (_ZN3art7Monitor4WaitEPNS_6ThreadEPNS_6mirror6ObjectExibNS_11ThreadStateE+258)
+06-19 10:11:06.329 12859 12859 F art     : art/runtime/runtime.cc:422]   native: #04 pc 002af1c7  /system/lib/libart.so (_ZN3artL11Object_waitEP7_JNIEnvP8_jobject+32)
+06-19 10:11:06.329 12859 12859 F art     : art/runtime/runtime.cc:422]   native: #05 pc 00000557  /system/framework/arm/boot.oat (Java_java_lang_Object_wait__+74)
+06-19 10:11:06.329 12859 12859 F art     : art/runtime/runtime.cc:422]   at java.lang.Object.wait!(Native method)
+06-19 10:11:06.329 12859 12859 F art     : art/runtime/runtime.cc:422]   - waiting on <0x0a27ecd5> (a java.lang.Daemons$FinalizerWatchdogDaemon)
+06-19 10:11:06.329 12859 12859 F art     : art/runtime/runtime.cc:422]   at java.lang.Daemons$FinalizerWatchdogDaemon.sleepUntilNeeded(Daemons.java:269)
+06-19 10:11:06.329 12859 12859 F art     : art/runtime/runtime.cc:422]   - locked <0x0a27ecd5> (a java.lang.Daemons$FinalizerWatchdogDaemon)
+06-19 10:11:06.329 12859 12859 F art     : art/runtime/runtime.cc:422]   at java.lang.Daemons$FinalizerWatchdogDaemon.run(Daemons.java:249)
+06-19 10:11:06.329 12859 12859 F art     : art/runtime/runtime.cc:422]   at java.lang.Thread.run(Thread.java:761)
+06-19 10:11:06.329 12859 12859 F art     : art/runtime/runtime.cc:422] 
+06-19 10:11:06.329 12859 12859 F art     : art/runtime/runtime.cc:422] "FinalizerDaemon" prio=10 tid=7 Waiting
+06-19 10:11:06.329 12859 12859 F art     : art/runtime/runtime.cc:422]   | group="" sCount=1 dsCount=0 obj=0x12c17ee0 self=0xe6d3e700
+06-19 10:11:06.329 12859 12859 F art     : art/runtime/runtime.cc:422]   | sysTid=12868 nice=0 cgrp=default sched=0/0 handle=0xf17a2920
+06-19 10:11:06.329 12859 12859 F art     : art/runtime/runtime.cc:422]   | state=S schedstat=( 614959 5161374 11 ) utm=0 stm=0 core=2 HZ=100
+06-19 10:11:06.329 12859 12859 F art     : art/runtime/runtime.cc:422]   | stack=0xf16a0000-0xf16a2000 stackSize=1038KB
+06-19 10:11:06.330 12859 12859 F art     : art/runtime/runtime.cc:422]   | held mutexes=
+06-19 10:11:06.330 12859 12859 F art     : art/runtime/runtime.cc:422]   kernel: __switch_to+0x9c/0xa8
+06-19 10:11:06.330 12859 12859 F art     : art/runtime/runtime.cc:422]   kernel: futex_wait_queue_me+0xcc/0x130
+06-19 10:11:06.330 12859 12859 F art     : art/runtime/runtime.cc:422]   kernel: futex_wait+0xe8/0x1ec
+06-19 10:11:06.330 12859 12859 F art     : art/runtime/runtime.cc:422]   kernel: do_futex+0xdc/0x4e0
+06-19 10:11:06.330 12859 12859 F art     : art/runtime/runtime.cc:422]   kernel: compat_SyS_futex+0xdc/0x168
+06-19 10:11:06.330 12859 12859 F art     : art/runtime/runtime.cc:422]   kernel: el0_svc_naked+0x24/0x28
+06-19 10:11:06.330 12859 12859 F art     : art/runtime/runtime.cc:422]   native: #00 pc 00017404  /system/lib/libc.so (syscall+28)
+06-19 10:11:06.330 12859 12859 F art     : art/runtime/runtime.cc:422]   native: #01 pc 000b6e49  /system/lib/libart.so (_ZN3art17ConditionVariable16WaitHoldingLocksEPNS_6ThreadE+92)
+06-19 10:11:06.330 12859 12859 F art     : art/runtime/runtime.cc:422]   native: #02 pc 0029f17b  /system/lib/libart.so (_ZN3art7Monitor4WaitEPNS_6ThreadExibNS_11ThreadStateE+514)
+06-19 10:11:06.330 12859 12859 F art     : art/runtime/runtime.cc:422]   native: #03 pc 002a09ab  /system/lib/libart.so (_ZN3art7Monitor4WaitEPNS_6ThreadEPNS_6mirror6ObjectExibNS_11ThreadStateE+258)
+06-19 10:11:06.330 12859 12859 F art     : art/runtime/runtime.cc:422]   native: #04 pc 002af1f3  /system/lib/libart.so (_ZN3artL13Object_waitJIEP7_JNIEnvP8_jobjectxi+36)
+06-19 10:11:06.330 12859 12859 F art     : art/runtime/runtime.cc:422]   native: #05 pc 00000655  /system/framework/arm/boot.oat (Java_java_lang_Object_wait__JI+96)
+06-19 10:11:06.330 12859 12859 F art     : art/runtime/runtime.cc:422]   at java.lang.Object.wait!(Native method)
+06-19 10:11:06.330 12859 12859 F art     : art/runtime/runtime.cc:422]   - waiting on <0x0ee6ecea> (a java.lang.Object)
+06-19 10:11:06.330 12859 12859 F art     : art/runtime/runtime.cc:422]   at java.lang.Object.wait(Object.java:407)
+06-19 10:11:06.330 12859 12859 F art     : art/runtime/runtime.cc:422]   at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:188)
+06-19 10:11:06.330 12859 12859 F art     : art/runtime/runtime.cc:422]   - locked <0x0ee6ecea> (a java.lang.Object)
+06-19 10:11:06.330 12859 12859 F art     : art/runtime/runtime.cc:422]   at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:209)
+06-19 10:11:06.330 12859 12859 F art     : art/runtime/runtime.cc:422]   at java.lang.Daemons$FinalizerDaemon.run(Daemons.java:204)
+06-19 10:11:06.330 12859 12859 F art     : art/runtime/runtime.cc:422]   at java.lang.Thread.run(Thread.java:761)
+06-19 10:11:06.330 12859 12859 F art     : art/runtime/runtime.cc:422] 
+06-19 10:11:06.330 12859 12859 F art     : art/runtime/runtime.cc:422] "HeapTaskDaemon" prio=10 tid=8 Blocked
+06-19 10:11:06.330 12859 12859 F art     : art/runtime/runtime.cc:422]   | group="" sCount=1 dsCount=0 obj=0x12c1f0d0 self=0xe6d3f100
+06-19 10:11:06.330 12859 12859 F art     : art/runtime/runtime.cc:422]   | sysTid=12870 nice=0 cgrp=default sched=0/0 handle=0xf1598920
+06-19 10:11:06.330 12859 12859 F art     : art/runtime/runtime.cc:422]   | state=S schedstat=( 567167 4224083 4 ) utm=0 stm=0 core=3 HZ=100
+06-19 10:11:06.330 12859 12859 F art     : art/runtime/runtime.cc:422]   | stack=0xf1496000-0xf1498000 stackSize=1038KB
+06-19 10:11:06.330 12859 12859 F art     : art/runtime/runtime.cc:422]   | held mutexes=
+06-19 10:11:06.330 12859 12859 F art     : art/runtime/runtime.cc:422]   kernel: __switch_to+0x9c/0xa8
+06-19 10:11:06.330 12859 12859 F art     : art/runtime/runtime.cc:422]   kernel: futex_wait_queue_me+0xcc/0x130
+06-19 10:11:06.330 12859 12859 F art     : art/runtime/runtime.cc:422]   kernel: futex_wait+0xe8/0x1ec
+06-19 10:11:06.330 12859 12859 F art     : art/runtime/runtime.cc:422]   kernel: do_futex+0xdc/0x4e0
+06-19 10:11:06.330 12859 12859 F art     : art/runtime/runtime.cc:422]   kernel: compat_SyS_futex+0xdc/0x168
+06-19 10:11:06.330 12859 12859 F art     : art/runtime/runtime.cc:422]   kernel: el0_svc_naked+0x24/0x28
+06-19 10:11:06.330 12859 12859 F art     : art/runtime/runtime.cc:422]   native: #00 pc 00017404  /system/lib/libc.so (syscall+28)
+06-19 10:11:06.330 12859 12859 F art     : art/runtime/runtime.cc:422]   native: #01 pc 000b6e49  /system/lib/libart.so (_ZN3art17ConditionVariable16WaitHoldingLocksEPNS_6ThreadE+92)
+06-19 10:11:06.330 12859 12859 F art     : art/runtime/runtime.cc:422]   native: #02 pc 001b4de5  /system/lib/libart.so (_ZN3art2gc13TaskProcessor7GetTaskEPNS_6ThreadE+288)
+06-19 10:11:06.330 12859 12859 F art     : art/runtime/runtime.cc:422]   native: #03 pc 001b545d  /system/lib/libart.so (_ZN3art2gc13TaskProcessor11RunAllTasksEPNS_6ThreadE+44)
+06-19 10:11:06.330 12859 12859 F art     : art/runtime/runtime.cc:422]   native: #04 pc 001615cf  /system/framework/arm/boot-core-libart.oat (Java_dalvik_system_VMRuntime_runHeapTasks__+74)
+06-19 10:11:06.330 12859 12859 F art     : art/runtime/runtime.cc:422]   at dalvik.system.VMRuntime.runHeapTasks(Native method)
+06-19 10:11:06.330 12859 12859 F art     : art/runtime/runtime.cc:422]   - waiting to lock an unknown object
+06-19 10:11:06.330 12859 12859 F art     : art/runtime/runtime.cc:422]   at java.lang.Daemons$HeapTaskDaemon.run(Daemons.java:433)
+06-19 10:11:06.330 12859 12859 F art     : art/runtime/runtime.cc:422]   at java.lang.Thread.run(Thread.java:761)
+06-19 10:11:06.330 12859 12859 F art     : art/runtime/runtime.cc:422] 
+06-19 10:11:06.330 12859 12859 F art     : art/runtime/runtime.cc:422] "Binder:12859_1" prio=10 tid=9 Native
+06-19 10:11:06.330 12859 12859 F art     : art/runtime/runtime.cc:422]   | group="" sCount=1 dsCount=0 obj=0x12c1f280 self=0xe6d3f600
+06-19 10:11:06.330 12859 12859 F art     : art/runtime/runtime.cc:422]   | sysTid=12871 nice=0 cgrp=default sched=0/0 handle=0xf1395920
+06-19 10:11:06.330 12859 12859 F art     : art/runtime/runtime.cc:422]   | state=S schedstat=( 3703293 1090831 18 ) utm=0 stm=0 core=1 HZ=100
+06-19 10:11:06.330 12859 12859 F art     : art/runtime/runtime.cc:422]   | stack=0xf1299000-0xf129b000 stackSize=1014KB
+06-19 10:11:06.330 12859 12859 F art     : art/runtime/runtime.cc:422]   | held mutexes=
+06-19 10:11:06.330 12859 12859 F art     : art/runtime/runtime.cc:422]   kernel: __switch_to+0x9c/0xa8
+06-19 10:11:06.330 12859 12859 F art     : art/runtime/runtime.cc:422]   kernel: binder_thread_read+0x350/0x1080
+06-19 10:11:06.330 12859 12859 F art     : art/runtime/runtime.cc:422]   kernel: binder_ioctl_write_read+0x1b4/0x314
+06-19 10:11:06.330 12859 12859 F art     : art/runtime/runtime.cc:422]   kernel: binder_ioctl+0x1d0/0x668
+06-19 10:11:06.330 12859 12859 F art     : art/runtime/runtime.cc:422]   kernel: compat_SyS_ioctl+0x120/0x1130
+06-19 10:11:06.330 12859 12859 F art     : art/runtime/runtime.cc:422]   kernel: el0_svc_naked+0x24/0x28
+06-19 10:11:06.330 12859 12859 F art     : art/runtime/runtime.cc:422]   native: #00 pc 00048678  /system/lib/libc.so (__ioctl+8)
+06-19 10:11:06.330 12859 12859 F art     : art/runtime/runtime.cc:422]   native: #01 pc 0001ae3f  /system/lib/libc.so (ioctl+38)
+06-19 10:11:06.330 12859 12859 F art     : art/runtime/runtime.cc:422]   native: #02 pc 0003ccb7  /system/lib/libbinder.so (_ZN7android14IPCThreadState14talkWithDriverEb+202)
+06-19 10:11:06.330 12859 12859 F art     : art/runtime/runtime.cc:422]   native: #03 pc 0003cdcd  /system/lib/libbinder.so (_ZN7android14IPCThreadState20getAndExecuteCommandEv+8)
+06-19 10:11:06.330 12859 12859 F art     : art/runtime/runtime.cc:422]   native: #04 pc 0003d34b  /system/lib/libbinder.so (_ZN7android14IPCThreadState14joinThreadPoolEb+46)
+06-19 10:11:06.330 12859 12859 F art     : art/runtime/runtime.cc:422]   native: #05 pc 0004f8f5  /system/lib/libbinder.so (???)
+06-19 10:11:06.330 12859 12859 F art     : art/runtime/runtime.cc:422]   native: #06 pc 0000e345  /system/lib/libutils.so (_ZN7android6Thread11_threadLoopEPv+140)
+06-19 10:11:06.330 12859 12859 F art     : art/runtime/runtime.cc:422]   native: #07 pc 000667e5  /system/lib/libandroid_runtime.so (_ZN7android14AndroidRuntime15javaThreadShellEPv+80)
+06-19 10:11:06.330 12859 12859 F art     : art/runtime/runtime.cc:422]   native: #08 pc 000470c3  /system/lib/libc.so (_ZL15__pthread_startPv+22)
+06-19 10:11:06.330 12859 12859 F art     : art/runtime/runtime.cc:422]   native: #09 pc 00019e3d  /system/lib/libc.so (__start_thread+6)
+06-19 10:11:06.330 12859 12859 F art     : art/runtime/runtime.cc:422]   (no managed stack frames)
+06-19 10:11:06.330 12859 12859 F art     : art/runtime/runtime.cc:422] 
+06-19 10:11:06.330 12859 12859 F art     : art/runtime/runtime.cc:422] "Binder:12859_2" prio=10 tid=10 Native
+06-19 10:11:06.330 12859 12859 F art     : art/runtime/runtime.cc:422]   | group="" sCount=1 dsCount=0 obj=0x12c1f310 self=0xe958e800
+06-19 10:11:06.330 12859 12859 F art     : art/runtime/runtime.cc:422]   | sysTid=12872 nice=0 cgrp=default sched=0/0 handle=0xf1296920
+06-19 10:11:06.330 12859 12859 F art     : art/runtime/runtime.cc:422]   | state=S schedstat=( 11523459 4781874 23 ) utm=0 stm=0 core=1 HZ=100
+06-19 10:11:06.330 12859 12859 F art     : art/runtime/runtime.cc:422]   | stack=0xf119a000-0xf119c000 stackSize=1014KB
+06-19 10:11:06.331 12859 12859 F art     : art/runtime/runtime.cc:422]   | held mutexes=
+06-19 10:11:06.331 12859 12859 F art     : art/runtime/runtime.cc:422]   kernel: __switch_to+0x9c/0xa8
+06-19 10:11:06.331 12859 12859 F art     : art/runtime/runtime.cc:422]   kernel: binder_thread_read+0x350/0x1080
+06-19 10:11:06.331 12859 12859 F art     : art/runtime/runtime.cc:422]   kernel: binder_ioctl_write_read+0x1b4/0x314
+06-19 10:11:06.331 12859 12859 F art     : art/runtime/runtime.cc:422]   kernel: binder_ioctl+0x1d0/0x668
+06-19 10:11:06.331 12859 12859 F art     : art/runtime/runtime.cc:422]   kernel: compat_SyS_ioctl+0x120/0x1130
+06-19 10:11:06.331 12859 12859 F art     : art/runtime/runtime.cc:422]   kernel: el0_svc_naked+0x24/0x28
+06-19 10:11:06.331 12859 12859 F art     : art/runtime/runtime.cc:422]   native: #00 pc 00048678  /system/lib/libc.so (__ioctl+8)
+06-19 10:11:06.331 12859 12859 F art     : art/runtime/runtime.cc:422]   native: #01 pc 0001ae3f  /system/lib/libc.so (ioctl+38)
+06-19 10:11:06.331 12859 12859 F art     : art/runtime/runtime.cc:422]   native: #02 pc 0003ccb7  /system/lib/libbinder.so (_ZN7android14IPCThreadState14talkWithDriverEb+202)
+06-19 10:11:06.331 12859 12859 F art     : art/runtime/runtime.cc:422]   native: #03 pc 0003cdcd  /system/lib/libbinder.so (_ZN7android14IPCThreadState20getAndExecuteCommandEv+8)
+06-19 10:11:06.331 12859 12859 F art     : art/runtime/runtime.cc:422]   native: #04 pc 0003d34b  /system/lib/libbinder.so (_ZN7android14IPCThreadState14joinThreadPoolEb+46)
+06-19 10:11:06.331 12859 12859 F art     : art/runtime/runtime.cc:422]   native: #05 pc 0004f8f5  /system/lib/libbinder.so (???)
+06-19 10:11:06.331 12859 12859 F art     : art/runtime/runtime.cc:422]   native: #06 pc 0000e345  /system/lib/libutils.so (_ZN7android6Thread11_threadLoopEPv+140)
+06-19 10:11:06.331 12859 12859 F art     : art/runtime/runtime.cc:422]   native: #07 pc 000667e5  /system/lib/libandroid_runtime.so (_ZN7android14AndroidRuntime15javaThreadShellEPv+80)
+06-19 10:11:06.331 12859 12859 F art     : art/runtime/runtime.cc:422]   native: #08 pc 000470c3  /system/lib/libc.so (_ZL15__pthread_startPv+22)
+06-19 10:11:06.331 12859 12859 F art     : art/runtime/runtime.cc:422]   native: #09 pc 00019e3d  /system/lib/libc.so (__start_thread+6)
+06-19 10:11:06.331 12859 12859 F art     : art/runtime/runtime.cc:422]   (no managed stack frames)
+06-19 10:11:06.331 12859 12859 F art     : art/runtime/runtime.cc:422] 
+06-19 10:11:06.331 12859 12859 F art     : art/runtime/runtime.cc:422] "Binder:12859_3" prio=10 tid=11 Native
+06-19 10:11:06.331 12859 12859 F art     : art/runtime/runtime.cc:422]   | group="" sCount=1 dsCount=0 obj=0x12c1f430 self=0xf2486300
+06-19 10:11:06.331 12859 12859 F art     : art/runtime/runtime.cc:422]   | sysTid=12873 nice=0 cgrp=default sched=0/0 handle=0xf1197920
+06-19 10:11:06.331 12859 12859 F art     : art/runtime/runtime.cc:422]   | state=S schedstat=( 10491832 8663085 17 ) utm=0 stm=0 core=3 HZ=100
+06-19 10:11:06.331 12859 12859 F art     : art/runtime/runtime.cc:422]   | stack=0xf109b000-0xf109d000 stackSize=1014KB
+06-19 10:11:06.331 12859 12859 F art     : art/runtime/runtime.cc:422]   | held mutexes=
+06-19 10:11:06.331 12859 12859 F art     : art/runtime/runtime.cc:422]   kernel: __switch_to+0x9c/0xa8
+06-19 10:11:06.331 12859 12859 F art     : art/runtime/runtime.cc:422]   kernel: binder_thread_read+0x350/0x1080
+06-19 10:11:06.331 12859 12859 F art     : art/runtime/runtime.cc:422]   kernel: binder_ioctl_write_read+0x1b4/0x314
+06-19 10:11:06.331 12859 12859 F art     : art/runtime/runtime.cc:422]   kernel: binder_ioctl+0x1d0/0x668
+06-19 10:11:06.331 12859 12859 F art     : art/runtime/runtime.cc:422]   kernel: compat_SyS_ioctl+0x120/0x1130
+06-19 10:11:06.331 12859 12859 F art     : art/runtime/runtime.cc:422]   kernel: el0_svc_naked+0x24/0x28
+06-19 10:11:06.331 12859 12859 F art     : art/runtime/runtime.cc:422]   native: #00 pc 00048678  /system/lib/libc.so (__ioctl+8)
+06-19 10:11:06.331 12859 12859 F art     : art/runtime/runtime.cc:422]   native: #01 pc 0001ae3f  /system/lib/libc.so (ioctl+38)
+06-19 10:11:06.331 12859 12859 F art     : art/runtime/runtime.cc:422]   native: #02 pc 0003ccb7  /system/lib/libbinder.so (_ZN7android14IPCThreadState14talkWithDriverEb+202)
+06-19 10:11:06.331 12859 12859 F art     : art/runtime/runtime.cc:422]   native: #03 pc 0003cdcd  /system/lib/libbinder.so (_ZN7android14IPCThreadState20getAndExecuteCommandEv+8)
+06-19 10:11:06.331 12859 12859 F art     : art/runtime/runtime.cc:422]   native: #04 pc 0003d34b  /system/lib/libbinder.so (_ZN7android14IPCThreadState14joinThreadPoolEb+46)
+06-19 10:11:06.331 12859 12859 F art     : art/runtime/runtime.cc:422]   native: #05 pc 0004f8f5  /system/lib/libbinder.so (???)
+06-19 10:11:06.331 12859 12859 F art     : art/runtime/runtime.cc:422]   native: #06 pc 0000e345  /system/lib/libutils.so (_ZN7android6Thread11_threadLoopEPv+140)
+06-19 10:11:06.331 12859 12859 F art     : art/runtime/runtime.cc:422]   native: #07 pc 000667e5  /system/lib/libandroid_runtime.so (_ZN7android14AndroidRuntime15javaThreadShellEPv+80)
+06-19 10:11:06.331 12859 12859 F art     : art/runtime/runtime.cc:422]   native: #08 pc 000470c3  /system/lib/libc.so (_ZL15__pthread_startPv+22)
+06-19 10:11:06.331 12859 12859 F art     : art/runtime/runtime.cc:422]   native: #09 pc 00019e3d  /system/lib/libc.so (__start_thread+6)
+06-19 10:11:06.331 12859 12859 F art     : art/runtime/runtime.cc:422]   (no managed stack frames)
+06-19 10:11:06.331 12859 12859 F art     : art/runtime/runtime.cc:422] 
+06-19 10:11:06.331 12859 12859 F art     : art/runtime/runtime.cc:422] "Profile Saver" prio=10 tid=12 Native
+06-19 10:11:06.331 12859 12859 F art     : art/runtime/runtime.cc:422]   | group="" sCount=1 dsCount=0 obj=0x12c1f4c0 self=0xe958fc00
+06-19 10:11:06.331 12859 12859 F art     : art/runtime/runtime.cc:422]   | sysTid=12874 nice=-10 cgrp=default sched=0/0 handle=0xf104d920
+06-19 10:11:06.331 12859 12859 F art     : art/runtime/runtime.cc:422]   | state=S schedstat=( 4921003 2118958 9 ) utm=0 stm=0 core=4 HZ=100
+06-19 10:11:06.331 12859 12859 F art     : art/runtime/runtime.cc:422]   | stack=0xf0f51000-0xf0f53000 stackSize=1014KB
+06-19 10:11:06.331 12859 12859 F art     : art/runtime/runtime.cc:422]   | held mutexes=
+06-19 10:11:06.331 12859 12859 F art     : art/runtime/runtime.cc:422]   kernel: __switch_to+0x9c/0xa8
+06-19 10:11:06.331 12859 12859 F art     : art/runtime/runtime.cc:422]   kernel: futex_wait_queue_me+0xcc/0x130
+06-19 10:11:06.331 12859 12859 F art     : art/runtime/runtime.cc:422]   kernel: futex_wait+0xe8/0x1ec
+06-19 10:11:06.331 12859 12859 F art     : art/runtime/runtime.cc:422]   kernel: do_futex+0xdc/0x4e0
+06-19 10:11:06.331 12859 12859 F art     : art/runtime/runtime.cc:422]   kernel: compat_SyS_futex+0xdc/0x168
+06-19 10:11:06.331 12859 12859 F art     : art/runtime/runtime.cc:422]   kernel: el0_svc_naked+0x24/0x28
+06-19 10:11:06.331 12859 12859 F art     : art/runtime/runtime.cc:422]   native: #00 pc 00017404  /system/lib/libc.so (syscall+28)
+06-19 10:11:06.331 12859 12859 F art     : art/runtime/runtime.cc:422]   native: #01 pc 000b6e49  /system/lib/libart.so (_ZN3art17ConditionVariable16WaitHoldingLocksEPNS_6ThreadE+92)
+06-19 10:11:06.331 12859 12859 F art     : art/runtime/runtime.cc:422]   native: #02 pc 00259d2d  /system/lib/libart.so (_ZN3art12ProfileSaver3RunEv+296)
+06-19 10:11:06.331 12859 12859 F art     : art/runtime/runtime.cc:422]   native: #03 pc 0025b069  /system/lib/libart.so (_ZN3art12ProfileSaver21RunProfileSaverThreadEPv+52)
+06-19 10:11:06.331 12859 12859 F art     : art/runtime/runtime.cc:422]   native: #04 pc 000470c3  /system/lib/libc.so (_ZL15__pthread_startPv+22)
+06-19 10:11:06.331 12859 12859 F art     : art/runtime/runtime.cc:422]   native: #05 pc 00019e3d  /system/lib/libc.so (__start_thread+6)
+06-19 10:11:06.331 12859 12859 F art     : art/runtime/runtime.cc:422]   (no managed stack frames)
+06-19 10:11:06.331 12859 12859 F art     : art/runtime/runtime.cc:422] 
+06-19 10:11:06.331 12859 12859 F art     : art/runtime/runtime.cc:422] "RenderThread" prio=10 tid=13 Native
+06-19 10:11:06.331 12859 12859 F art     : art/runtime/runtime.cc:422]   | group="" sCount=1 dsCount=0 obj=0x12c78700 self=0xe42add00
+06-19 10:11:06.331 12859 12859 F art     : art/runtime/runtime.cc:422]   | sysTid=12876 nice=-10 cgrp=default sched=0/0 handle=0xf0f2e920
+06-19 10:11:06.331 12859 12859 F art     : art/runtime/runtime.cc:422]   | state=S schedstat=( 198716582 23750661 109 ) utm=16 stm=2 core=0 HZ=100
+06-19 10:11:06.331 12859 12859 F art     : art/runtime/runtime.cc:422]   | stack=0xf0e32000-0xf0e34000 stackSize=1014KB
+06-19 10:11:06.331 12859 12859 F art     : art/runtime/runtime.cc:422]   | held mutexes=
+06-19 10:11:06.331 12859 12859 F art     : art/runtime/runtime.cc:422]   kernel: __switch_to+0x9c/0xa8
+06-19 10:11:06.331 12859 12859 F art     : art/runtime/runtime.cc:422]   kernel: SyS_epoll_wait+0x2b8/0x368
+06-19 10:11:06.331 12859 12859 F art     : art/runtime/runtime.cc:422]   kernel: compat_SyS_epoll_pwait+0xc0/0x13c
+06-19 10:11:06.331 12859 12859 F art     : art/runtime/runtime.cc:422]   kernel: el0_svc_naked+0x24/0x28
+06-19 10:11:06.331 12859 12859 F art     : art/runtime/runtime.cc:422]   native: #00 pc 00048538  /system/lib/libc.so (__epoll_pwait+20)
+06-19 10:11:06.331 12859 12859 F art     : art/runtime/runtime.cc:422]   native: #01 pc 0001a1ed  /system/lib/libc.so (epoll_pwait+60)
+06-19 10:11:06.331 12859 12859 F art     : art/runtime/runtime.cc:422]   native: #02 pc 0001a21d  /system/lib/libc.so (epoll_wait+12)
+06-19 10:11:06.332 12859 12859 F art     : art/runtime/runtime.cc:422]   native: #03 pc 00011c83  /system/lib/libutils.so (_ZN7android6Looper9pollInnerEi+118)
+06-19 10:11:06.332 12859 12859 F art     : art/runtime/runtime.cc:422]   native: #04 pc 00011b7f  /system/lib/libutils.so (_ZN7android6Looper8pollOnceEiPiS1_PPv+26)
+06-19 10:11:06.332 12859 12859 F art     : art/runtime/runtime.cc:422]   native: #05 pc 00029161  /system/lib/libhwui.so (_ZN7android10uirenderer12renderthread12RenderThread10threadLoopEv+284)
+06-19 10:11:06.332 12859 12859 F art     : art/runtime/runtime.cc:422]   native: #06 pc 0000e345  /system/lib/libutils.so (_ZN7android6Thread11_threadLoopEPv+140)
+06-19 10:11:06.332 12859 12859 F art     : art/runtime/runtime.cc:422]   native: #07 pc 000667e5  /system/lib/libandroid_runtime.so (_ZN7android14AndroidRuntime15javaThreadShellEPv+80)
+06-19 10:11:06.332 12859 12859 F art     : art/runtime/runtime.cc:422]   native: #08 pc 000470c3  /system/lib/libc.so (_ZL15__pthread_startPv+22)
+06-19 10:11:06.332 12859 12859 F art     : art/runtime/runtime.cc:422]   native: #09 pc 00019e3d  /system/lib/libc.so (__start_thread+6)
+06-19 10:11:06.332 12859 12859 F art     : art/runtime/runtime.cc:422]   (no managed stack frames)
+06-19 10:11:06.332 12859 12859 F art     : art/runtime/runtime.cc:422] 
+06-19 10:11:06.332 12859 12859 F art     : art/runtime/runtime.cc:422] 
+06-19 10:11:06.332 12859 12859 F art     : art/runtime/runtime.cc:427] JNI DETECTED ERROR IN APPLICATION: use of invalid jobject 0xffa35658
+06-19 10:11:06.332 12859 12859 F art     : art/runtime/runtime.cc:427]     from void com.example.myndk.JNIUtils.operationArray2(int[])
+06-19 10:11:06.332 12859 12859 F art     : art/runtime/runtime.cc:427] "main" prio=5 tid=1 Runnable
+06-19 10:11:06.332 12859 12859 F art     : art/runtime/runtime.cc:427]   | group="main" sCount=0 dsCount=0 obj=0x743944a0 self=0xf2485400
+06-19 10:11:06.332 12859 12859 F art     : art/runtime/runtime.cc:427]   | sysTid=12859 nice=-10 cgrp=default sched=0/0 handle=0xf529a534
+06-19 10:11:06.332 12859 12859 F art     : art/runtime/runtime.cc:427]   | state=R schedstat=( 217706534 51372709 293 ) utm=15 stm=5 core=0 HZ=100
+06-19 10:11:06.332 12859 12859 F art     : art/runtime/runtime.cc:427]   | stack=0xff23a000-0xff23c000 stackSize=8MB
+06-19 10:11:06.332 12859 12859 F art     : art/runtime/runtime.cc:427]   | held mutexes= "mutator lock"(shared held)
+06-19 10:11:06.332 12859 12859 F art     : art/runtime/runtime.cc:427]   native: #00 pc 00350ab5  /system/lib/libart.so (_ZN3art15DumpNativeStackERNSt3__113basic_ostreamIcNS0_11char_traitsIcEEEEiP12BacktraceMapPKcPNS_9ArtMethodEPv+128)
+06-19 10:11:06.332 12859 12859 F art     : art/runtime/runtime.cc:427]   native: #01 pc 003311f9  /system/lib/libart.so (_ZNK3art6Thread9DumpStackERNSt3__113basic_ostreamIcNS1_11char_traitsIcEEEEbP12BacktraceMap+308)
+06-19 10:11:06.332 12859 12859 F art     : art/runtime/runtime.cc:427]   native: #02 pc 00239895  /system/lib/libart.so (_ZN3art9JavaVMExt8JniAbortEPKcS2_+848)
+06-19 10:11:06.332 12859 12859 F art     : art/runtime/runtime.cc:427]   native: #03 pc 00239e2b  /system/lib/libart.so (_ZN3art9JavaVMExt9JniAbortFEPKcS2_z+66)
+06-19 10:11:06.332 12859 12859 F art     : art/runtime/runtime.cc:427]   native: #04 pc 00334c63  /system/lib/libart.so (_ZNK3art6Thread13DecodeJObjectEP8_jobject+302)
+06-19 10:11:06.332 12859 12859 F art     : art/runtime/runtime.cc:427]   native: #05 pc 000ca195  /system/lib/libart.so (_ZN3art11ScopedCheck10CheckArrayERNS_18ScopedObjectAccessEP7_jarray+28)
+06-19 10:11:06.332 12859 12859 F art     : art/runtime/runtime.cc:427]   native: #06 pc 000c985f  /system/lib/libart.so (_ZN3art11ScopedCheck22CheckPossibleHeapValueERNS_18ScopedObjectAccessEcNS_12JniValueTypeE+74)
+06-19 10:11:06.332 12859 12859 F art     : art/runtime/runtime.cc:427]   native: #07 pc 000c8d0b  /system/lib/libart.so (_ZN3art11ScopedCheck5CheckERNS_18ScopedObjectAccessEbPKcPNS_12JniValueTypeE+802)
+06-19 10:11:06.332 12859 12859 F art     : art/runtime/runtime.cc:427]   native: #08 pc 000d1563  /system/lib/libart.so (_ZN3art8CheckJNI23SetPrimitiveArrayRegionEPKcNS_9Primitive4TypeEP7_JNIEnvP7_jarrayiiPKv+478)
+06-19 10:11:06.332 12859 12859 F art     : art/runtime/runtime.cc:427]   native: #09 pc 000c60c7  /system/lib/libart.so (_ZN3art8CheckJNI17SetIntArrayRegionEP7_JNIEnvP10_jintArrayiiPKi+26)
+06-19 10:11:06.332 12859 12859 F art     : art/runtime/runtime.cc:427]   native: #10 pc 00000a79  /data/app/com.example.myndk-1/lib/arm/libhello-lib.so (Java_com_example_myndk_JNIUtils_operationArray2+172)
+06-19 10:11:06.332 12859 12859 F art     : art/runtime/runtime.cc:427]   native: #11 pc 00002e15  /data/app/com.example.myndk-1/oat/arm/base.odex (Java_com_example_myndk_JNIUtils_operationArray2___3I+96)
+06-19 10:11:06.332 12859 12859 F art     : art/runtime/runtime.cc:427]   at com.example.myndk.JNIUtils.operationArray2(Native method)
+06-19 10:11:06.332 12859 12859 F art     : art/runtime/runtime.cc:427]   at com.example.myndk.MainActivity.onClick(MainActivity.java:43)
+06-19 10:11:06.332 12859 12859 F art     : art/runtime/runtime.cc:427]   at java.lang.reflect.Method.invoke!(Native method)
+06-19 10:11:06.332 12859 12859 F art     : art/runtime/runtime.cc:427]   at android.view.View$DeclaredOnClickListener.onClick(View.java:4720)
+06-19 10:11:06.332 12859 12859 F art     : art/runtime/runtime.cc:427]   at android.view.View.performClick(View.java:5637)
+06-19 10:11:06.332 12859 12859 F art     : art/runtime/runtime.cc:427]   at android.view.View$PerformClick.run(View.java:22445)
+06-19 10:11:06.332 12859 12859 F art     : art/runtime/runtime.cc:427]   at android.os.Handler.handleCallback(Handler.java:755)
+06-19 10:11:06.332 12859 12859 F art     : art/runtime/runtime.cc:427]   at android.os.Handler.dispatchMessage(Handler.java:95)
+06-19 10:11:06.332 12859 12859 F art     : art/runtime/runtime.cc:427]   at android.os.Looper.loop(Looper.java:154)
+06-19 10:11:06.332 12859 12859 F art     : art/runtime/runtime.cc:427]   at android.app.ActivityThread.main(ActivityThread.java:6121)
+06-19 10:11:06.332 12859 12859 F art     : art/runtime/runtime.cc:427]   at java.lang.reflect.Method.invoke!(Native method)
+06-19 10:11:06.332 12859 12859 F art     : art/runtime/runtime.cc:427]   at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:912)
+06-19 10:11:06.332 12859 12859 F art     : art/runtime/runtime.cc:427]   at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:802)
+06-19 10:11:06.332 12859 12859 F art     : art/runtime/runtime.cc:427] 
+06-19 10:11:06.332 12859 12859 F art     : art/runtime/runtime.cc:427] 
+--------- beginning of crash
+06-19 10:11:06.333 12859 12859 F libc    : Fatal signal 6 (SIGABRT), code -6 in tid 12859 (m.example.myndk)
+06-19 10:11:06.334   219   219 W         : debuggerd: handling request: pid=12859 uid=10040 gid=10040 tid=12859
+06-19 10:11:06.419 12904 12904 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+06-19 10:11:06.420 12904 12904 F DEBUG   : Build fingerprint: 'Android/rk3399_mid/rk3399_mid:7.1.2/NHG47K/user.xshuo.20180613.115732:user/release-keys'
+06-19 10:11:06.420 12904 12904 F DEBUG   : Revision: '0'
+06-19 10:11:06.420 12904 12904 F DEBUG   : ABI: 'arm'
+06-19 10:11:06.420 12904 12904 F DEBUG   : pid: 12859, tid: 12859, name: m.example.myndk  >>> com.example.myndk <<<
+06-19 10:11:06.420 12904 12904 F DEBUG   : signal 6 (SIGABRT), code -6 (SI_TKILL), fault addr --------
+06-19 10:11:06.423 12904 12904 F DEBUG   : Abort message: 'art/runtime/java_vm_ext.cc:470] JNI DETECTED ERROR IN APPLICATION: use of invalid jobject 0xffa35658'
+06-19 10:11:06.424 12904 12904 F DEBUG   :     r0 00000000  r1 0000323b  r2 00000006  r3 00000008
+06-19 10:11:06.424 12904 12904 F DEBUG   :     r4 f529a58c  r5 00000006  r6 f529a534  r7 0000010c
+06-19 10:11:06.424 12904 12904 F DEBUG   :     r8 00000000  r9 0000000a  sl 00000acd  fp f2485400
+06-19 10:11:06.424 12904 12904 F DEBUG   :     ip 00000000  sp ffa35230  lr f475f5f7  pc f4761e54  cpsr 200f0010
+06-19 10:11:06.436 12904 12904 F DEBUG   : 
+06-19 10:11:06.436 12904 12904 F DEBUG   : backtrace:
+06-19 10:11:06.436 12904 12904 F DEBUG   :     #00 pc 00049e54  /system/lib/libc.so (tgkill+12)
+06-19 10:11:06.436 12904 12904 F DEBUG   :     #01 pc 000475f3  /system/lib/libc.so (pthread_kill+34)
+06-19 10:11:06.436 12904 12904 F DEBUG   :     #02 pc 0001d8a5  /system/lib/libc.so (raise+10)
+06-19 10:11:06.436 12904 12904 F DEBUG   :     #03 pc 000193f1  /system/lib/libc.so (__libc_android_abort+34)
+06-19 10:11:06.436 12904 12904 F DEBUG   :     #04 pc 00017034  /system/lib/libc.so (abort+4)
+06-19 10:11:06.436 12904 12904 F DEBUG   :     #05 pc 0031af11  /system/lib/libart.so (_ZN3art7Runtime5AbortEPKc+328)
+06-19 10:11:06.436 12904 12904 F DEBUG   :     #06 pc 000b5285  /system/lib/libart.so (_ZN3art10LogMessageD2Ev+1132)
+06-19 10:11:06.436 12904 12904 F DEBUG   :     #07 pc 00239bc5  /system/lib/libart.so (_ZN3art9JavaVMExt8JniAbortEPKcS2_+1664)
+06-19 10:11:06.436 12904 12904 F DEBUG   :     #08 pc 00239e2b  /system/lib/libart.so (_ZN3art9JavaVMExt9JniAbortFEPKcS2_z+66)
+06-19 10:11:06.436 12904 12904 F DEBUG   :     #09 pc 00334c63  /system/lib/libart.so (_ZNK3art6Thread13DecodeJObjectEP8_jobject+302)
+06-19 10:11:06.436 12904 12904 F DEBUG   :     #10 pc 000ca195  /system/lib/libart.so (_ZN3art11ScopedCheck10CheckArrayERNS_18ScopedObjectAccessEP7_jarray+28)
+06-19 10:11:06.436 12904 12904 F DEBUG   :     #11 pc 000c985f  /system/lib/libart.so (_ZN3art11ScopedCheck22CheckPossibleHeapValueERNS_18ScopedObjectAccessEcNS_12JniValueTypeE+74)
+06-19 10:11:06.436 12904 12904 F DEBUG   :     #12 pc 000c8d0b  /system/lib/libart.so (_ZN3art11ScopedCheck5CheckERNS_18ScopedObjectAccessEbPKcPNS_12JniValueTypeE+802)
+06-19 10:11:06.436 12904 12904 F DEBUG   :     #13 pc 000d1563  /system/lib/libart.so (_ZN3art8CheckJNI23SetPrimitiveArrayRegionEPKcNS_9Primitive4TypeEP7_JNIEnvP7_jarrayiiPKv+478)
+06-19 10:11:06.436 12904 12904 F DEBUG   :     #14 pc 000c60c7  /system/lib/libart.so (_ZN3art8CheckJNI17SetIntArrayRegionEP7_JNIEnvP10_jintArrayiiPKi+26)
+06-19 10:11:06.436 12904 12904 F DEBUG   :     #15 pc 00000a79  /data/app/com.example.myndk-1/lib/arm/libhello-lib.so (Java_com_example_myndk_JNIUtils_operationArray2+172)
+06-19 10:11:06.436 12904 12904 F DEBUG   :     #16 pc 00041e15  /data/app/com.example.myndk-1/oat/arm/base.odex (offset 0x3f000)
+06-19 10:11:06.711   328   362 D alsa_route: route_set_controls() set route 24
+06-19 10:11:06.711   328   362 D AudioHardwareTiny: close device
+06-19 10:11:06.948   601 12905 W ActivityManager:   Force finishing activity com.example.myndk/.MainActivity
+06-19 10:11:06.953   219   219 W         : debuggerd: resuming target 12859
+06-19 10:11:06.954   601   618 I BootReceiver: Copying /data/tombstones/tombstone_05 to DropBox (SYSTEM_TOMBSTONE)
+06-19 10:11:06.969   601 12905 W ActivityManager:   Force finishing activity com.example.myndk/.MainActivity
+06-19 10:11:06.970   601 12905 W ActivityManager: Duplicate finish request for ActivityRecord{b7beeda u0 com.example.myndk/.MainActivity t24 f}
+06-19 10:11:07.017   601   637 W InputDispatcher: channel '5597f32 com.example.myndk/com.example.myndk.MainActivity (server)' ~ Consumer closed input channel or an error occurred.  events=0x9
+06-19 10:11:07.017   601   637 E InputDispatcher: channel '5597f32 com.example.myndk/com.example.myndk.MainActivity (server)' ~ Channel is unrecoverably broken and will be disposed!
+06-19 10:11:07.031   601  1404 D GraphicsStats: Buffer count: 5
+06-19 10:11:07.032   601  1408 I ActivityManager: Process com.example.myndk (pid 12859) has died
+06-19 10:11:07.032   601  1408 D ActivityManager: cleanUpApplicationRecord -- 12859
+06-19 10:11:07.033   327   327 I Zygote  : Process 12859 exited due to signal (6)
+06-19 10:11:07.040   601  5337 I WindowManager: WIN DEATH: Window{5597f32 u0 com.example.myndk/com.example.myndk.MainActivity}
+06-19 10:11:07.040   601  5337 W InputDispatcher: Attempted to unregister already unregistered input channel '5597f32 com.example.myndk/com.example.myndk.MainActivity (server)'
+06-19 10:11:07.088   236   243 D GRALLOC-ROCKCHIP: enter, w : 480, h : 800, format : 0x1, usage : 0x900.
+06-19 10:11:07.094   236   243 D GRALLOC-ROCKCHIP: enter, w : 480, h : 800, format : 0x1, usage : 0x900.
+06-19 10:11:07.099   236   243 D GRALLOC-ROCKCHIP: enter, w : 480, h : 800, format : 0x1, usage : 0x900.
+06-19 10:11:07.102   236   243 D GRALLOC-ROCKCHIP: enter, w : 480, h : 800, format : 0x1, usage : 0x900.
+06-19 10:11:07.109   236   275 E BufferQueueProducer: [com.sogou.teemo.translate.launcher/com.sogou.teemo.translate.launcher.HomeActivity2] connect: already connected (cur=1 req=1)
+06-19 10:11:07.110  8030  8064 D mali_winsys: EGLint new_window_surface(egl_winsys_display*, void*, EGLSurface, EGLConfig, egl_winsys_surface**, egl_color_buffer_format*, EGLBoolean) returns 0x3000
+06-19 10:11:07.115  8030  8030 D CrashReport: >>> com.sogou.teemo.translate.launcher.Launcher2 onResumed <<<
+06-19 10:11:07.117  8030  8030 I CrashReport-Native: Set native info: isAppForeground(true)
+06-19 10:11:07.119  8030  8030 D _TR_VOICE: zhl-lifecircle onResume
+06-19 10:11:07.121  8030  8046 I LogService: com.sogou.teemo.watch.log|com.sogou.teemo.watch.log.service.LogService
+06-19 10:11:07.122  8030  8046 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1357 android.content.ContextWrapper.startService:613 com.sogou.teemo.watch.log.utils.TimoLogUtils.doLog:255 com.sogou.teemo.watch.log.utils.TimoLogUtils.log:233 com.sogou.teemo.watch.log.utils.TimoLogUtils.info:65 
+06-19 10:11:07.123  8030  8030 D _TR_VOICE: zhl-onResume setVoiceTranslateOffline
+06-19 10:11:07.125  8030  8030 W tmtcp   : zhl-network is not available
+06-19 10:11:07.130  8030  8030 D _TR_    : -->VoiceTranslate setIsCanInit:false
+06-19 10:11:07.131   601 12058 I OpenGLRenderer: Initialized EGL, version 1.4
+06-19 10:11:07.131   601 12058 D OpenGLRenderer: Swap behavior 1
+06-19 10:11:07.133  8030  8030 E SogouSpeech: -->zhl-initOfflineLanguageData:directionChange:false,offline:true,offlineInitError:false
+06-19 10:11:07.134  8030  8030 D _TR_    : -->VoiceTranslate setIsCanInit:true
+06-19 10:11:07.134  8030  8030 D SogouSpeech: -->feifei setIsOffline:true
+06-19 10:11:07.144   236   702 E BufferQueueProducer: [Application Error: com.example.myndk] connect: already connected (cur=1 req=1)
+06-19 10:11:07.145   601 12058 D mali_winsys: EGLint new_window_surface(egl_winsys_display*, void*, EGLSurface, EGLConfig, egl_winsys_surface**, egl_color_buffer_format*, EGLBoolean) returns 0x3000
+06-19 10:11:07.145   236   702 D GRALLOC-ROCKCHIP: enter, w : 567, h : 371, format : 0x1, usage : 0x900.
+06-19 10:11:07.148   236   702 D GRALLOC-ROCKCHIP: enter, w : 567, h : 371, format : 0x1, usage : 0x900.
+06-19 10:11:07.150  1362  1362 I LogService: LogService|onStartCommand
+06-19 10:11:07.151   236   702 D GRALLOC-ROCKCHIP: enter, w : 567, h : 371, format : 0x1, usage : 0x900.
+06-19 10:11:07.152  8030  8046 I LogService: com.sogou.teemo.watch.log|com.sogou.teemo.watch.log.service.LogService
+06-19 10:11:07.153  8030  8046 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1357 android.content.ContextWrapper.startService:613 com.sogou.teemo.watch.log.utils.TimoLogUtils.doLog:255 com.sogou.teemo.watch.log.utils.TimoLogUtils.log:233 com.sogou.teemo.watch.log.utils.TimoLogUtils.info:65 
+06-19 10:11:07.153   236   702 D GRALLOC-ROCKCHIP: enter, w : 567, h : 371, format : 0x1, usage : 0x900.
+06-19 10:11:07.158  1362  1362 I LogService: LogService|onStartCommand
+06-19 10:11:07.159  8030  8046 I LogService: com.sogou.teemo.watch.log|com.sogou.teemo.watch.log.service.LogService
+06-19 10:11:07.160  8030  8046 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1357 android.content.ContextWrapper.startService:613 com.sogou.teemo.watch.log.utils.TimoLogUtils.doLog:255 com.sogou.teemo.watch.log.utils.TimoLogUtils.log:233 com.sogou.teemo.watch.log.utils.TimoLogUtils.info:65 
+06-19 10:11:07.165  1362  1362 I LogService: LogService|onStartCommand
+06-19 10:11:07.184  1362 12795 I LogUtils: getFileNames|排除tmlog.log
+06-19 10:11:07.184  1362 12795 I LogUtils: read|[/storage/emulated/0/log/app/tmlog.log.2018-06-15, /storage/emulated/0/log/app/tmlog.log.2018-06-16, /storage/emulated/0/log/app/tmlog.log.2018-06-17, /storage/emulated/0/log/app/tmlog.log.2018-06-18]
+06-19 10:11:07.185   236   639 D GRALLOC-ROCKCHIP: enter, w : 567, h : 371, format : 0x1, usage : 0xb00.
+06-19 10:11:07.192   236   702 D GRALLOC-ROCKCHIP: enter, w : 480, h : 800, format : 0x1, usage : 0xb00.
+06-19 10:11:07.193   601 12058 D GRALLOC-ROCKCHIP: enter, w : 567, h : 371, format : 0x1, usage : 0xb00.
+06-19 10:11:07.197  8030  8064 D GRALLOC-ROCKCHIP: enter, w : 480, h : 800, format : 0x1, usage : 0xb00.
+06-19 10:11:07.198  1362 12839 I LogUtils: getFileNames|排除tmlog.log
+06-19 10:11:07.198  1362 12839 I LogUtils: read|[/storage/emulated/0/log/app/tmlog.log.2018-06-15, /storage/emulated/0/log/app/tmlog.log.2018-06-16, /storage/emulated/0/log/app/tmlog.log.2018-06-17, /storage/emulated/0/log/app/tmlog.log.2018-06-18]
+06-19 10:11:07.204  1362 12841 I LogUtils: getFileNames|排除tmlog.log
+06-19 10:11:07.204  1362 12841 I LogUtils: read|[/storage/emulated/0/log/app/tmlog.log.2018-06-15, /storage/emulated/0/log/app/tmlog.log.2018-06-16, /storage/emulated/0/log/app/tmlog.log.2018-06-17, /storage/emulated/0/log/app/tmlog.log.2018-06-18]
+06-19 10:11:07.215   236   639 D GRALLOC-ROCKCHIP: enter, w : 480, h : 800, format : 0x1, usage : 0xb00.
+06-19 10:11:07.219   236   275 D GRALLOC-ROCKCHIP: enter, w : 567, h : 371, format : 0x1, usage : 0xb00.
+06-19 10:11:07.221  8030  8064 D GRALLOC-ROCKCHIP: enter, w : 480, h : 800, format : 0x1, usage : 0xb00.
+06-19 10:11:07.224   601 12058 D GRALLOC-ROCKCHIP: enter, w : 567, h : 371, format : 0x1, usage : 0xb00.
+06-19 10:11:07.241   236   702 D GRALLOC-ROCKCHIP: enter, w : 480, h : 800, format : 0x1, usage : 0x900.
+06-19 10:11:07.246   236   702 D GRALLOC-ROCKCHIP: enter, w : 480, h : 800, format : 0x1, usage : 0x900.
+06-19 10:11:07.251   236   702 D GRALLOC-ROCKCHIP: enter, w : 480, h : 800, format : 0x1, usage : 0x900.
+06-19 10:11:07.253   236   275 D GRALLOC-ROCKCHIP: enter, w : 567, h : 371, format : 0x1, usage : 0xb00.
+06-19 10:11:07.254   236   702 D GRALLOC-ROCKCHIP: enter, w : 480, h : 800, format : 0x1, usage : 0x900.
+06-19 10:11:07.260   236   245 E BufferQueueProducer: [com.sogou.teemo.translate.launcher/com.sogou.teemo.translate.launcher.Launcher2] connect: already connected (cur=1 req=1)
+06-19 10:11:07.261   601 12058 D GRALLOC-ROCKCHIP: enter, w : 567, h : 371, format : 0x1, usage : 0xb00.
+06-19 10:11:07.261  8030  8064 D mali_winsys: EGLint new_window_surface(egl_winsys_display*, void*, EGLSurface, EGLConfig, egl_winsys_surface**, egl_color_buffer_format*, EGLBoolean) returns 0x3000
+06-19 10:11:07.280   236   275 D GRALLOC-ROCKCHIP: enter, w : 480, h : 800, format : 0x1, usage : 0xb00.
+06-19 10:11:07.284  8030  8064 D GRALLOC-ROCKCHIP: enter, w : 480, h : 800, format : 0x1, usage : 0xb00.
+06-19 10:11:07.294   236   702 D GRALLOC-ROCKCHIP: enter, w : 480, h : 800, format : 0x1, usage : 0xb00.
+06-19 10:11:07.298  8030  8064 D GRALLOC-ROCKCHIP: enter, w : 480, h : 800, format : 0x1, usage : 0xb00.
+06-19 10:11:48.700   601   662 E wifi    : wifi_get_supported_feature_set returned error = 0xffffffa1
+06-19 10:11:48.702   601   617 E BatteryStatsService: no controller energy info supplied
+06-19 10:11:48.702   601   617 E BatteryStatsService: no controller energy info supplied
+06-19 10:11:48.702   601   617 E BatteryStatsService: no controller energy info supplied
+06-19 10:11:48.703   601   617 E BatteryStatsService: power: Missing API
+06-19 10:11:48.703   704   704 D BatteryMeterTxt: >>> onBatteryLevelChanged [72 - true - true]
+06-19 10:11:48.704   704   704 D BatteryMeterView: >>> onBatteryLevelChanged(72 - true - true)
+06-19 10:11:48.704   704   704 D BatteryMeterView: >>> onBatteryLevelChanged(72 - true - true)
+06-19 10:12:06.010   601   623 I PowerManagerService: Going to sleep due to screen timeout (uid 1000)...
+06-19 10:12:06.011   601   623 I PowerManagerService: Sleeping (uid 1000)...
+06-19 10:12:06.015   601   614 I VrManagerService: VR mode is disallowed
+06-19 10:12:06.015  8030  8030 D CrashReport: >>> com.sogou.teemo.translate.launcher.Launcher2 onPaused <<<
+06-19 10:12:06.018  8030  8030 I CrashReport-Native: Set native info: isAppForeground(false)
+06-19 10:12:06.026   236   243 E BufferQueueProducer: [ColorFade] connect: already connected (cur=1 req=1)
+06-19 10:12:06.026   601   623 D mali_winsys: EGLint new_window_surface(egl_winsys_display*, void*, EGLSurface, EGLConfig, egl_winsys_surface**, egl_color_buffer_format*, EGLBoolean) returns 0x3000
+06-19 10:12:06.038   236   702 D GRALLOC-ROCKCHIP: enter, w : 480, h : 800, format : 0x1, usage : 0x333.
+06-19 10:12:06.038   236   702 D GRALLOC-ROCKCHIP: [File] : hardware/rockchip/libgralloc/gralloc_drm_rockchip.c; [Line] : 1315; [Func] : drm_gem_rockchip_alloc;
+06-19 10:12:06.038   236   702 D GRALLOC-ROCKCHIP: to ask for cachable buffer for CPU read, usage : 0x333
+06-19 10:12:06.043   601   623 D GRALLOC-ROCKCHIP: enter, w : 480, h : 800, format : 0x1, usage : 0x333.
+06-19 10:12:06.043   601   623 D GRALLOC-ROCKCHIP: [File] : hardware/rockchip/libgralloc/gralloc_drm_rockchip.c; [Line] : 1315; [Func] : drm_gem_rockchip_alloc;
+06-19 10:12:06.043   601   623 D GRALLOC-ROCKCHIP: to ask for cachable buffer for CPU read, usage : 0x333
+06-19 10:12:06.045   236   236 D GRALLOC-ROCKCHIP: enter, w : 480, h : 800, format : 0x1, usage : 0x333.
+06-19 10:12:06.045   236   236 D GRALLOC-ROCKCHIP: [File] : hardware/rockchip/libgralloc/gralloc_drm_rockchip.c; [Line] : 1315; [Func] : drm_gem_rockchip_alloc;
+06-19 10:12:06.045   236   236 D GRALLOC-ROCKCHIP: to ask for cachable buffer for CPU read, usage : 0x333
+06-19 10:12:06.068  8030  8030 D SogouSpeech: -->zhl-mp3-release
+06-19 10:12:06.064  8030  8030 I nslate.launcher: type=1400 audit(0.0:312): avc: denied { write } for name="governor" dev="sysfs" ino=17845 scontext=u:r:system_app:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=1
+06-19 10:12:06.068  8030  8030 D Process : >>> enhanceSogoPerformance status[0]
+06-19 10:12:06.068  8030  8030 D Process : XJDAN openNode /sys/devices/platform/ff9a0000.gpu/devfreq/ff9a0000.gpu/governor 
+06-19 10:12:06.068  8030  8030 E Process : XJDAN value [simple_ondemand] to index[0]
+06-19 10:12:06.068  8030  8030 D Process : XJDAN openNode /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor 
+06-19 10:12:06.068  8030  8030 E Process : XJDAN value [interactive] to index[1]
+06-19 10:12:06.069  8030  8030 D Process : XJDAN openNode /sys/devices/system/cpu/cpu4/cpufreq/scaling_governor 
+06-19 10:12:06.069  8030  8030 E Process : XJDAN value [interactive] to index[2]
+06-19 10:12:06.069  8030  8030 D Process : XJDAN openNode /sys/devices/platform/ff9a0000.gpu/power_policy 
+06-19 10:12:06.069  8030  8030 E Process : XJDAN value [demand] to index[3]
+06-19 10:12:06.069  8030  8030 D Process : XJDAN openNode /sys/devices/system/cpu/cpu0/online 
+06-19 10:12:06.069  8030  8030 E Process : XJDAN value [1] to index[4]
+06-19 10:12:06.069  8030  8030 D Process : XJDAN openNode /sys/devices/system/cpu/cpu1/online 
+06-19 10:12:06.070  8030  8030 E Process : XJDAN value [1] to index[5]
+06-19 10:12:06.070  8030  8030 D Process : XJDAN openNode /sys/devices/system/cpu/cpu2/online 
+06-19 10:12:06.070  8030  8030 E Process : XJDAN value [1] to index[6]
+06-19 10:12:06.070  8030  8030 D Process : XJDAN openNode /sys/devices/system/cpu/cpu3/online 
+06-19 10:12:06.070  8030  8030 E Process : XJDAN value [1] to index[7]
+06-19 10:12:06.070  8030  8030 D Process : XJDAN openNode /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor 
+06-19 10:12:06.070  8030  8030 E Process : XJDAN value [interactive] to index[1]
+06-19 10:12:06.070  8030  8030 D tmtcp   : setCpuLevel:0
+06-19 10:12:06.070  8030  8030 D Process : >>> enhanceSogoDDR status[0]
+06-19 10:12:06.070  8030  8030 D Process : XJDAN openNode /sys/class/devfreq/dmc/governor 
+06-19 10:12:06.071  8030  8030 E Process : XJDAN value [dmc_ondemand] to index[8]
+06-19 10:12:06.071  8030  8030 D tmtcp   : setDDRLevel:0
+06-19 10:12:06.072  8030  8030 D _TR_VOICE: zhl-remove timeout Messages
+06-19 10:12:06.073  8030  8030 I LogService: com.sogou.teemo.watch.log|com.sogou.teemo.watch.log.service.LogService
+06-19 10:12:06.073  8030  8046 I LogService: com.sogou.teemo.watch.log|com.sogou.teemo.watch.log.service.LogService
+06-19 10:12:06.074   236   702 D GRALLOC-ROCKCHIP: enter, w : 480, h : 800, format : 0x1, usage : 0xb00.
+06-19 10:12:06.074  8030  8046 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1357 android.content.ContextWrapper.startService:613 com.sogou.teemo.watch.log.utils.TimoLogUtils.doLog:255 com.sogou.teemo.watch.log.utils.TimoLogUtils.log:233 com.sogou.teemo.watch.log.utils.TimoLogUtils.info:65 
+06-19 10:12:06.074  8030  8030 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1357 android.content.ContextWrapper.startService:613 com.sogou.teemo.watch.log.utils.TimoLogUtils.doLog:255 com.sogou.teemo.watch.log.utils.TimoLogUtils.log:233 com.sogou.teemo.watch.log.utils.TimoLogUtils.statisticsTiming:140 
+06-19 10:12:06.079   601   623 D GRALLOC-ROCKCHIP: enter, w : 480, h : 800, format : 0x1, usage : 0xb00.
+06-19 10:12:06.082  1362  1362 I LogService: LogService|onStartCommand
+06-19 10:12:06.083  8030  8030 D _TR_VOICE: lifecircle zhl-onStop
+06-19 10:12:06.083  8030  8030 D _TR_VOICE: canStartAudioAgain:true
+06-19 10:12:06.083  8030  8030 D _TR_VOICE_xq: -->call releaseOnlineTrans
+06-19 10:12:06.083  8030  8030 D _TR_VOICE_xq: -->releaseOfflineTTS 
+06-19 10:12:06.083  8030  8081 D xq      : -->MSG_ON_QUIT2 8081
+06-19 10:12:06.084  8030  8046 I LogService: com.sogou.teemo.watch.log|com.sogou.teemo.watch.log.service.LogService
+06-19 10:12:06.084  8030  8046 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1357 android.content.ContextWrapper.startService:613 com.sogou.teemo.watch.log.utils.TimoLogUtils.doLog:255 com.sogou.teemo.watch.log.utils.TimoLogUtils.log:233 com.sogou.teemo.watch.log.utils.TimoLogUtils.info:65 
+06-19 10:12:06.084  1362  1362 I LogService: LogService|onStartCommand
+06-19 10:12:06.087  1362  1362 I LogService: LogService|onStartCommand
+06-19 10:12:06.089  8030  8046 I LogService: com.sogou.teemo.watch.log|com.sogou.teemo.watch.log.service.LogService
+06-19 10:12:06.089  8030  8046 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1357 android.content.ContextWrapper.startService:613 com.sogou.teemo.watch.log.utils.TimoLogUtils.doLog:255 com.sogou.teemo.watch.log.utils.TimoLogUtils.log:233 com.sogou.teemo.watch.log.utils.TimoLogUtils.info:65 
+06-19 10:12:06.092  1362  1362 I LogService: LogService|onStartCommand
+06-19 10:12:06.096  8030  8046 I LogService: com.sogou.teemo.watch.log|com.sogou.teemo.watch.log.service.LogService
+06-19 10:12:06.096  8030  8046 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1357 android.content.ContextWrapper.startService:613 com.sogou.teemo.watch.log.utils.TimoLogUtils.doLog:255 com.sogou.teemo.watch.log.utils.TimoLogUtils.log:233 com.sogou.teemo.watch.log.utils.TimoLogUtils.info:65 
+06-19 10:12:06.102   236   702 D GRALLOC-ROCKCHIP: enter, w : 480, h : 800, format : 0x1, usage : 0xb00.
+06-19 10:12:06.106  1362  1362 I LogService: LogService|onStartCommand
+06-19 10:12:06.107   704   704 W FingerprintManager: isFingerprintHardwareDetected(): Service not connected!
+06-19 10:12:06.110   601   623 D GRALLOC-ROCKCHIP: enter, w : 480, h : 800, format : 0x1, usage : 0xb00.
+06-19 10:12:06.113  8030  8046 I LogService: com.sogou.teemo.watch.log|com.sogou.teemo.watch.log.service.LogService
+06-19 10:12:06.113  8030  8046 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1357 android.content.ContextWrapper.startService:613 com.sogou.teemo.watch.log.utils.TimoLogUtils.doLog:255 com.sogou.teemo.watch.log.utils.TimoLogUtils.log:233 com.sogou.teemo.watch.log.utils.TimoLogUtils.info:65 
+06-19 10:12:06.117  1362 12839 I LogUtils: getFileNames|排除tmlog.log
+06-19 10:12:06.118  1362 12839 I LogUtils: read|[/storage/emulated/0/log/statistics/tmlog.log.2018-06-15, /storage/emulated/0/log/statistics/tmlog.log.2018-06-18]
+06-19 10:12:06.120   236   702 D GRALLOC-ROCKCHIP: enter, w : 480, h : 800, format : 0x1, usage : 0xb00.
+06-19 10:12:06.121  1362  1362 I LogService: LogService|onStartCommand
+06-19 10:12:06.125  1362 12795 I LogUtils: getFileNames|排除tmlog.log
+06-19 10:12:06.126  1362 12795 I LogUtils: read|[/storage/emulated/0/log/app/tmlog.log.2018-06-15, /storage/emulated/0/log/app/tmlog.log.2018-06-16, /storage/emulated/0/log/app/tmlog.log.2018-06-17, /storage/emulated/0/log/app/tmlog.log.2018-06-18]
+06-19 10:12:06.130   601   623 D GRALLOC-ROCKCHIP: enter, w : 480, h : 800, format : 0x1, usage : 0xb00.
+06-19 10:12:06.135  1362 12841 I LogUtils: getFileNames|排除tmlog.log
+06-19 10:12:06.135  1362 12841 I LogUtils: read|[/storage/emulated/0/log/app/tmlog.log.2018-06-15, /storage/emulated/0/log/app/tmlog.log.2018-06-16, /storage/emulated/0/log/app/tmlog.log.2018-06-17, /storage/emulated/0/log/app/tmlog.log.2018-06-18]
+06-19 10:12:06.141  1362 12908 I LogUtils: getFileNames|排除tmlog.log
+06-19 10:12:06.141  1362 12908 I LogUtils: read|[/storage/emulated/0/log/app/tmlog.log.2018-06-15, /storage/emulated/0/log/app/tmlog.log.2018-06-16, /storage/emulated/0/log/app/tmlog.log.2018-06-17, /storage/emulated/0/log/app/tmlog.log.2018-06-18]
+06-19 10:12:06.142   601   701 E Lights Hal: write_int failed to open /sys/class/backlight/rk28_bl/brightness
+06-19 10:12:06.146  1362 12909 I LogUtils: getFileNames|排除tmlog.log
+06-19 10:12:06.146  1362 12909 I LogUtils: read|[/storage/emulated/0/log/app/tmlog.log.2018-06-15, /storage/emulated/0/log/app/tmlog.log.2018-06-16, /storage/emulated/0/log/app/tmlog.log.2018-06-17, /storage/emulated/0/log/app/tmlog.log.2018-06-18]
+06-19 10:12:06.150  1362 12839 I LogUtils: getFileNames|排除tmlog.log
+06-19 10:12:06.150  1362 12839 I LogUtils: read|[/storage/emulated/0/log/app/tmlog.log.2018-06-15, /storage/emulated/0/log/app/tmlog.log.2018-06-16, /storage/emulated/0/log/app/tmlog.log.2018-06-17, /storage/emulated/0/log/app/tmlog.log.2018-06-18]
+06-19 10:12:06.162   601   701 E Lights Hal: write_int failed to open /sys/class/backlight/rk28_bl/brightness
+06-19 10:12:06.179   601   701 E Lights Hal: write_int failed to open /sys/class/backlight/rk28_bl/brightness
+06-19 10:12:06.195   601   701 E Lights Hal: write_int failed to open /sys/class/backlight/rk28_bl/brightness
+06-19 10:12:06.212   601   701 E Lights Hal: write_int failed to open /sys/class/backlight/rk28_bl/brightness
+06-19 10:12:06.228   601   701 E Lights Hal: write_int failed to open /sys/class/backlight/rk28_bl/brightness
+06-19 10:12:06.246   601   701 E Lights Hal: write_int failed to open /sys/class/backlight/rk28_bl/brightness
+06-19 10:12:06.266   601   701 E Lights Hal: write_int failed to open /sys/class/backlight/rk28_bl/brightness
+06-19 10:12:06.280   601   701 E Lights Hal: write_int failed to open /sys/class/backlight/rk28_bl/brightness
+06-19 10:12:06.296   601   701 E Lights Hal: write_int failed to open /sys/class/backlight/rk28_bl/brightness
+06-19 10:12:06.313   601   701 E Lights Hal: write_int failed to open /sys/class/backlight/rk28_bl/brightness
+06-19 10:12:06.330   601   701 E Lights Hal: write_int failed to open /sys/class/backlight/rk28_bl/brightness
+06-19 10:12:06.346   601   701 E Lights Hal: write_int failed to open /sys/class/backlight/rk28_bl/brightness
+06-19 10:12:06.363   601   701 E Lights Hal: write_int failed to open /sys/class/backlight/rk28_bl/brightness
+06-19 10:12:06.380   601   701 E Lights Hal: write_int failed to open /sys/class/backlight/rk28_bl/brightness
+06-19 10:12:06.398   601   701 E Lights Hal: write_int failed to open /sys/class/backlight/rk28_bl/brightness
+06-19 10:12:06.415   601   701 E Lights Hal: write_int failed to open /sys/class/backlight/rk28_bl/brightness
+06-19 10:12:06.434   601   701 E Lights Hal: write_int failed to open /sys/class/backlight/rk28_bl/brightness
+06-19 10:12:06.448   601   701 E Lights Hal: write_int failed to open /sys/class/backlight/rk28_bl/brightness
+06-19 10:12:06.463   601   701 E Lights Hal: write_int failed to open /sys/class/backlight/rk28_bl/brightness
+06-19 10:12:06.479   601   701 E Lights Hal: write_int failed to open /sys/class/backlight/rk28_bl/brightness
+06-19 10:12:06.496   601   701 E Lights Hal: write_int failed to open /sys/class/backlight/rk28_bl/brightness
+06-19 10:12:06.513   601   701 E Lights Hal: write_int failed to open /sys/class/backlight/rk28_bl/brightness
+06-19 10:12:06.529   601   701 E Lights Hal: write_int failed to open /sys/class/backlight/rk28_bl/brightness
+06-19 10:12:06.547   601   623 V KeyguardServiceDelegate: onScreenTurnedOff()
+06-19 10:12:06.572   601   701 E Lights Hal: write_int failed to open /sys/class/backlight/rk28_bl/brightness
+06-19 10:12:06.572   601   621 I DisplayManagerService: Display device changed state: "内置屏幕", OFF
+06-19 10:12:06.577   236   236 D SurfaceFlinger: Set power mode=0, type=0 flinger=0x7aa2e48000
+06-19 10:12:07.011   601   701 D SurfaceControl: Excessive delay in setPowerMode(): 436ms
+06-19 10:12:07.025   328   371 D AudioHardwareTiny: adev_set_parameters: kvpairs = screen_state=off
+06-19 10:12:07.034   704   704 W FingerprintManager: isFingerprintHardwareDetected(): Service not connected!
+06-19 10:12:07.048  8030  8030 I System.out: zhl—— SCREEN_OFF ——
+06-19 10:12:07.048  8030  8030 I LogService: com.sogou.teemo.watch.log|com.sogou.teemo.watch.log.service.LogService
+06-19 10:12:07.049  8030  8030 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1357 android.content.ContextWrapper.startService:613 com.sogou.teemo.watch.log.utils.TimoLogUtils.doLog:255 com.sogou.teemo.watch.log.utils.TimoLogUtils.log:233 com.sogou.teemo.watch.log.utils.TimoLogUtils.statisticsTiming:140 
+06-19 10:12:07.052   601   662 D WifiStateMachine: stop driver
+06-19 10:12:07.055  1362  1362 I LogService: LogService|onStartCommand
+06-19 10:12:07.055  8030  8030 D Process : >>> enhanceSogoPerformance status[0]
+06-19 10:12:07.055  8030  8030 D Process : XJDAN openNode /sys/devices/platform/ff9a0000.gpu/devfreq/ff9a0000.gpu/governor 
+06-19 10:12:07.056  8030  8030 E Process : XJDAN value [simple_ondemand] to index[0]
+06-19 10:12:07.056  8030  8030 D Process : XJDAN openNode /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor 
+06-19 10:12:07.056  8030  8030 E Process : XJDAN value [interactive] to index[1]
+06-19 10:12:07.056  8030  8030 D Process : XJDAN openNode /sys/devices/system/cpu/cpu4/cpufreq/scaling_governor 
+06-19 10:12:07.056  8030  8030 E Process : XJDAN value [interactive] to index[2]
+06-19 10:12:07.057  8030  8030 D Process : XJDAN openNode /sys/devices/platform/ff9a0000.gpu/power_policy 
+06-19 10:12:07.057  8030  8030 E Process : XJDAN value [demand] to index[3]
+06-19 10:12:07.057  8030  8030 D Process : XJDAN openNode /sys/devices/system/cpu/cpu0/online 
+06-19 10:12:07.057  8030  8030 E Process : XJDAN value [1] to index[4]
+06-19 10:12:07.057  8030  8030 D Process : XJDAN openNode /sys/devices/system/cpu/cpu1/online 
+06-19 10:12:07.057  8030  8030 E Process : XJDAN value [1] to index[5]
+06-19 10:12:07.057  8030  8030 D Process : XJDAN openNode /sys/devices/system/cpu/cpu2/online 
+06-19 10:12:07.057  8030  8030 E Process : XJDAN value [1] to index[6]
+06-19 10:12:07.057  8030  8030 D Process : XJDAN openNode /sys/devices/system/cpu/cpu3/online 
+06-19 10:12:07.057  8030  8030 E Process : XJDAN value [1] to index[7]
+06-19 10:12:07.057  8030  8030 D Process : XJDAN openNode /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor 
+06-19 10:12:07.057  8030  8030 E Process : XJDAN value [interactive] to index[1]
+06-19 10:12:07.058  8030  8030 D tmtcp   : setCpuLevel:0
+06-19 10:12:07.058  8030  8030 D Process : >>> enhanceSogoDDR status[0]
+06-19 10:12:07.058  8030  8030 D Process : XJDAN openNode /sys/class/devfreq/dmc/governor 
+06-19 10:12:07.058  8030  8030 E Process : XJDAN value [dmc_ondemand] to index[8]
+06-19 10:12:07.058  8030  8030 D tmtcp   : setDDRLevel:0
+06-19 10:12:07.061  8030  8046 I LogService: com.sogou.teemo.watch.log|com.sogou.teemo.watch.log.service.LogService
+06-19 10:12:07.062  8030  8046 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1357 android.content.ContextWrapper.startService:613 com.sogou.teemo.watch.log.utils.TimoLogUtils.doLog:255 com.sogou.teemo.watch.log.utils.TimoLogUtils.log:233 com.sogou.teemo.watch.log.utils.TimoLogUtils.info:65 
+06-19 10:12:07.067  1362  1362 I LogService: LogService|onStartCommand
+06-19 10:12:07.071  8030  8046 I LogService: com.sogou.teemo.watch.log|com.sogou.teemo.watch.log.service.LogService
+06-19 10:12:07.071  8030  8046 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1357 android.content.ContextWrapper.startService:613 com.sogou.teemo.watch.log.utils.TimoLogUtils.doLog:255 com.sogou.teemo.watch.log.utils.TimoLogUtils.log:233 com.sogou.teemo.watch.log.utils.TimoLogUtils.info:65 
+06-19 10:12:07.079  7447  7447 I wpa_supplicant: wlan0: CTRL-EVENT-DRIVER-STATE STOPPED
+06-19 10:12:07.084  1362  1362 I LogService: LogService|onStartCommand
+06-19 10:12:07.087   601   662 I WifiConnectivityManager: Set WiFi disabled
+06-19 10:12:07.087   601   662 D wifi    : android_net_wifi_reset_alert_handler = 0x7becbae720
+06-19 10:12:07.087   601   662 E WifiHAL : failed to request reset; result = -95
+06-19 10:12:07.087   601   662 D wifi    : android_net_wifi_reset_log_handler = 0x7becbae720
+06-19 10:12:07.087   601   662 I WifiHAL : Failed to remove command 27: 0x0
+06-19 10:12:07.087   601   662 D WifiHAL : Success to clear alerthandler
+06-19 10:12:07.093   704  1013 D XJDAN   : ---------------ABNORMAL WIFI ICON[2130838318]
+06-19 10:12:07.094   601   664 I WifiScanningService: wifi driver unloaded
+06-19 10:12:07.094   601   601 D RttService: SCAN_AVAILABLE : 1
+06-19 10:12:07.094   601   664 W AlarmManager: Unrecognized alarm listener com.android.server.wifi.scanner.SupplicantWifiScannerImpl$2@95c3fcc
+06-19 10:12:07.095   601   665 D RttService: EnabledState got{ when=0 what=160513 target=com.android.internal.util.StateMachine$SmHandler }
+06-19 10:12:07.096   601   662 E wifi    : wifi_get_supported_feature_set returned error = 0xffffffa1
+06-19 10:12:07.097   601   617 E BatteryStatsService: no controller energy info supplied
+06-19 10:12:07.098  1362 12909 I LogUtils: getFileNames|排除tmlog.log
+06-19 10:12:07.098  1362 12909 I LogUtils: read|[/storage/emulated/0/log/app/tmlog.log.2018-06-15, /storage/emulated/0/log/app/tmlog.log.2018-06-16, /storage/emulated/0/log/app/tmlog.log.2018-06-17, /storage/emulated/0/log/app/tmlog.log.2018-06-18]
+06-19 10:12:07.102  1362 12839 I LogUtils: getFileNames|排除tmlog.log
+06-19 10:12:07.102  1362 12839 I LogUtils: read|[/storage/emulated/0/log/statistics/tmlog.log.2018-06-15, /storage/emulated/0/log/statistics/tmlog.log.2018-06-18]
+06-19 10:12:07.104   601   662 E wifi    : wifi_get_supported_feature_set returned error = 0xffffffa1
+06-19 10:12:07.105   601   617 E BatteryStatsService: no controller energy info supplied
+06-19 10:12:07.107  1362 12908 I LogUtils: getFileNames|排除tmlog.log
+06-19 10:12:07.107  1362 12908 I LogUtils: read|[/storage/emulated/0/log/app/tmlog.log.2018-06-15, /storage/emulated/0/log/app/tmlog.log.2018-06-16, /storage/emulated/0/log/app/tmlog.log.2018-06-17, /storage/emulated/0/log/app/tmlog.log.2018-06-18]
+06-19 10:12:51.056   704   704 D BatteryMeterTxt: >>> onBatteryLevelChanged [72 - true - true]
+06-19 10:12:51.057   704   704 D BatteryMeterView: >>> onBatteryLevelChanged(72 - true - true)
+06-19 10:12:51.058   704   704 D BatteryMeterView: >>> onBatteryLevelChanged(72 - true - true)
+06-19 10:13:51.056   704   704 D BatteryMeterTxt: >>> onBatteryLevelChanged [72 - true - true]
+06-19 10:13:51.056   704   704 D BatteryMeterView: >>> onBatteryLevelChanged(72 - true - true)
+06-19 10:13:51.057   704   704 D BatteryMeterView: >>> onBatteryLevelChanged(72 - true - true)
+06-19 10:14:51.058   704   704 D BatteryMeterTxt: >>> onBatteryLevelChanged [72 - true - true]
+06-19 10:14:51.058   704   704 D BatteryMeterView: >>> onBatteryLevelChanged(72 - true - true)
+06-19 10:14:51.059   704   704 D BatteryMeterView: >>> onBatteryLevelChanged(72 - true - true)
+06-19 10:15:25.190   601   662 E wifi    : wifi_get_supported_feature_set returned error = 0xffffffa1
+06-19 10:15:25.191   601   617 E BatteryStatsService: no controller energy info supplied
+06-19 10:15:25.191   601   617 E BatteryStatsService: no controller energy info supplied
+06-19 10:15:25.191   601   617 E BatteryStatsService: no controller energy info supplied
+06-19 10:15:25.192   601   617 E BatteryStatsService: power: Missing API
+06-19 10:15:25.195   704   704 D BatteryMeterTxt: >>> onBatteryLevelChanged [73 - true - true]
+06-19 10:15:25.195   704   704 D BatteryMeterView: >>> onBatteryLevelChanged(73 - true - true)
+06-19 10:15:25.196   704   704 D BatteryMeterView: >>> onBatteryLevelChanged(73 - true - true)
+06-19 10:15:32.039  8030  8041 I art     : Background partial concurrent mark sweep GC freed 514052(7MB) AllocSpace objects, 0(0B) LOS objects, 17% free, 74MB/90MB, paused 1.168ms total 137.216ms
+06-19 10:15:39.768  8030  8050 D CrashReport: [AsyncTaskHandler] Post a normal task: com.tencent.bugly.crashreport.biz.a$2
+06-19 10:15:39.768  8030  8050 D CrashReport: Uploading frequency will not be checked if SDK is in debug mode.
+06-19 10:15:39.778  8030  8050 D CrashReport: [UserInfo] Upload user info(size: 18)
+06-19 10:15:39.779  8030  8050 D CrashReport: summary type 3 vm:7
+06-19 10:15:39.779  8030  8050 D CrashReport: summary type 2 vm:7
+06-19 10:15:39.779  8030  8050 D CrashReport: summary type 3 vm:7
+06-19 10:15:39.780  8030  8050 D CrashReport: summary type 3 vm:7
+06-19 10:15:39.780  8030  8050 D CrashReport: summary type 3 vm:7
+06-19 10:15:39.781  8030  8050 D CrashReport: summary type 3 vm:7
+06-19 10:15:39.781  8030  8050 D CrashReport: summary type 3 vm:7
+06-19 10:15:39.781  8030  8050 D CrashReport: summary type 3 vm:7
+06-19 10:15:39.782  8030  8050 D CrashReport: summary type 3 vm:7
+06-19 10:15:39.782  8030  8050 D CrashReport: summary type 3 vm:7
+06-19 10:15:39.782  8030  8050 D CrashReport: summary type 3 vm:7
+06-19 10:15:39.783  8030  8050 D CrashReport: summary type 3 vm:7
+06-19 10:15:39.783  8030  8050 D CrashReport: summary type 3 vm:7
+06-19 10:15:39.783  8030  8050 D CrashReport: summary type 3 vm:7
+06-19 10:15:39.784  8030  8050 D CrashReport: summary type 3 vm:7
+06-19 10:15:39.784  8030  8050 D CrashReport: summary type 3 vm:7
+06-19 10:15:39.784  8030  8050 D CrashReport: summary type 3 vm:7
+06-19 10:15:39.785  8030  8050 D CrashReport: summary type 3 vm:7
+06-19 10:15:39.817  8030  8050 D CrashReport: [UploadManager] Add upload task (pid=8030 | tid=8050)
+06-19 10:15:39.817  8030  8050 D CrashReport: [UploadManager] Initialize security context now (pid=8030 | tid=8050)
+06-19 10:15:39.817  8030  8050 D CrashReport: [UploadManager] Add upload task to queue (pid=8030 | tid=8050)
+06-19 10:15:39.817  8030  8050 I CrashReport: [UploadManager] Create and start a new thread to execute a task of initializing security context: BUGLY_ASYNC_UPLOAD
+06-19 10:15:39.821  8030 12910 D CrashReport: [Util] try to lock file:security_info (pid=8030 | tid=12910)
+06-19 10:15:39.823  8030 12910 D CrashReport: [Util] successfully locked file:security_info (pid=8030 | tid=12910)
+06-19 10:15:39.824  8030 12910 D CrashReport: [UploadManager] Load security info from database (pid=8030 | tid=12910)
+06-19 10:15:39.826  8030 12910 D CrashReport: [UploadManager] Execute one upload task for requesting session ID (pid=8030 | tid=12910)
+06-19 10:15:39.827  8030 12910 D CrashReport: [UploadManager] Try to poll all upload task need and put them into temp queue (pid=8030 | tid=12910)
+06-19 10:15:39.827  8030 12910 D CrashReport: [UploadManager] Execute upload tasks of queue which has 1 tasks (pid=8030 | tid=12910)
+06-19 10:15:39.827  8030 12910 D CrashReport: [AsyncTaskHandler] Post a normal task: com.tencent.bugly.proguard.u$2
+06-19 10:15:39.830  8030  8052 E CrashReport: [Upload] Failed to upload(0) userinfo: network is not available
+06-19 10:15:39.830  8030  8052 D CrashReport: [UploadManager] Fail to init security context and clear local info (pid=8030 | tid=8052)
+06-19 10:15:39.830  8030  8052 D CrashReport: [UploadManager] Clear security context (pid=8030 | tid=8052)
+06-19 10:15:39.830  8030  8052 D CrashReport: [Util] try to unlock file:security_info (pid=8030 | tid=8052)
+06-19 10:15:39.832  8030  8052 D CrashReport: [Util] successfully unlocked file:security_info (pid=8030 | tid=8052)
+06-19 10:15:51.056   704   704 D BatteryMeterTxt: >>> onBatteryLevelChanged [73 - true - true]
+06-19 10:15:51.057   704   704 D BatteryMeterView: >>> onBatteryLevelChanged(73 - true - true)
+06-19 10:15:51.057   704   704 D BatteryMeterView: >>> onBatteryLevelChanged(73 - true - true)
+06-19 10:16:07.080   601 12905 W ActivityManager: Ignoring remove of inactive process: ProcessRecord{3229063 0:com.example.myndk/u0a40}
+06-19 10:16:07.107   601   615 W AppOps  : Finishing op nesting under-run: uid 1000 pkg android code 24 time=0 duration=0 nesting=0
+06-19 10:16:51.054   704   704 D BatteryMeterTxt: >>> onBatteryLevelChanged [73 - true - true]
+06-19 10:16:51.054   704   704 D BatteryMeterView: >>> onBatteryLevelChanged(73 - true - true)
+06-19 10:16:51.056   704   704 D BatteryMeterView: >>> onBatteryLevelChanged(73 - true - true)
+06-19 10:17:51.055   704   704 D BatteryMeterTxt: >>> onBatteryLevelChanged [73 - true - true]
+06-19 10:17:51.056   704   704 D BatteryMeterView: >>> onBatteryLevelChanged(73 - true - true)
+06-19 10:17:51.056   704   704 D BatteryMeterView: >>> onBatteryLevelChanged(73 - true - true)
+06-19 10:18:51.058   704   704 D BatteryMeterTxt: >>> onBatteryLevelChanged [73 - true - true]
+06-19 10:18:51.058   704   704 D BatteryMeterView: >>> onBatteryLevelChanged(73 - true - true)
+06-19 10:18:51.059   704   704 D BatteryMeterView: >>> onBatteryLevelChanged(73 - true - true)
+06-19 10:18:52.909   601   638 V XJDAN   : KeyEvent.KEYCODE_POWER [true] bIgnorePower [false]
+06-19 10:18:52.910   601   638 W TelecomManager: Telecom Service not found.
+06-19 10:18:52.911   601   638 I PowerManagerService: Waking up from sleep (uid 1000)...
+06-19 10:18:52.912   601   623 I DisplayPowerController: Blocking screen on until initial contents have been drawn.
+06-19 10:18:52.912   601   601 V KeyguardServiceDelegate: onStartedWakingUp()
+06-19 10:18:52.930   601   623 V KeyguardServiceDelegate: onScreenTurnedOn(showListener = com.android.server.policy.PhoneWindowManager$2@ef3696d)
+06-19 10:18:52.938  8030  8030 D CrashReport: >>> com.sogou.teemo.translate.launcher.Launcher2 onResumed <<<
+06-19 10:18:52.940   328   371 D AudioHardwareTiny: adev_set_parameters: kvpairs = screen_state=on
+06-19 10:18:52.941  8030  8030 I CrashReport-Native: Set native info: isAppForeground(true)
+06-19 10:18:52.942  8030  8030 I CrashReport: [session] launch app one times (app in background 406 seconds and over 30 seconds)
+06-19 10:18:52.943  8030  8030 D CrashReport: [AsyncTaskHandler] Post a delay(time: 0ms) task: com.tencent.bugly.crashreport.biz.a$a
+06-19 10:18:52.943  8030  8030 I CrashReport: add a timer to upload hot start user info
+06-19 10:18:52.943  8030  8050 D CrashReport: [UserInfo] Record user info.
+06-19 10:18:52.944  8030  8030 D CrashReport: [AsyncTaskHandler] Post a delay(time: 300000ms) task: com.tencent.bugly.crashreport.biz.a$a
+06-19 10:18:52.950   236   236 D SurfaceFlinger: Set power mode=2, type=0 flinger=0x7aa2e48000
+06-19 10:18:52.953   601   621 I DisplayManagerService: Display device changed state: "内置屏幕", ON
+06-19 10:18:52.957  8030  8030 D _TR_VOICE: zhl-lifecircle onResume
+06-19 10:18:52.957  8030  8030 D _TR_VOICE: zhl-onResume setVoiceTranslateOffline
+06-19 10:18:52.959  8030  8030 W tmtcp   : zhl-network is not available
+06-19 10:18:52.960  8030  8046 I LogService: com.sogou.teemo.watch.log|com.sogou.teemo.watch.log.service.LogService
+06-19 10:18:52.961  8030  8046 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1357 android.content.ContextWrapper.startService:613 com.sogou.teemo.watch.log.utils.TimoLogUtils.doLog:255 com.sogou.teemo.watch.log.utils.TimoLogUtils.log:233 com.sogou.teemo.watch.log.utils.TimoLogUtils.info:65 
+06-19 10:18:52.966  8030  8030 D _TR_    : -->VoiceTranslate setIsCanInit:false
+06-19 10:18:52.966   601   767 V KeyguardServiceDelegate: **** SHOWN CALLED ****
+06-19 10:18:52.967  8030  8030 E SogouSpeech: -->zhl-initOfflineLanguageData:directionChange:false,offline:true,offlineInitError:false
+06-19 10:18:52.967  8030  8030 D _TR_    : -->VoiceTranslate setIsCanInit:true
+06-19 10:18:52.967  8030  8030 D SogouSpeech: -->feifei setIsOffline:true
+06-19 10:18:52.974  1362  1362 I LogService: LogService|onStartCommand
+06-19 10:18:52.976  8030  8050 D CrashReport: [Database] insert t_ui success.
+06-19 10:18:52.976  8030  8050 D CrashReport: [Database] insert t_ui success with ID: 23
+06-19 10:18:52.980  8030  8046 I LogService: com.sogou.teemo.watch.log|com.sogou.teemo.watch.log.service.LogService
+06-19 10:18:52.981  8030  8046 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1357 android.content.ContextWrapper.startService:613 com.sogou.teemo.watch.log.utils.TimoLogUtils.doLog:255 com.sogou.teemo.watch.log.utils.TimoLogUtils.log:233 com.sogou.teemo.watch.log.utils.TimoLogUtils.info:65 
+06-19 10:18:52.987  1362  1362 I LogService: LogService|onStartCommand
+06-19 10:18:52.990  8030  8046 I LogService: com.sogou.teemo.watch.log|com.sogou.teemo.watch.log.service.LogService
+06-19 10:18:52.991  8030  8046 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1357 android.content.ContextWrapper.startService:613 com.sogou.teemo.watch.log.utils.TimoLogUtils.doLog:255 com.sogou.teemo.watch.log.utils.TimoLogUtils.log:233 com.sogou.teemo.watch.log.utils.TimoLogUtils.info:65 
+06-19 10:18:52.995  1362 12916 I LogUtils: getFileNames|排除tmlog.log
+06-19 10:18:52.996  1362 12916 I LogUtils: read|[/storage/emulated/0/log/app/tmlog.log.2018-06-15, /storage/emulated/0/log/app/tmlog.log.2018-06-16, /storage/emulated/0/log/app/tmlog.log.2018-06-17, /storage/emulated/0/log/app/tmlog.log.2018-06-18]
+06-19 10:18:52.997  8030  8030 I System.out: zhl—— SCREEN_ON ——
+06-19 10:18:52.998  8030  8030 I LogService: com.sogou.teemo.watch.log|com.sogou.teemo.watch.log.service.LogService
+06-19 10:18:52.998  8030  8030 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1357 android.content.ContextWrapper.startService:613 com.sogou.teemo.watch.log.utils.TimoLogUtils.doLog:255 com.sogou.teemo.watch.log.utils.TimoLogUtils.log:233 com.sogou.teemo.watch.log.utils.TimoLogUtils.statisticsTiming:140 
+06-19 10:18:53.002  1362  1362 I LogService: LogService|onStartCommand
+06-19 10:18:53.011  1362  1362 I LogService: LogService|onStartCommand
+06-19 10:18:53.020  1362 12917 I LogUtils: getFileNames|排除tmlog.log
+06-19 10:18:53.020  1362 12917 I LogUtils: read|[/storage/emulated/0/log/app/tmlog.log.2018-06-15, /storage/emulated/0/log/app/tmlog.log.2018-06-16, /storage/emulated/0/log/app/tmlog.log.2018-06-17, /storage/emulated/0/log/app/tmlog.log.2018-06-18]
+06-19 10:18:53.020   236   702 D GRALLOC-ROCKCHIP: enter, w : 480, h : 800, format : 0x1, usage : 0xb00.
+06-19 10:18:53.027  8030  8064 D GRALLOC-ROCKCHIP: enter, w : 480, h : 800, format : 0x1, usage : 0xb00.
+06-19 10:18:53.027  1362 12916 I LogUtils: getFileNames|排除tmlog.log
+06-19 10:18:53.028  1362 12916 I LogUtils: read|[/storage/emulated/0/log/app/tmlog.log.2018-06-15, /storage/emulated/0/log/app/tmlog.log.2018-06-16, /storage/emulated/0/log/app/tmlog.log.2018-06-17, /storage/emulated/0/log/app/tmlog.log.2018-06-18]
+06-19 10:18:53.032  1362 12918 I LogUtils: getFileNames|排除tmlog.log
+06-19 10:18:53.032  1362 12918 I LogUtils: read|[/storage/emulated/0/log/statistics/tmlog.log.2018-06-15, /storage/emulated/0/log/statistics/tmlog.log.2018-06-18]
+06-19 10:18:53.077   601   638 V XJDAN   : KeyEvent.KEYCODE_POWER [false] bIgnorePower [false]
+06-19 10:18:53.699  7447  7447 I wpa_supplicant: wlan0: CTRL-EVENT-DRIVER-STATE STARTED
+06-19 10:18:53.749   601   662 D wifi    : android_net_wifi_get_firmware_version = 0x7becbae720
+06-19 10:18:53.750   601   662 E WifiHAL : Failed to register debug response; result = -95
+06-19 10:18:53.750   601   662 E wifi    : Fail to get Firmware version
+06-19 10:18:53.750   601   662 D wifi    : android_net_wifi_get_driver_version = 0x7becbae720
+06-19 10:18:53.750   601   662 E WifiHAL : Failed to register debug response; result = -95
+06-19 10:18:53.750   601   662 E wifi    : Fail to get driver version
+06-19 10:18:53.750   601   662 D wifi    : android_net_wifi_set_log_handler = 0x7becbae720
+06-19 10:18:53.750   601   662 D wifi    : android_net_wifi_get_ring_buffer_status = 0x7becbae720
+06-19 10:18:53.750   601   662 E WifiHAL : Failed to register debug response; result = -95
+06-19 10:18:53.750   601   662 E WifiLogger: no ring buffers found
+06-19 10:18:53.750   601   662 D WifiHAL : Start get packet fate command
+06-19 10:18:53.750   601   662 D WifiHAL : createRequest Monitor packet fate request
+06-19 10:18:53.750   601   662 E WifiHAL : Failed to register get pkt fate response; result = -95
+06-19 10:18:53.750   601   662 E WifiLogger: Failed to start packet fate monitoring
+06-19 10:18:53.793   601   701 D SurfaceControl: Excessive delay in setPowerMode(): 853ms
+06-19 10:18:53.808   236   702 D GRALLOC-ROCKCHIP: enter, w : 480, h : 800, format : 0x1, usage : 0xb00.
+06-19 10:18:53.815  8030  8064 D GRALLOC-ROCKCHIP: enter, w : 480, h : 800, format : 0x1, usage : 0xb00.
+06-19 10:18:53.820  8030  8030 I Choreographer: Skipped 48 frames!  The application may be doing too much work on its main thread.
+06-19 10:18:53.833   601   615 D SensorsHal: Couldn't open /dev/mma8452_daemon (No such file or directory)
+06-19 10:18:53.833   601   615 E SensorService: Error activating sensor 0 (Operation not permitted)
+06-19 10:18:53.834   601   623 I DisplayPowerController: Unblocked screen on after 923 ms
+06-19 10:18:53.836   601   623 V KeyguardServiceDelegate: onScreenTurnedOn()
+06-19 10:18:53.836   601   701 E Lights Hal: write_int failed to open /sys/class/backlight/rk28_bl/brightness
+06-19 10:18:53.836   601   623 I VrManagerService: VR mode is allowed
+06-19 10:18:53.878   601   662 D wifi    : android_net_wifi_setLinkLayerStats: 1
+06-19 10:18:53.878   601   601 D RttService: SCAN_AVAILABLE : 3
+06-19 10:18:53.878   601   664 I WifiScanningService: wifi driver loaded with scan capabilities: max buckets=16
+06-19 10:18:53.878   601   665 D RttService: DefaultState got{ when=0 what=160512 target=com.android.internal.util.StateMachine$SmHandler }
+06-19 10:18:53.880   601   662 I WifiConnectivityManager: Set WiFi enabled
+06-19 10:18:53.882   601   662 I WifiConnectivityManager: scheduleWatchdogTimer
+06-19 10:18:53.882   704  1013 D XJDAN   : ---------------ABNORMAL WIFI ICON[2130838318]
+06-19 10:18:53.888   337   597 W CommandListener: Failed to retrieve HW addr for p2p0 (No such device)
+06-19 10:18:53.894   601   662 E wifi    : wifi_get_supported_feature_set returned error = 0xffffffa1
+06-19 10:18:53.895   601   617 E BatteryStatsService: no controller energy info supplied
+06-19 10:18:53.899   337   597 D CommandListener: Setting iface cfg
+06-19 10:18:53.904   601   660 E WifiP2pService: Unable to change interface settings: java.lang.IllegalStateException: command '1042 interface setcfg p2p0 0.0.0.0 0 up' failed with '400 1042 Failed to clear address (No such device)'
+06-19 10:18:53.904   601   660 D WifiMonitor: startMonitoring(p2p0) with mConnected = true
+06-19 10:18:53.918   601   662 E wifi    : wifi_get_supported_feature_set returned error = 0xffffffa1
+06-19 10:18:53.918   601   617 E BatteryStatsService: no controller energy info supplied
+06-19 10:18:53.919   601   660 D WifiNative-HAL: p2pGetDeviceAddress
+06-19 10:18:53.920   601   660 D WifiNative-HAL: p2pGetDeviceAddress returning c6:f1:d1:1d:ea:75
+06-19 10:19:00.419 12932 12932 E vpu_api : dlopen vpu lib failed
+06-19 10:19:00.427 12932 12932 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+06-19 10:19:00.433 12932 12932 D AndroidRuntime: CheckJNI is OFF
+06-19 10:19:00.504 12935 12935 E vpu_api : dlopen vpu lib failed
+06-19 10:19:00.513 12935 12935 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+06-19 10:19:00.520 12935 12935 D AndroidRuntime: CheckJNI is OFF
+06-19 10:19:00.581 12932 12932 D ICU     : No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat
+06-19 10:19:00.637 12932 12932 E memtrack: Couldn't load memtrack module (No such file or directory)
+06-19 10:19:00.637 12932 12932 E android.os.Debug: failed to load memtrack module: -2
+06-19 10:19:00.640 12932 12932 I Radio-JNI: register_android_hardware_Radio DONE
+06-19 10:19:00.663 12932 12932 D AndroidRuntime: Calling main entry com.android.commands.wm.Wm
+06-19 10:19:00.664 12935 12935 D ICU     : No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat
+06-19 10:19:00.669 12932 12932 D AndroidRuntime: Shutting down VM
+06-19 10:19:00.716 12935 12935 E memtrack: Couldn't load memtrack module (No such file or directory)
+06-19 10:19:00.716 12935 12935 E android.os.Debug: failed to load memtrack module: -2
+06-19 10:19:00.719 12935 12935 I Radio-JNI: register_android_hardware_Radio DONE
+06-19 10:19:00.737 12935 12935 D AndroidRuntime: Calling main entry com.android.commands.am.Am
+06-19 10:19:00.743   601  1054 I ActivityManager: Force stopping com.example.myndk appid=10040 user=0: from pid 12935
+06-19 10:19:00.744 12935 12935 D AndroidRuntime: Shutting down VM
+06-19 10:19:01.302 12956 12956 E vpu_api : dlopen vpu lib failed
+06-19 10:19:01.309 12956 12956 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+06-19 10:19:01.314 12956 12956 D AndroidRuntime: CheckJNI is OFF
+06-19 10:19:01.424 12956 12956 D ICU     : No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat
+06-19 10:19:01.467 12956 12956 E memtrack: Couldn't load memtrack module (No such file or directory)
+06-19 10:19:01.468 12956 12956 E android.os.Debug: failed to load memtrack module: -2
+06-19 10:19:01.470 12956 12956 I Radio-JNI: register_android_hardware_Radio DONE
+06-19 10:19:01.488 12956 12956 D AndroidRuntime: Calling main entry com.android.commands.am.Am
+06-19 10:19:01.496   601  1054 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.myndk/.MainActivity} from uid 2000 on display 0
+06-19 10:19:01.503  8030  8030 D CrashReport: >>> com.sogou.teemo.translate.launcher.Launcher2 onPaused <<<
+06-19 10:19:01.503 12956 12956 D AndroidRuntime: Shutting down VM
+06-19 10:19:01.506  8030  8030 I CrashReport-Native: Set native info: isAppForeground(false)
+06-19 10:19:01.534   601  1054 I ActivityManager: Start proc 12965:com.example.myndk/u0a40 for activity com.example.myndk/.MainActivity
+06-19 10:19:01.535 12965 12965 I art     : Late-enabling -Xcheck:jni
+06-19 10:19:01.545   236   243 D GRALLOC-ROCKCHIP: enter, w : 288, h : 458, format : 0x1, usage : 0x333.
+06-19 10:19:01.545   236   243 D GRALLOC-ROCKCHIP: [File] : hardware/rockchip/libgralloc/gralloc_drm_rockchip.c; [Line] : 1315; [Func] : drm_gem_rockchip_alloc;
+06-19 10:19:01.545   236   243 D GRALLOC-ROCKCHIP: to ask for cachable buffer for CPU read, usage : 0x333
+06-19 10:19:01.549   601  1054 D GRALLOC-ROCKCHIP: enter, w : 288, h : 458, format : 0x1, usage : 0x333.
+06-19 10:19:01.549   601  1054 D GRALLOC-ROCKCHIP: [File] : hardware/rockchip/libgralloc/gralloc_drm_rockchip.c; [Line] : 1315; [Func] : drm_gem_rockchip_alloc;
+06-19 10:19:01.549   601  1054 D GRALLOC-ROCKCHIP: to ask for cachable buffer for CPU read, usage : 0x333
+06-19 10:19:01.550   236   236 D GRALLOC-ROCKCHIP: enter, w : 288, h : 458, format : 0x1, usage : 0x333.
+06-19 10:19:01.550   236   236 D GRALLOC-ROCKCHIP: [File] : hardware/rockchip/libgralloc/gralloc_drm_rockchip.c; [Line] : 1315; [Func] : drm_gem_rockchip_alloc;
+06-19 10:19:01.550   236   236 D GRALLOC-ROCKCHIP: to ask for cachable buffer for CPU read, usage : 0x333
+06-19 10:19:01.634   236   639 D GRALLOC-ROCKCHIP: enter, w : 480, h : 800, format : 0x1, usage : 0x933.
+06-19 10:19:01.634   236   639 D GRALLOC-ROCKCHIP: [File] : hardware/rockchip/libgralloc/gralloc_drm_rockchip.c; [Line] : 1315; [Func] : drm_gem_rockchip_alloc;
+06-19 10:19:01.634   236   639 D GRALLOC-ROCKCHIP: to ask for cachable buffer for CPU read, usage : 0x933
+06-19 10:19:01.637   601   621 D GRALLOC-ROCKCHIP: enter, w : 480, h : 800, format : 0x1, usage : 0x933.
+06-19 10:19:01.637   601   621 D GRALLOC-ROCKCHIP: [File] : hardware/rockchip/libgralloc/gralloc_drm_rockchip.c; [Line] : 1315; [Func] : drm_gem_rockchip_alloc;
+06-19 10:19:01.637   601   621 D GRALLOC-ROCKCHIP: to ask for cachable buffer for CPU read, usage : 0x933
+06-19 10:19:01.680 12965 12965 D JNILOG  : stringFromJNI was called
+06-19 10:19:01.734   236   702 D GRALLOC-ROCKCHIP: enter, w : 480, h : 800, format : 0x1, usage : 0x900.
+06-19 10:19:01.737 12965 12981 I mali_so : [File] : hardware/arm/maliT760/driver/product/base/src/mali_base_kbase.c; [Line] : 978; [Func] : base_context_deal_with_version_affairs_rk_ext;
+06-19 10:19:01.737 12965 12981 I mali_so : arm_release_ver of this mali_so is 'r14p0-01rel0', rk_so_ver is '5@0'.
+06-19 10:19:01.737 12965 12981 D mali_so : [File] : hardware/arm/maliT760/driver/product/base/src/mali_base_kbase.c; [Line] : 983; [Func] : base_context_deal_with_version_affairs_rk_ext;
+06-19 10:19:01.737 12965 12981 D mali_so : current process is NOT sf, to bail out.
+06-19 10:19:01.737   236   702 D GRALLOC-ROCKCHIP: enter, w : 480, h : 800, format : 0x1, usage : 0x900.
+06-19 10:19:01.745   236   702 D GRALLOC-ROCKCHIP: enter, w : 480, h : 800, format : 0x1, usage : 0x900.
+06-19 10:19:01.749   236   702 D GRALLOC-ROCKCHIP: enter, w : 480, h : 800, format : 0x1, usage : 0x900.
+06-19 10:19:01.771 12965 12981 I OpenGLRenderer: Initialized EGL, version 1.4
+06-19 10:19:01.771 12965 12981 D OpenGLRenderer: Swap behavior 1
+06-19 10:19:01.782   236   275 E BufferQueueProducer: [com.example.myndk/com.example.myndk.MainActivity] connect: already connected (cur=1 req=1)
+06-19 10:19:01.784 12965 12981 D mali_winsys: EGLint new_window_surface(egl_winsys_display*, void*, EGLSurface, EGLConfig, egl_winsys_surface**, egl_color_buffer_format*, EGLBoolean) returns 0x3000
+06-19 10:19:01.826   236   639 D GRALLOC-ROCKCHIP: enter, w : 480, h : 800, format : 0x1, usage : 0xb00.
+06-19 10:19:01.834 12965 12981 D GRALLOC-ROCKCHIP: enter, w : 480, h : 800, format : 0x1, usage : 0xb00.
+06-19 10:19:01.856   236   702 D GRALLOC-ROCKCHIP: enter, w : 480, h : 800, format : 0x1, usage : 0xb00.
+06-19 10:19:01.861 12965 12981 D GRALLOC-ROCKCHIP: enter, w : 480, h : 800, format : 0x1, usage : 0xb00.
+06-19 10:19:01.873   601   621 I ActivityManager: Displayed com.example.myndk/.MainActivity: +364ms
+06-19 10:19:02.084  8030  8030 I nslate.launcher: type=1400 audit(0.0:313): avc: denied { write } for name="scaling_governor" dev="sysfs" ino=15429 scontext=u:r:system_app:s0 tcontext=u:object_r:sysfs_devices_system_cpu:s0 tclass=file permissive=1
+06-19 10:19:02.087  8030  8030 D SogouSpeech: -->zhl-mp3-release
+06-19 10:19:02.087  8030  8030 D Process : >>> enhanceSogoPerformance status[0]
+06-19 10:19:02.087  8030  8030 D Process : XJDAN openNode /sys/devices/platform/ff9a0000.gpu/devfreq/ff9a0000.gpu/governor 
+06-19 10:19:02.087  8030  8030 E Process : XJDAN value [simple_ondemand] to index[0]
+06-19 10:19:02.087  8030  8030 D Process : XJDAN openNode /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor 
+06-19 10:19:02.088  8030  8030 E Process : XJDAN value [interactive] to index[1]
+06-19 10:19:02.088  8030  8030 D Process : XJDAN openNode /sys/devices/system/cpu/cpu4/cpufreq/scaling_governor 
+06-19 10:19:02.089  8030  8030 E Process : XJDAN value [interactive] to index[2]
+06-19 10:19:02.089  8030  8030 D Process : XJDAN openNode /sys/devices/platform/ff9a0000.gpu/power_policy 
+06-19 10:19:02.089  8030  8030 E Process : XJDAN value [demand] to index[3]
+06-19 10:19:02.091  8030  8030 D Process : XJDAN openNode /sys/devices/system/cpu/cpu0/online 
+06-19 10:19:02.092  8030  8030 E Process : XJDAN value [1] to index[4]
+06-19 10:19:02.092  8030  8030 D Process : XJDAN openNode /sys/devices/system/cpu/cpu1/online 
+06-19 10:19:02.092  8030  8030 E Process : XJDAN value [1] to index[5]
+06-19 10:19:02.092  8030  8030 D Process : XJDAN openNode /sys/devices/system/cpu/cpu2/online 
+06-19 10:19:02.092  8030  8030 E Process : XJDAN value [1] to index[6]
+06-19 10:19:02.092  8030  8030 D Process : XJDAN openNode /sys/devices/system/cpu/cpu3/online 
+06-19 10:19:02.092  8030  8030 E Process : XJDAN value [1] to index[7]
+06-19 10:19:02.093  8030  8030 D Process : XJDAN openNode /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor 
+06-19 10:19:02.093  8030  8030 E Process : XJDAN value [interactive] to index[1]
+06-19 10:19:02.093  8030  8030 D tmtcp   : setCpuLevel:0
+06-19 10:19:02.097  8030  8046 I LogService: com.sogou.teemo.watch.log|com.sogou.teemo.watch.log.service.LogService
+06-19 10:19:02.098  8030  8046 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1357 android.content.ContextWrapper.startService:613 com.sogou.teemo.watch.log.utils.TimoLogUtils.doLog:255 com.sogou.teemo.watch.log.utils.TimoLogUtils.log:233 com.sogou.teemo.watch.log.utils.TimoLogUtils.info:65 
+06-19 10:19:02.102  8030  8030 D Process : >>> enhanceSogoDDR status[0]
+06-19 10:19:02.102  8030  8030 D Process : XJDAN openNode /sys/class/devfreq/dmc/governor 
+06-19 10:19:02.110  1362  1362 I LogService: LogService|onStartCommand
+06-19 10:19:02.102  8030  8030 E Process : XJDAN value [dmc_ondemand] to index[8]
+06-19 10:19:02.124  8030  8030 D tmtcp   : setDDRLevel:0
+06-19 10:19:02.130  1362 12918 I LogUtils: getFileNames|排除tmlog.log
+06-19 10:19:02.130  1362 12918 I LogUtils: read|[/storage/emulated/0/log/app/tmlog.log.2018-06-15, /storage/emulated/0/log/app/tmlog.log.2018-06-16, /storage/emulated/0/log/app/tmlog.log.2018-06-17, /storage/emulated/0/log/app/tmlog.log.2018-06-18]
+06-19 10:19:02.132  8030  8030 D _TR_VOICE: zhl-remove timeout Messages
+06-19 10:19:02.132  8030  8030 I LogService: com.sogou.teemo.watch.log|com.sogou.teemo.watch.log.service.LogService
+06-19 10:19:02.133  8030  8030 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1357 android.content.ContextWrapper.startService:613 com.sogou.teemo.watch.log.utils.TimoLogUtils.doLog:255 com.sogou.teemo.watch.log.utils.TimoLogUtils.log:233 com.sogou.teemo.watch.log.utils.TimoLogUtils.statisticsTiming:140 
+06-19 10:19:02.137  1362  1362 I LogService: LogService|onStartCommand
+06-19 10:19:02.147  8030  8046 I LogService: com.sogou.teemo.watch.log|com.sogou.teemo.watch.log.service.LogService
+06-19 10:19:02.151  1362 12916 I LogUtils: getFileNames|排除tmlog.log
+06-19 10:19:02.151  1362 12916 I LogUtils: read|[/storage/emulated/0/log/statistics/tmlog.log.2018-06-15, /storage/emulated/0/log/statistics/tmlog.log.2018-06-18]
+06-19 10:19:02.154  8030  8046 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1357 android.content.ContextWrapper.startService:613 com.sogou.teemo.watch.log.utils.TimoLogUtils.doLog:255 com.sogou.teemo.watch.log.utils.TimoLogUtils.log:233 com.sogou.teemo.watch.log.utils.TimoLogUtils.info:65 
+06-19 10:19:02.160  1362  1362 I LogService: LogService|onStartCommand
+06-19 10:19:02.171  8030  8030 D _TR_VOICE: lifecircle zhl-onStop
+06-19 10:19:02.172  8030  8030 D _TR_VOICE: canStartAudioAgain:true
+06-19 10:19:02.172  8030  8030 D _TR_VOICE_xq: -->call releaseOnlineTrans
+06-19 10:19:02.172  8030  8030 D _TR_VOICE_xq: -->releaseOfflineTTS 
+06-19 10:19:02.172  8030  8081 D xq      : -->MSG_ON_QUIT2 8081
+06-19 10:19:02.175  8030  8046 I LogService: com.sogou.teemo.watch.log|com.sogou.teemo.watch.log.service.LogService
+06-19 10:19:02.175  8030  8046 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1357 android.content.ContextWrapper.startService:613 com.sogou.teemo.watch.log.utils.TimoLogUtils.doLog:255 com.sogou.teemo.watch.log.utils.TimoLogUtils.log:233 com.sogou.teemo.watch.log.utils.TimoLogUtils.info:65 
+06-19 10:19:02.180  1362  1362 I LogService: LogService|onStartCommand
+06-19 10:19:02.190  1362 12918 I LogUtils: getFileNames|排除tmlog.log
+06-19 10:19:02.190  1362 12918 I LogUtils: read|[/storage/emulated/0/log/app/tmlog.log.2018-06-15, /storage/emulated/0/log/app/tmlog.log.2018-06-16, /storage/emulated/0/log/app/tmlog.log.2018-06-17, /storage/emulated/0/log/app/tmlog.log.2018-06-18]
+06-19 10:19:02.195  8030  8030 D _TR_    : zhl-onTrimMemory:20
+06-19 10:19:02.198  1362 12916 I LogUtils: getFileNames|排除tmlog.log
+06-19 10:19:02.198  1362 12916 I LogUtils: read|[/storage/emulated/0/log/app/tmlog.log.2018-06-15, /storage/emulated/0/log/app/tmlog.log.2018-06-16, /storage/emulated/0/log/app/tmlog.log.2018-06-17, /storage/emulated/0/log/app/tmlog.log.2018-06-18]
+06-19 10:19:02.202  8030  8030 I _TR_    : zhl-系统总内存:2071
+06-19 10:19:02.202  8030  8030 I _TR_    : zhl-系统是否处于低内存运行：false
+06-19 10:19:02.202  8030  8030 I _TR_    : zhl-当系统剩余内存低于226时就看成低内存运行
+06-19 10:19:02.202  8030  8030 I _TR_    : zhl-系统可用内存:485
+06-19 10:19:02.201  8030  8046 I LogService: com.sogou.teemo.watch.log|com.sogou.teemo.watch.log.service.LogService
+06-19 10:19:02.203  8030  8046 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1357 android.content.ContextWrapper.startService:613 com.sogou.teemo.watch.log.utils.TimoLogUtils.doLog:255 com.sogou.teemo.watch.log.utils.TimoLogUtils.log:233 com.sogou.teemo.watch.log.utils.TimoLogUtils.info:65 
+06-19 10:19:02.207  1362  1362 I LogService: LogService|onStartCommand
+06-19 10:19:02.223  8030  8046 I LogService: com.sogou.teemo.watch.log|com.sogou.teemo.watch.log.service.LogService
+06-19 10:19:02.224  1362 12916 I LogUtils: getFileNames|排除tmlog.log
+06-19 10:19:02.224  1362 12916 I LogUtils: read|[/storage/emulated/0/log/app/tmlog.log.2018-06-15, /storage/emulated/0/log/app/tmlog.log.2018-06-16, /storage/emulated/0/log/app/tmlog.log.2018-06-17, /storage/emulated/0/log/app/tmlog.log.2018-06-18]
+06-19 10:19:02.228  8030  8046 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1357 android.content.ContextWrapper.startService:613 com.sogou.teemo.watch.log.utils.TimoLogUtils.doLog:255 com.sogou.teemo.watch.log.utils.TimoLogUtils.log:233 com.sogou.teemo.watch.log.utils.TimoLogUtils.info:65 
+06-19 10:19:02.234  1362  1362 I LogService: LogService|onStartCommand
+06-19 10:19:02.244  8030  8046 I LogService: com.sogou.teemo.watch.log|com.sogou.teemo.watch.log.service.LogService
+06-19 10:19:02.245  8030  8046 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1357 android.content.ContextWrapper.startService:613 com.sogou.teemo.watch.log.utils.TimoLogUtils.doLog:255 com.sogou.teemo.watch.log.utils.TimoLogUtils.log:233 com.sogou.teemo.watch.log.utils.TimoLogUtils.info:65 
+06-19 10:19:02.247  1362 12916 I LogUtils: getFileNames|排除tmlog.log
+06-19 10:19:02.247  1362 12916 I LogUtils: read|[/storage/emulated/0/log/app/tmlog.log.2018-06-15, /storage/emulated/0/log/app/tmlog.log.2018-06-16, /storage/emulated/0/log/app/tmlog.log.2018-06-17, /storage/emulated/0/log/app/tmlog.log.2018-06-18]
+06-19 10:19:02.249  1362  1362 I LogService: LogService|onStartCommand
+06-19 10:19:02.262  1362 12918 I LogUtils: getFileNames|排除tmlog.log
+06-19 10:19:02.262  1362 12918 I LogUtils: read|[/storage/emulated/0/log/app/tmlog.log.2018-06-15, /storage/emulated/0/log/app/tmlog.log.2018-06-16, /storage/emulated/0/log/app/tmlog.log.2018-06-17, /storage/emulated/0/log/app/tmlog.log.2018-06-18]
+06-19 10:19:02.265  8030  8046 I LogService: com.sogou.teemo.watch.log|com.sogou.teemo.watch.log.service.LogService
+06-19 10:19:02.266  8030  8046 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1357 android.content.ContextWrapper.startService:613 com.sogou.teemo.watch.log.utils.TimoLogUtils.doLog:255 com.sogou.teemo.watch.log.utils.TimoLogUtils.log:233 com.sogou.teemo.watch.log.utils.TimoLogUtils.info:65 
+06-19 10:19:02.269  1362  1362 I LogService: LogService|onStartCommand
+06-19 10:19:02.278  1362 12918 I LogUtils: getFileNames|排除tmlog.log
+06-19 10:19:02.278  1362 12918 I LogUtils: read|[/storage/emulated/0/log/app/tmlog.log.2018-06-15, /storage/emulated/0/log/app/tmlog.log.2018-06-16, /storage/emulated/0/log/app/tmlog.log.2018-06-17, /storage/emulated/0/log/app/tmlog.log.2018-06-18]
+06-19 10:19:02.282  8030  8046 I LogService: com.sogou.teemo.watch.log|com.sogou.teemo.watch.log.service.LogService
+06-19 10:19:02.282  8030  8046 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1357 android.content.ContextWrapper.startService:613 com.sogou.teemo.watch.log.utils.TimoLogUtils.doLog:255 com.sogou.teemo.watch.log.utils.TimoLogUtils.log:233 com.sogou.teemo.watch.log.utils.TimoLogUtils.info:65 
+06-19 10:19:02.286  1362  1362 I LogService: LogService|onStartCommand
+06-19 10:19:02.295  8030  8046 I LogService: com.sogou.teemo.watch.log|com.sogou.teemo.watch.log.service.LogService
+06-19 10:19:02.296  1362 12918 I LogUtils: getFileNames|排除tmlog.log
+06-19 10:19:02.296  1362 12918 I LogUtils: read|[/storage/emulated/0/log/app/tmlog.log.2018-06-15, /storage/emulated/0/log/app/tmlog.log.2018-06-16, /storage/emulated/0/log/app/tmlog.log.2018-06-17, /storage/emulated/0/log/app/tmlog.log.2018-06-18]
+06-19 10:19:02.298  8030  8046 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1357 android.content.ContextWrapper.startService:613 com.sogou.teemo.watch.log.utils.TimoLogUtils.doLog:255 com.sogou.teemo.watch.log.utils.TimoLogUtils.log:233 com.sogou.teemo.watch.log.utils.TimoLogUtils.info:65 
+06-19 10:19:02.302  1362  1362 I LogService: LogService|onStartCommand
+06-19 10:19:02.311  8030  8046 I LogService: com.sogou.teemo.watch.log|com.sogou.teemo.watch.log.service.LogService
+06-19 10:19:02.313  1362 12918 I LogUtils: getFileNames|排除tmlog.log
+06-19 10:19:02.314  1362 12918 I LogUtils: read|[/storage/emulated/0/log/app/tmlog.log.2018-06-15, /storage/emulated/0/log/app/tmlog.log.2018-06-16, /storage/emulated/0/log/app/tmlog.log.2018-06-17, /storage/emulated/0/log/app/tmlog.log.2018-06-18]
+06-19 10:19:02.315  8030  8046 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1357 android.content.ContextWrapper.startService:613 com.sogou.teemo.watch.log.utils.TimoLogUtils.doLog:255 com.sogou.teemo.watch.log.utils.TimoLogUtils.log:233 com.sogou.teemo.watch.log.utils.TimoLogUtils.info:65 
+06-19 10:19:02.319  1362  1362 I LogService: LogService|onStartCommand
+06-19 10:19:02.328  1362 12916 I LogUtils: getFileNames|排除tmlog.log
+06-19 10:19:02.329  1362 12916 I LogUtils: read|[/storage/emulated/0/log/app/tmlog.log.2018-06-15, /storage/emulated/0/log/app/tmlog.log.2018-06-16, /storage/emulated/0/log/app/tmlog.log.2018-06-17, /storage/emulated/0/log/app/tmlog.log.2018-06-18]
+06-19 10:19:03.906   236   639 D GRALLOC-ROCKCHIP: enter, w : 480, h : 800, format : 0x1, usage : 0xb00.
+06-19 10:19:03.911 12965 12981 D GRALLOC-ROCKCHIP: enter, w : 480, h : 800, format : 0x1, usage : 0xb00.
+06-19 10:19:04.024 12965 12965 D MainActivity: testData2: origin 1
+06-19 10:19:04.025 12965 12965 D MainActivity: testData2: origin 2
+06-19 10:19:04.025 12965 12965 D MainActivity: testData2: origin 3
+06-19 10:19:04.025 12965 12965 D MainActivity: testData2: origin 4
+06-19 10:19:04.025 12965 12965 D MainActivity: testData2: origin 5
+06-19 10:19:04.034   328   362 D AudioHardwareTiny: out_set_parameters: kvpairs = routing=2
+06-19 10:19:04.037   328   362 D AudioHardwareTiny: start_output_stream
+06-19 10:19:04.038   328   362 D alsa_route: route_info->sound_card 0, route_info->devices 0  
+06-19 10:19:04.059 12965 12965 F art     : art/runtime/java_vm_ext.cc:470] JNI DETECTED ERROR IN APPLICATION: use of invalid jobject 0xffa35658
+06-19 10:19:04.060 12965 12965 F art     : art/runtime/java_vm_ext.cc:470]     from void com.example.myndk.JNIUtils.operationArray2(int[])
+06-19 10:19:04.060 12965 12965 F art     : art/runtime/java_vm_ext.cc:470] "main" prio=5 tid=1 Runnable
+06-19 10:19:04.060 12965 12965 F art     : art/runtime/java_vm_ext.cc:470]   | group="main" sCount=0 dsCount=0 obj=0x743944a0 self=0xf2485400
+06-19 10:19:04.060 12965 12965 F art     : art/runtime/java_vm_ext.cc:470]   | sysTid=12965 nice=-10 cgrp=default sched=0/0 handle=0xf529a534
+06-19 10:19:04.060 12965 12965 F art     : art/runtime/java_vm_ext.cc:470]   | state=R schedstat=( 166985622 31155250 234 ) utm=10 stm=5 core=2 HZ=100
+06-19 10:19:04.060 12965 12965 F art     : art/runtime/java_vm_ext.cc:470]   | stack=0xff23a000-0xff23c000 stackSize=8MB
+06-19 10:19:04.060 12965 12965 F art     : art/runtime/java_vm_ext.cc:470]   | held mutexes= "mutator lock"(shared held)
+06-19 10:19:04.060 12965 12965 F art     : art/runtime/java_vm_ext.cc:470]   native: #00 pc 00350ab5  /system/lib/libart.so (_ZN3art15DumpNativeStackERNSt3__113basic_ostreamIcNS0_11char_traitsIcEEEEiP12BacktraceMapPKcPNS_9ArtMethodEPv+128)
+06-19 10:19:04.060 12965 12965 F art     : art/runtime/java_vm_ext.cc:470]   native: #01 pc 003311f9  /system/lib/libart.so (_ZNK3art6Thread9DumpStackERNSt3__113basic_ostreamIcNS1_11char_traitsIcEEEEbP12BacktraceMap+308)
+06-19 10:19:04.060 12965 12965 F art     : art/runtime/java_vm_ext.cc:470]   native: #02 pc 00239895  /system/lib/libart.so (_ZN3art9JavaVMExt8JniAbortEPKcS2_+848)
+06-19 10:19:04.060 12965 12965 F art     : art/runtime/java_vm_ext.cc:470]   native: #03 pc 00239e2b  /system/lib/libart.so (_ZN3art9JavaVMExt9JniAbortFEPKcS2_z+66)
+06-19 10:19:04.060 12965 12965 F art     : art/runtime/java_vm_ext.cc:470]   native: #04 pc 00334c63  /system/lib/libart.so (_ZNK3art6Thread13DecodeJObjectEP8_jobject+302)
+06-19 10:19:04.060 12965 12965 F art     : art/runtime/java_vm_ext.cc:470]   native: #05 pc 000ca195  /system/lib/libart.so (_ZN3art11ScopedCheck10CheckArrayERNS_18ScopedObjectAccessEP7_jarray+28)
+06-19 10:19:04.060 12965 12965 F art     : art/runtime/java_vm_ext.cc:470]   native: #06 pc 000c985f  /system/lib/libart.so (_ZN3art11ScopedCheck22CheckPossibleHeapValueERNS_18ScopedObjectAccessEcNS_12JniValueTypeE+74)
+06-19 10:19:04.060 12965 12965 F art     : art/runtime/java_vm_ext.cc:470]   native: #07 pc 000c8d0b  /system/lib/libart.so (_ZN3art11ScopedCheck5CheckERNS_18ScopedObjectAccessEbPKcPNS_12JniValueTypeE+802)
+06-19 10:19:04.060 12965 12965 F art     : art/runtime/java_vm_ext.cc:470]   native: #08 pc 000d1563  /system/lib/libart.so (_ZN3art8CheckJNI23SetPrimitiveArrayRegionEPKcNS_9Primitive4TypeEP7_JNIEnvP7_jarrayiiPKv+478)
+06-19 10:19:04.060 12965 12965 F art     : art/runtime/java_vm_ext.cc:470]   native: #09 pc 000c60c7  /system/lib/libart.so (_ZN3art8CheckJNI17SetIntArrayRegionEP7_JNIEnvP10_jintArrayiiPKi+26)
+06-19 10:19:04.060 12965 12965 F art     : art/runtime/java_vm_ext.cc:470]   native: #10 pc 00000a79  /data/app/com.example.myndk-1/lib/arm/libhello-lib.so (Java_com_example_myndk_JNIUtils_operationArray2+172)
+06-19 10:19:04.060 12965 12965 F art     : art/runtime/java_vm_ext.cc:470]   native: #11 pc 00002e15  /data/app/com.example.myndk-1/oat/arm/base.odex (Java_com_example_myndk_JNIUtils_operationArray2___3I+96)
+06-19 10:19:04.060 12965 12965 F art     : art/runtime/java_vm_ext.cc:470]   at com.example.myndk.JNIUtils.operationArray2(Native method)
+06-19 10:19:04.060 12965 12965 F art     : art/runtime/java_vm_ext.cc:470]   at com.example.myndk.MainActivity.onClick(MainActivity.java:43)
+06-19 10:19:04.060 12965 12965 F art     : art/runtime/java_vm_ext.cc:470]   at java.lang.reflect.Method.invoke!(Native method)
+06-19 10:19:04.060 12965 12965 F art     : art/runtime/java_vm_ext.cc:470]   at android.view.View$DeclaredOnClickListener.onClick(View.java:4720)
+06-19 10:19:04.060 12965 12965 F art     : art/runtime/java_vm_ext.cc:470]   at android.view.View.performClick(View.java:5637)
+06-19 10:19:04.060 12965 12965 F art     : art/runtime/java_vm_ext.cc:470]   at android.view.View$PerformClick.run(View.java:22445)
+06-19 10:19:04.060 12965 12965 F art     : art/runtime/java_vm_ext.cc:470]   at android.os.Handler.handleCallback(Handler.java:755)
+06-19 10:19:04.060 12965 12965 F art     : art/runtime/java_vm_ext.cc:470]   at android.os.Handler.dispatchMessage(Handler.java:95)
+06-19 10:19:04.060 12965 12965 F art     : art/runtime/java_vm_ext.cc:470]   at android.os.Looper.loop(Looper.java:154)
+06-19 10:19:04.060 12965 12965 F art     : art/runtime/java_vm_ext.cc:470]   at android.app.ActivityThread.main(ActivityThread.java:6121)
+06-19 10:19:04.060 12965 12965 F art     : art/runtime/java_vm_ext.cc:470]   at java.lang.reflect.Method.invoke!(Native method)
+06-19 10:19:04.060 12965 12965 F art     : art/runtime/java_vm_ext.cc:470]   at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:912)
+06-19 10:19:04.060 12965 12965 F art     : art/runtime/java_vm_ext.cc:470]   at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:802)
+06-19 10:19:04.060 12965 12965 F art     : art/runtime/java_vm_ext.cc:470] 
+06-19 10:19:04.183 12965 12965 F art     : art/runtime/runtime.cc:422] Runtime aborting...
+06-19 10:19:04.183 12965 12965 F art     : art/runtime/runtime.cc:422] Aborting thread:
+06-19 10:19:04.183 12965 12965 F art     : art/runtime/runtime.cc:422] "main" prio=10 tid=1 Native
+06-19 10:19:04.183 12965 12965 F art     : art/runtime/runtime.cc:422]   | group="" sCount=0 dsCount=0 obj=0x743944a0 self=0xf2485400
+06-19 10:19:04.183 12965 12965 F art     : art/runtime/runtime.cc:422]   | sysTid=12965 nice=-10 cgrp=default sched=0/0 handle=0xf529a534
+06-19 10:19:04.183 12965 12965 F art     : art/runtime/runtime.cc:422]   | state=R schedstat=( 199501787 33762460 240 ) utm=12 stm=6 core=2 HZ=100
+06-19 10:19:04.183 12965 12965 F art     : art/runtime/runtime.cc:422]   | stack=0xff23a000-0xff23c000 stackSize=8MB
+06-19 10:19:04.183 12965 12965 F art     : art/runtime/runtime.cc:422]   | held mutexes= "abort lock"
+06-19 10:19:04.183 12965 12965 F art     : art/runtime/runtime.cc:422]   native: #00 pc 00350ab5  /system/lib/libart.so (_ZN3art15DumpNativeStackERNSt3__113basic_ostreamIcNS0_11char_traitsIcEEEEiP12BacktraceMapPKcPNS_9ArtMethodEPv+128)
+06-19 10:19:04.183 12965 12965 F art     : art/runtime/runtime.cc:422]   native: #01 pc 003311f9  /system/lib/libart.so (_ZNK3art6Thread9DumpStackERNSt3__113basic_ostreamIcNS1_11char_traitsIcEEEEbP12BacktraceMap+308)
+06-19 10:19:04.183 12965 12965 F art     : art/runtime/runtime.cc:422]   native: #02 pc 003242b1  /system/lib/libart.so (_ZNK3art10AbortState10DumpThreadERNSt3__113basic_ostreamIcNS1_11char_traitsIcEEEEPNS_6ThreadE+24)
+06-19 10:19:04.183 12965 12965 F art     : art/runtime/runtime.cc:422]   native: #03 pc 00324139  /system/lib/libart.so (_ZNK3art10AbortState4DumpERNSt3__113basic_ostreamIcNS1_11char_traitsIcEEEE+424)
+06-19 10:19:04.183 12965 12965 F art     : art/runtime/runtime.cc:422]   native: #04 pc 0031ae25  /system/lib/libart.so (_ZN3art7Runtime5AbortEPKc+92)
+06-19 10:19:04.183 12965 12965 F art     : art/runtime/runtime.cc:422]   native: #05 pc 000b5285  /system/lib/libart.so (_ZN3art10LogMessageD2Ev+1132)
+06-19 10:19:04.183 12965 12965 F art     : art/runtime/runtime.cc:422]   native: #06 pc 00239bc5  /system/lib/libart.so (_ZN3art9JavaVMExt8JniAbortEPKcS2_+1664)
+06-19 10:19:04.183 12965 12965 F art     : art/runtime/runtime.cc:422]   native: #07 pc 00239e2b  /system/lib/libart.so (_ZN3art9JavaVMExt9JniAbortFEPKcS2_z+66)
+06-19 10:19:04.183 12965 12965 F art     : art/runtime/runtime.cc:422]   native: #08 pc 00334c63  /system/lib/libart.so (_ZNK3art6Thread13DecodeJObjectEP8_jobject+302)
+06-19 10:19:04.183 12965 12965 F art     : art/runtime/runtime.cc:422]   native: #09 pc 000ca195  /system/lib/libart.so (_ZN3art11ScopedCheck10CheckArrayERNS_18ScopedObjectAccessEP7_jarray+28)
+06-19 10:19:04.183 12965 12965 F art     : art/runtime/runtime.cc:422]   native: #10 pc 000c985f  /system/lib/libart.so (_ZN3art11ScopedCheck22CheckPossibleHeapValueERNS_18ScopedObjectAccessEcNS_12JniValueTypeE+74)
+06-19 10:19:04.183 12965 12965 F art     : art/runtime/runtime.cc:422]   native: #11 pc 000c8d0b  /system/lib/libart.so (_ZN3art11ScopedCheck5CheckERNS_18ScopedObjectAccessEbPKcPNS_12JniValueTypeE+802)
+06-19 10:19:04.183 12965 12965 F art     : art/runtime/runtime.cc:422]   native: #12 pc 000d1563  /system/lib/libart.so (_ZN3art8CheckJNI23SetPrimitiveArrayRegionEPKcNS_9Primitive4TypeEP7_JNIEnvP7_jarrayiiPKv+478)
+06-19 10:19:04.183 12965 12965 F art     : art/runtime/runtime.cc:422]   native: #13 pc 000c60c7  /system/lib/libart.so (_ZN3art8CheckJNI17SetIntArrayRegionEP7_JNIEnvP10_jintArrayiiPKi+26)
+06-19 10:19:04.183 12965 12965 F art     : art/runtime/runtime.cc:422]   native: #14 pc 00000a79  /data/app/com.example.myndk-1/lib/arm/libhello-lib.so (Java_com_example_myndk_JNIUtils_operationArray2+172)
+06-19 10:19:04.183 12965 12965 F art     : art/runtime/runtime.cc:422]   native: #15 pc 00002e15  /data/app/com.example.myndk-1/oat/arm/base.odex (???)
+06-19 10:19:04.183 12965 12965 F art     : art/runtime/runtime.cc:422]   at com.example.myndk.JNIUtils.operationArray2(Native method)
+06-19 10:19:04.183 12965 12965 F art     : art/runtime/runtime.cc:422]   at com.example.myndk.MainActivity.onClick(MainActivity.java:43)
+06-19 10:19:04.183 12965 12965 F art     : art/runtime/runtime.cc:422]   at java.lang.reflect.Method.invoke!(Native method)
+06-19 10:19:04.183 12965 12965 F art     : art/runtime/runtime.cc:422]   at android.view.View$DeclaredOnClickListener.onClick(View.java:4720)
+06-19 10:19:04.183 12965 12965 F art     : art/runtime/runtime.cc:422]   at android.view.View.performClick(View.java:5637)
+06-19 10:19:04.183 12965 12965 F art     : art/runtime/runtime.cc:422]   at android.view.View$PerformClick.run(View.java:22445)
+06-19 10:19:04.183 12965 12965 F art     : art/runtime/runtime.cc:422]   at android.os.Handler.handleCallback(Handler.java:755)
+06-19 10:19:04.183 12965 12965 F art     : art/runtime/runtime.cc:422]   at android.os.Handler.dispatchMessage(Handler.java:95)
+06-19 10:19:04.183 12965 12965 F art     : art/runtime/runtime.cc:422]   at android.os.Looper.loop(Looper.java:154)
+06-19 10:19:04.183 12965 12965 F art     : art/runtime/runtime.cc:422]   at android.app.ActivityThread.main(ActivityThread.java:6121)
+06-19 10:19:04.183 12965 12965 F art     : art/runtime/runtime.cc:422]   at java.lang.reflect.Method.invoke!(Native method)
+06-19 10:19:04.183 12965 12965 F art     : art/runtime/runtime.cc:422]   at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:912)
+06-19 10:19:04.183 12965 12965 F art     : art/runtime/runtime.cc:422]   at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:802)
+06-19 10:19:04.183 12965 12965 F art     : art/runtime/runtime.cc:422] Dumping all threads without appropriate locks held: thread list lock mutator lock
+06-19 10:19:04.183 12965 12965 F art     : art/runtime/runtime.cc:422] All threads:
+06-19 10:19:04.183 12965 12965 F art     : art/runtime/runtime.cc:422] DALVIK THREADS (12):
+06-19 10:19:04.184 12965 12965 F art     : art/runtime/runtime.cc:422] "main" prio=10 tid=1 Runnable
+06-19 10:19:04.184 12965 12965 F art     : art/runtime/runtime.cc:422]   | group="" sCount=0 dsCount=0 obj=0x743944a0 self=0xf2485400
+06-19 10:19:04.184 12965 12965 F art     : art/runtime/runtime.cc:422]   | sysTid=12965 nice=-10 cgrp=default sched=0/0 handle=0xf529a534
+06-19 10:19:04.184 12965 12965 F art     : art/runtime/runtime.cc:422]   | state=R schedstat=( 238162203 34638919 244 ) utm=14 stm=8 core=2 HZ=100
+06-19 10:19:04.184 12965 12965 F art     : art/runtime/runtime.cc:422]   | stack=0xff23a000-0xff23c000 stackSize=8MB
+06-19 10:19:04.184 12965 12965 F art     : art/runtime/runtime.cc:422]   | held mutexes= "abort lock" "mutator lock"(shared held)
+06-19 10:19:04.184 12965 12965 F art     : art/runtime/runtime.cc:422]   native: #00 pc 00350ab5  /system/lib/libart.so (_ZN3art15DumpNativeStackERNSt3__113basic_ostreamIcNS0_11char_traitsIcEEEEiP12BacktraceMapPKcPNS_9ArtMethodEPv+128)
+06-19 10:19:04.184 12965 12965 F art     : art/runtime/runtime.cc:422]   native: #01 pc 003311f9  /system/lib/libart.so (_ZNK3art6Thread9DumpStackERNSt3__113basic_ostreamIcNS1_11char_traitsIcEEEEbP12BacktraceMap+308)
+06-19 10:19:04.184 12965 12965 F art     : art/runtime/runtime.cc:422]   native: #02 pc 00343221  /system/lib/libart.so (_ZN3art14DumpCheckpoint3RunEPNS_6ThreadE+620)
+06-19 10:19:04.184 12965 12965 F art     : art/runtime/runtime.cc:422]   native: #03 pc 0033d22b  /system/lib/libart.so (_ZN3art10ThreadList13RunCheckpointEPNS_7ClosureE+330)
+06-19 10:19:04.184 12965 12965 F art     : art/runtime/runtime.cc:422]   native: #04 pc 0033cf27  /system/lib/libart.so (_ZN3art10ThreadList4DumpERNSt3__113basic_ostreamIcNS1_11char_traitsIcEEEEb+586)
+06-19 10:19:04.184 12965 12965 F art     : art/runtime/runtime.cc:422]   native: #05 pc 00324105  /system/lib/libart.so (_ZNK3art10AbortState4DumpERNSt3__113basic_ostreamIcNS1_11char_traitsIcEEEE+372)
+06-19 10:19:04.184 12965 12965 F art     : art/runtime/runtime.cc:422]   native: #06 pc 0031ae25  /system/lib/libart.so (_ZN3art7Runtime5AbortEPKc+92)
+06-19 10:19:04.184 12965 12965 F art     : art/runtime/runtime.cc:422]   native: #07 pc 000b5285  /system/lib/libart.so (_ZN3art10LogMessageD2Ev+1132)
+06-19 10:19:04.184 12965 12965 F art     : art/runtime/runtime.cc:422]   native: #08 pc 00239bc5  /system/lib/libart.so (_ZN3art9JavaVMExt8JniAbortEPKcS2_+1664)
+06-19 10:19:04.184 12965 12965 F art     : art/runtime/runtime.cc:422]   native: #09 pc 00239e2b  /system/lib/libart.so (_ZN3art9JavaVMExt9JniAbortFEPKcS2_z+66)
+06-19 10:19:04.184 12965 12965 F art     : art/runtime/runtime.cc:422]   native: #10 pc 00334c63  /system/lib/libart.so (_ZNK3art6Thread13DecodeJObjectEP8_jobject+302)
+06-19 10:19:04.184 12965 12965 F art     : art/runtime/runtime.cc:422]   native: #11 pc 000ca195  /system/lib/libart.so (_ZN3art11ScopedCheck10CheckArrayERNS_18ScopedObjectAccessEP7_jarray+28)
+06-19 10:19:04.184 12965 12965 F art     : art/runtime/runtime.cc:422]   native: #12 pc 000c985f  /system/lib/libart.so (_ZN3art11ScopedCheck22CheckPossibleHeapValueERNS_18ScopedObjectAccessEcNS_12JniValueTypeE+74)
+06-19 10:19:04.184 12965 12965 F art     : art/runtime/runtime.cc:422]   native: #13 pc 000c8d0b  /system/lib/libart.so (_ZN3art11ScopedCheck5CheckERNS_18ScopedObjectAccessEbPKcPNS_12JniValueTypeE+802)
+06-19 10:19:04.184 12965 12965 F art     : art/runtime/runtime.cc:422]   native: #14 pc 000d1563  /system/lib/libart.so (_ZN3art8CheckJNI23SetPrimitiveArrayRegionEPKcNS_9Primitive4TypeEP7_JNIEnvP7_jarrayiiPKv+478)
+06-19 10:19:04.184 12965 12965 F art     : art/runtime/runtime.cc:422]   native: #15 pc 000c60c7  /system/lib/libart.so (_ZN3art8CheckJNI17SetIntArrayRegionEP7_JNIEnvP10_jintArrayiiPKi+26)
+06-19 10:19:04.184 12965 12965 F art     : art/runtime/runtime.cc:422]   native: #16 pc 00000a79  /data/app/com.example.myndk-1/lib/arm/libhello-lib.so (Java_com_example_myndk_JNIUtils_operationArray2+172)
+06-19 10:19:04.184 12965 12965 F art     : art/runtime/runtime.cc:422]   native: #17 pc 00002e15  /data/app/com.example.myndk-1/oat/arm/base.odex (Java_com_example_myndk_JNIUtils_operationArray2___3I+96)
+06-19 10:19:04.184 12965 12965 F art     : art/runtime/runtime.cc:422]   at com.example.myndk.JNIUtils.operationArray2(Native method)
+06-19 10:19:04.184 12965 12965 F art     : art/runtime/runtime.cc:422]   at com.example.myndk.MainActivity.onClick(MainActivity.java:43)
+06-19 10:19:04.184 12965 12965 F art     : art/runtime/runtime.cc:422]   at java.lang.reflect.Method.invoke!(Native method)
+06-19 10:19:04.184 12965 12965 F art     : art/runtime/runtime.cc:422]   at android.view.View$DeclaredOnClickListener.onClick(View.java:4720)
+06-19 10:19:04.184 12965 12965 F art     : art/runtime/runtime.cc:422]   at android.view.View.performClick(View.java:5637)
+06-19 10:19:04.184 12965 12965 F art     : art/runtime/runtime.cc:422]   at android.view.View$PerformClick.run(View.java:22445)
+06-19 10:19:04.184 12965 12965 F art     : art/runtime/runtime.cc:422]   at android.os.Handler.handleCallback(Handler.java:755)
+06-19 10:19:04.184 12965 12965 F art     : art/runtime/runtime.cc:422]   at android.os.Handler.dispatchMessage(Handler.java:95)
+06-19 10:19:04.184 12965 12965 F art     : art/runtime/runtime.cc:422]   at android.os.Looper.loop(Looper.java:154)
+06-19 10:19:04.184 12965 12965 F art     : art/runtime/runtime.cc:422]   at android.app.ActivityThread.main(ActivityThread.java:6121)
+06-19 10:19:04.184 12965 12965 F art     : art/runtime/runtime.cc:422]   at java.lang.reflect.Method.invoke!(Native method)
+06-19 10:19:04.184 12965 12965 F art     : art/runtime/runtime.cc:422]   at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:912)
+06-19 10:19:04.184 12965 12965 F art     : art/runtime/runtime.cc:422]   at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:802)
+06-19 10:19:04.184 12965 12965 F art     : art/runtime/runtime.cc:422] 
+06-19 10:19:04.184 12965 12965 F art     : art/runtime/runtime.cc:422] "Jit thread pool worker thread 0" prio=10 tid=2 Native
+06-19 10:19:04.184 12965 12965 F art     : art/runtime/runtime.cc:422]   | group="" sCount=1 dsCount=0 obj=0x12c17ee0 self=0xe958c000
+06-19 10:19:04.184 12965 12965 F art     : art/runtime/runtime.cc:422]   | sysTid=12970 nice=9 cgrp=default sched=0/0 handle=0xf1ba6920
+06-19 10:19:04.184 12965 12965 F art     : art/runtime/runtime.cc:422]   | state=S schedstat=( 2422584 0 2 ) utm=0 stm=0 core=2 HZ=100
+06-19 10:19:04.184 12965 12965 F art     : art/runtime/runtime.cc:422]   | stack=0xf1aa8000-0xf1aaa000 stackSize=1022KB
+06-19 10:19:04.184 12965 12965 F art     : art/runtime/runtime.cc:422]   | held mutexes=
+06-19 10:19:04.184 12965 12965 F art     : art/runtime/runtime.cc:422]   kernel: __switch_to+0x9c/0xa8
+06-19 10:19:04.184 12965 12965 F art     : art/runtime/runtime.cc:422]   kernel: futex_wait_queue_me+0xcc/0x130
+06-19 10:19:04.184 12965 12965 F art     : art/runtime/runtime.cc:422]   kernel: futex_wait+0xe8/0x1ec
+06-19 10:19:04.184 12965 12965 F art     : art/runtime/runtime.cc:422]   kernel: do_futex+0xdc/0x4e0
+06-19 10:19:04.184 12965 12965 F art     : art/runtime/runtime.cc:422]   kernel: compat_SyS_futex+0xdc/0x168
+06-19 10:19:04.184 12965 12965 F art     : art/runtime/runtime.cc:422]   kernel: el0_svc_naked+0x24/0x28
+06-19 10:19:04.184 12965 12965 F art     : art/runtime/runtime.cc:422]   native: #00 pc 00017404  /system/lib/libc.so (syscall+28)
+06-19 10:19:04.184 12965 12965 F art     : art/runtime/runtime.cc:422]   native: #01 pc 000b6e49  /system/lib/libart.so (_ZN3art17ConditionVariable16WaitHoldingLocksEPNS_6ThreadE+92)
+06-19 10:19:04.184 12965 12965 F art     : art/runtime/runtime.cc:422]   native: #02 pc 00344785  /system/lib/libart.so (_ZN3art10ThreadPool7GetTaskEPNS_6ThreadE+160)
+06-19 10:19:04.184 12965 12965 F art     : art/runtime/runtime.cc:422]   native: #03 pc 00343fa7  /system/lib/libart.so (_ZN3art16ThreadPoolWorker3RunEv+62)
+06-19 10:19:04.184 12965 12965 F art     : art/runtime/runtime.cc:422]   native: #04 pc 00343acf  /system/lib/libart.so (_ZN3art16ThreadPoolWorker8CallbackEPv+78)
+06-19 10:19:04.184 12965 12965 F art     : art/runtime/runtime.cc:422]   native: #05 pc 000470c3  /system/lib/libc.so (_ZL15__pthread_startPv+22)
+06-19 10:19:04.184 12965 12965 F art     : art/runtime/runtime.cc:422]   native: #06 pc 00019e3d  /system/lib/libc.so (__start_thread+6)
+06-19 10:19:04.184 12965 12965 F art     : art/runtime/runtime.cc:422]   (no managed stack frames)
+06-19 10:19:04.184 12965 12965 F art     : art/runtime/runtime.cc:422] 
+06-19 10:19:04.184 12965 12965 F art     : art/runtime/runtime.cc:422] "Signal Catcher" prio=10 tid=3 WaitingInMainSignalCatcherLoop
+06-19 10:19:04.184 12965 12965 F art     : art/runtime/runtime.cc:422]   | group="" sCount=1 dsCount=0 obj=0x12c17f70 self=0xe6d3ce00
+06-19 10:19:04.185 12965 12965 F art     : art/runtime/runtime.cc:422]   | sysTid=12971 nice=0 cgrp=default sched=0/0 handle=0xf1aa5920
+06-19 10:19:04.185 12965 12965 F art     : art/runtime/runtime.cc:422]   | state=S schedstat=( 1919166 485625 1 ) utm=0 stm=0 core=0 HZ=100
+06-19 10:19:04.185 12965 12965 F art     : art/runtime/runtime.cc:422]   | stack=0xf19a9000-0xf19ab000 stackSize=1014KB
+06-19 10:19:04.185 12965 12965 F art     : art/runtime/runtime.cc:422]   | held mutexes=
+06-19 10:19:04.185 12965 12965 F art     : art/runtime/runtime.cc:422]   kernel: __switch_to+0x9c/0xa8
+06-19 10:19:04.185 12965 12965 F art     : art/runtime/runtime.cc:422]   kernel: do_sigtimedwait+0xe0/0x1c0
+06-19 10:19:04.185 12965 12965 F art     : art/runtime/runtime.cc:422]   kernel: compat_SyS_rt_sigtimedwait+0xb0/0x104
+06-19 10:19:04.185 12965 12965 F art     : art/runtime/runtime.cc:422]   kernel: el0_svc_naked+0x24/0x28
+06-19 10:19:04.185 12965 12965 F art     : art/runtime/runtime.cc:422]   native: #00 pc 000488a4  /system/lib/libc.so (__rt_sigtimedwait+12)
+06-19 10:19:04.185 12965 12965 F art     : art/runtime/runtime.cc:422]   native: #01 pc 0001e24b  /system/lib/libc.so (sigwait+34)
+06-19 10:19:04.185 12965 12965 F art     : art/runtime/runtime.cc:422]   native: #02 pc 00327363  /system/lib/libart.so (_ZN3art9SignalSet4WaitEv+22)
+06-19 10:19:04.185 12965 12965 F art     : art/runtime/runtime.cc:422]   native: #03 pc 00326f5d  /system/lib/libart.so (_ZN3art13SignalCatcher13WaitForSignalEPNS_6ThreadERNS_9SignalSetE+168)
+06-19 10:19:04.185 12965 12965 F art     : art/runtime/runtime.cc:422]   native: #04 pc 00325cc1  /system/lib/libart.so (_ZN3art13SignalCatcher3RunEPv+276)
+06-19 10:19:04.185 12965 12965 F art     : art/runtime/runtime.cc:422]   native: #05 pc 000470c3  /system/lib/libc.so (_ZL15__pthread_startPv+22)
+06-19 10:19:04.185 12965 12965 F art     : art/runtime/runtime.cc:422]   native: #06 pc 00019e3d  /system/lib/libc.so (__start_thread+6)
+06-19 10:19:04.185 12965 12965 F art     : art/runtime/runtime.cc:422]   (no managed stack frames)
+06-19 10:19:04.185 12965 12965 F art     : art/runtime/runtime.cc:422] 
+06-19 10:19:04.185 12965 12965 F art     : art/runtime/runtime.cc:422] "JDWP" prio=10 tid=4 WaitingInMainDebuggerLoop
+06-19 10:19:04.185 12965 12965 F art     : art/runtime/runtime.cc:422]   | group="" sCount=1 dsCount=0 obj=0x12c1f0d0 self=0xe958d400
+06-19 10:19:04.185 12965 12965 F art     : art/runtime/runtime.cc:422]   | sysTid=12972 nice=0 cgrp=default sched=0/0 handle=0xf19a6920
+06-19 10:19:04.185 12965 12965 F art     : art/runtime/runtime.cc:422]   | state=S schedstat=( 5100666 2356666 16 ) utm=0 stm=0 core=3 HZ=100
+06-19 10:19:04.185 12965 12965 F art     : art/runtime/runtime.cc:422]   | stack=0xf18aa000-0xf18ac000 stackSize=1014KB
+06-19 10:19:04.185 12965 12965 F art     : art/runtime/runtime.cc:422]   | held mutexes=
+06-19 10:19:04.185 12965 12965 F art     : art/runtime/runtime.cc:422]   kernel: __switch_to+0x9c/0xa8
+06-19 10:19:04.185 12965 12965 F art     : art/runtime/runtime.cc:422]   kernel: poll_schedule_timeout+0x4c/0x7c
+06-19 10:19:04.185 12965 12965 F art     : art/runtime/runtime.cc:422]   kernel: do_select+0x4ac/0x504
+06-19 10:19:04.185 12965 12965 F art     : art/runtime/runtime.cc:422]   kernel: compat_core_sys_select+0x16c/0x224
+06-19 10:19:04.185 12965 12965 F art     : art/runtime/runtime.cc:422]   kernel: compat_SyS_pselect6+0x1f8/0x2ac
+06-19 10:19:04.185 12965 12965 F art     : art/runtime/runtime.cc:422]   kernel: el0_svc_naked+0x24/0x28
+06-19 10:19:04.185 12965 12965 F art     : art/runtime/runtime.cc:422]   native: #00 pc 0004877c  /system/lib/libc.so (__pselect6+20)
+06-19 10:19:04.185 12965 12965 F art     : art/runtime/runtime.cc:422]   native: #01 pc 0001d045  /system/lib/libc.so (select+88)
+06-19 10:19:04.185 12965 12965 F art     : art/runtime/runtime.cc:422]   native: #02 pc 003fba77  /system/lib/libart.so (_ZN3art4JDWP12JdwpAdbState15ProcessIncomingEv+302)
+06-19 10:19:04.185 12965 12965 F art     : art/runtime/runtime.cc:422]   native: #03 pc 002487a7  /system/lib/libart.so (_ZN3art4JDWP9JdwpState3RunEv+650)
+06-19 10:19:04.185 12965 12965 F art     : art/runtime/runtime.cc:422]   native: #04 pc 00247f4b  /system/lib/libart.so (_ZN3art4JDWPL15StartJdwpThreadEPv+22)
+06-19 10:19:04.185 12965 12965 F art     : art/runtime/runtime.cc:422]   native: #05 pc 000470c3  /system/lib/libc.so (_ZL15__pthread_startPv+22)
+06-19 10:19:04.185 12965 12965 F art     : art/runtime/runtime.cc:422]   native: #06 pc 00019e3d  /system/lib/libc.so (__start_thread+6)
+06-19 10:19:04.185 12965 12965 F art     : art/runtime/runtime.cc:422]   (no managed stack frames)
+06-19 10:19:04.185 12965 12965 F art     : art/runtime/runtime.cc:422] 
+06-19 10:19:04.185 12965 12965 F art     : art/runtime/runtime.cc:422] "FinalizerWatchdogDaemon" prio=10 tid=5 Waiting
+06-19 10:19:04.185 12965 12965 F art     : art/runtime/runtime.cc:422]   | group="" sCount=1 dsCount=0 obj=0x12c1f280 self=0xe6d3ec00
+06-19 10:19:04.185 12965 12965 F art     : art/runtime/runtime.cc:422]   | sysTid=12975 nice=0 cgrp=default sched=0/0 handle=0xf169d920
+06-19 10:19:04.185 12965 12965 F art     : art/runtime/runtime.cc:422]   | state=S schedstat=( 697083 335124 6 ) utm=0 stm=0 core=1 HZ=100
+06-19 10:19:04.185 12965 12965 F art     : art/runtime/runtime.cc:422]   | stack=0xf159b000-0xf159d000 stackSize=1038KB
+06-19 10:19:04.185 12965 12965 F art     : art/runtime/runtime.cc:422]   | held mutexes=
+06-19 10:19:04.185 12965 12965 F art     : art/runtime/runtime.cc:422]   kernel: __switch_to+0x9c/0xa8
+06-19 10:19:04.185 12965 12965 F art     : art/runtime/runtime.cc:422]   kernel: futex_wait_queue_me+0xcc/0x130
+06-19 10:19:04.185 12965 12965 F art     : art/runtime/runtime.cc:422]   kernel: futex_wait+0xe8/0x1ec
+06-19 10:19:04.185 12965 12965 F art     : art/runtime/runtime.cc:422]   kernel: do_futex+0xdc/0x4e0
+06-19 10:19:04.185 12965 12965 F art     : art/runtime/runtime.cc:422]   kernel: compat_SyS_futex+0xdc/0x168
+06-19 10:19:04.185 12965 12965 F art     : art/runtime/runtime.cc:422]   kernel: el0_svc_naked+0x24/0x28
+06-19 10:19:04.185 12965 12965 F art     : art/runtime/runtime.cc:422]   native: #00 pc 00017404  /system/lib/libc.so (syscall+28)
+06-19 10:19:04.185 12965 12965 F art     : art/runtime/runtime.cc:422]   native: #01 pc 000b6e49  /system/lib/libart.so (_ZN3art17ConditionVariable16WaitHoldingLocksEPNS_6ThreadE+92)
+06-19 10:19:04.185 12965 12965 F art     : art/runtime/runtime.cc:422]   native: #02 pc 0029f17b  /system/lib/libart.so (_ZN3art7Monitor4WaitEPNS_6ThreadExibNS_11ThreadStateE+514)
+06-19 10:19:04.185 12965 12965 F art     : art/runtime/runtime.cc:422]   native: #03 pc 002a09ab  /system/lib/libart.so (_ZN3art7Monitor4WaitEPNS_6ThreadEPNS_6mirror6ObjectExibNS_11ThreadStateE+258)
+06-19 10:19:04.185 12965 12965 F art     : art/runtime/runtime.cc:422]   native: #04 pc 002af1c7  /system/lib/libart.so (_ZN3artL11Object_waitEP7_JNIEnvP8_jobject+32)
+06-19 10:19:04.185 12965 12965 F art     : art/runtime/runtime.cc:422]   native: #05 pc 00000557  /system/framework/arm/boot.oat (Java_java_lang_Object_wait__+74)
+06-19 10:19:04.185 12965 12965 F art     : art/runtime/runtime.cc:422]   at java.lang.Object.wait!(Native method)
+06-19 10:19:04.185 12965 12965 F art     : art/runtime/runtime.cc:422]   - waiting on <0x0abd52bf> (a java.lang.Daemons$FinalizerWatchdogDaemon)
+06-19 10:19:04.185 12965 12965 F art     : art/runtime/runtime.cc:422]   at java.lang.Daemons$FinalizerWatchdogDaemon.sleepUntilNeeded(Daemons.java:269)
+06-19 10:19:04.185 12965 12965 F art     : art/runtime/runtime.cc:422]   - locked <0x0abd52bf> (a java.lang.Daemons$FinalizerWatchdogDaemon)
+06-19 10:19:04.185 12965 12965 F art     : art/runtime/runtime.cc:422]   at java.lang.Daemons$FinalizerWatchdogDaemon.run(Daemons.java:249)
+06-19 10:19:04.186 12965 12965 F art     : art/runtime/runtime.cc:422]   at java.lang.Thread.run(Thread.java:761)
+06-19 10:19:04.186 12965 12965 F art     : art/runtime/runtime.cc:422] 
+06-19 10:19:04.186 12965 12965 F art     : art/runtime/runtime.cc:422] "ReferenceQueueDaemon" prio=10 tid=6 Waiting
+06-19 10:19:04.186 12965 12965 F art     : art/runtime/runtime.cc:422]   | group="" sCount=1 dsCount=0 obj=0x12c1f160 self=0xe6d3e200
+06-19 10:19:04.186 12965 12965 F art     : art/runtime/runtime.cc:422]   | sysTid=12973 nice=0 cgrp=default sched=0/0 handle=0xf18a7920
+06-19 10:19:04.186 12965 12965 F art     : art/runtime/runtime.cc:422]   | state=S schedstat=( 588002 720416 8 ) utm=0 stm=0 core=2 HZ=100
+06-19 10:19:04.186 12965 12965 F art     : art/runtime/runtime.cc:422]   | stack=0xf17a5000-0xf17a7000 stackSize=1038KB
+06-19 10:19:04.186 12965 12965 F art     : art/runtime/runtime.cc:422]   | held mutexes=
+06-19 10:19:04.186 12965 12965 F art     : art/runtime/runtime.cc:422]   kernel: __switch_to+0x9c/0xa8
+06-19 10:19:04.186 12965 12965 F art     : art/runtime/runtime.cc:422]   kernel: futex_wait_queue_me+0xcc/0x130
+06-19 10:19:04.186 12965 12965 F art     : art/runtime/runtime.cc:422]   kernel: futex_wait+0xe8/0x1ec
+06-19 10:19:04.186 12965 12965 F art     : art/runtime/runtime.cc:422]   kernel: do_futex+0xdc/0x4e0
+06-19 10:19:04.186 12965 12965 F art     : art/runtime/runtime.cc:422]   kernel: compat_SyS_futex+0xdc/0x168
+06-19 10:19:04.186 12965 12965 F art     : art/runtime/runtime.cc:422]   kernel: el0_svc_naked+0x24/0x28
+06-19 10:19:04.186 12965 12965 F art     : art/runtime/runtime.cc:422]   native: #00 pc 00017404  /system/lib/libc.so (syscall+28)
+06-19 10:19:04.186 12965 12965 F art     : art/runtime/runtime.cc:422]   native: #01 pc 000b6e49  /system/lib/libart.so (_ZN3art17ConditionVariable16WaitHoldingLocksEPNS_6ThreadE+92)
+06-19 10:19:04.186 12965 12965 F art     : art/runtime/runtime.cc:422]   native: #02 pc 0029f17b  /system/lib/libart.so (_ZN3art7Monitor4WaitEPNS_6ThreadExibNS_11ThreadStateE+514)
+06-19 10:19:04.186 12965 12965 F art     : art/runtime/runtime.cc:422]   native: #03 pc 002a09ab  /system/lib/libart.so (_ZN3art7Monitor4WaitEPNS_6ThreadEPNS_6mirror6ObjectExibNS_11ThreadStateE+258)
+06-19 10:19:04.186 12965 12965 F art     : art/runtime/runtime.cc:422]   native: #04 pc 002af1c7  /system/lib/libart.so (_ZN3artL11Object_waitEP7_JNIEnvP8_jobject+32)
+06-19 10:19:04.186 12965 12965 F art     : art/runtime/runtime.cc:422]   native: #05 pc 00000557  /system/framework/arm/boot.oat (Java_java_lang_Object_wait__+74)
+06-19 10:19:04.186 12965 12965 F art     : art/runtime/runtime.cc:422]   at java.lang.Object.wait!(Native method)
+06-19 10:19:04.186 12965 12965 F art     : art/runtime/runtime.cc:422]   - waiting on <0x008c9d8c> (a java.lang.Class<java.lang.ref.ReferenceQueue>)
+06-19 10:19:04.186 12965 12965 F art     : art/runtime/runtime.cc:422]   at java.lang.Daemons$ReferenceQueueDaemon.run(Daemons.java:150)
+06-19 10:19:04.186 12965 12965 F art     : art/runtime/runtime.cc:422]   - locked <0x008c9d8c> (a java.lang.Class<java.lang.ref.ReferenceQueue>)
+06-19 10:19:04.186 12965 12965 F art     : art/runtime/runtime.cc:422]   at java.lang.Thread.run(Thread.java:761)
+06-19 10:19:04.186 12965 12965 F art     : art/runtime/runtime.cc:422] 
+06-19 10:19:04.186 12965 12965 F art     : art/runtime/runtime.cc:422] "HeapTaskDaemon" prio=10 tid=7 Blocked
+06-19 10:19:04.186 12965 12965 F art     : art/runtime/runtime.cc:422]   | group="" sCount=1 dsCount=0 obj=0x12c1f310 self=0xe6d3f100
+06-19 10:19:04.186 12965 12965 F art     : art/runtime/runtime.cc:422]   | sysTid=12976 nice=0 cgrp=default sched=0/0 handle=0xf1598920
+06-19 10:19:04.186 12965 12965 F art     : art/runtime/runtime.cc:422]   | state=S schedstat=( 380041 3763084 5 ) utm=0 stm=0 core=2 HZ=100
+06-19 10:19:04.186 12965 12965 F art     : art/runtime/runtime.cc:422]   | stack=0xf1496000-0xf1498000 stackSize=1038KB
+06-19 10:19:04.186 12965 12965 F art     : art/runtime/runtime.cc:422]   | held mutexes=
+06-19 10:19:04.186 12965 12965 F art     : art/runtime/runtime.cc:422]   kernel: __switch_to+0x9c/0xa8
+06-19 10:19:04.186 12965 12965 F art     : art/runtime/runtime.cc:422]   kernel: futex_wait_queue_me+0xcc/0x130
+06-19 10:19:04.186 12965 12965 F art     : art/runtime/runtime.cc:422]   kernel: futex_wait+0xe8/0x1ec
+06-19 10:19:04.186 12965 12965 F art     : art/runtime/runtime.cc:422]   kernel: do_futex+0xdc/0x4e0
+06-19 10:19:04.186 12965 12965 F art     : art/runtime/runtime.cc:422]   kernel: compat_SyS_futex+0xdc/0x168
+06-19 10:19:04.186 12965 12965 F art     : art/runtime/runtime.cc:422]   kernel: el0_svc_naked+0x24/0x28
+06-19 10:19:04.186 12965 12965 F art     : art/runtime/runtime.cc:422]   native: #00 pc 00017404  /system/lib/libc.so (syscall+28)
+06-19 10:19:04.186 12965 12965 F art     : art/runtime/runtime.cc:422]   native: #01 pc 000b6e49  /system/lib/libart.so (_ZN3art17ConditionVariable16WaitHoldingLocksEPNS_6ThreadE+92)
+06-19 10:19:04.186 12965 12965 F art     : art/runtime/runtime.cc:422]   native: #02 pc 001b4de5  /system/lib/libart.so (_ZN3art2gc13TaskProcessor7GetTaskEPNS_6ThreadE+288)
+06-19 10:19:04.186 12965 12965 F art     : art/runtime/runtime.cc:422]   native: #03 pc 001b545d  /system/lib/libart.so (_ZN3art2gc13TaskProcessor11RunAllTasksEPNS_6ThreadE+44)
+06-19 10:19:04.186 12965 12965 F art     : art/runtime/runtime.cc:422]   native: #04 pc 001615cf  /system/framework/arm/boot-core-libart.oat (Java_dalvik_system_VMRuntime_runHeapTasks__+74)
+06-19 10:19:04.186 12965 12965 F art     : art/runtime/runtime.cc:422]   at dalvik.system.VMRuntime.runHeapTasks(Native method)
+06-19 10:19:04.186 12965 12965 F art     : art/runtime/runtime.cc:422]   - waiting to lock an unknown object
+06-19 10:19:04.186 12965 12965 F art     : art/runtime/runtime.cc:422]   at java.lang.Daemons$HeapTaskDaemon.run(Daemons.java:433)
+06-19 10:19:04.186 12965 12965 F art     : art/runtime/runtime.cc:422]   at java.lang.Thread.run(Thread.java:761)
+06-19 10:19:04.186 12965 12965 F art     : art/runtime/runtime.cc:422] 
+06-19 10:19:04.186 12965 12965 F art     : art/runtime/runtime.cc:422] "FinalizerDaemon" prio=10 tid=8 Waiting
+06-19 10:19:04.186 12965 12965 F art     : art/runtime/runtime.cc:422]   | group="" sCount=1 dsCount=0 obj=0x12c1f1f0 self=0xe6d3e700
+06-19 10:19:04.186 12965 12965 F art     : art/runtime/runtime.cc:422]   | sysTid=12974 nice=0 cgrp=default sched=0/0 handle=0xf17a2920
+06-19 10:19:04.186 12965 12965 F art     : art/runtime/runtime.cc:422]   | state=S schedstat=( 353792 625625 5 ) utm=0 stm=0 core=4 HZ=100
+06-19 10:19:04.186 12965 12965 F art     : art/runtime/runtime.cc:422]   | stack=0xf16a0000-0xf16a2000 stackSize=1038KB
+06-19 10:19:04.186 12965 12965 F art     : art/runtime/runtime.cc:422]   | held mutexes=
+06-19 10:19:04.186 12965 12965 F art     : art/runtime/runtime.cc:422]   kernel: __switch_to+0x9c/0xa8
+06-19 10:19:04.186 12965 12965 F art     : art/runtime/runtime.cc:422]   kernel: futex_wait_queue_me+0xcc/0x130
+06-19 10:19:04.186 12965 12965 F art     : art/runtime/runtime.cc:422]   kernel: futex_wait+0xe8/0x1ec
+06-19 10:19:04.186 12965 12965 F art     : art/runtime/runtime.cc:422]   kernel: do_futex+0xdc/0x4e0
+06-19 10:19:04.186 12965 12965 F art     : art/runtime/runtime.cc:422]   kernel: compat_SyS_futex+0xdc/0x168
+06-19 10:19:04.186 12965 12965 F art     : art/runtime/runtime.cc:422]   kernel: el0_svc_naked+0x24/0x28
+06-19 10:19:04.186 12965 12965 F art     : art/runtime/runtime.cc:422]   native: #00 pc 00017404  /system/lib/libc.so (syscall+28)
+06-19 10:19:04.186 12965 12965 F art     : art/runtime/runtime.cc:422]   native: #01 pc 000b6e49  /system/lib/libart.so (_ZN3art17ConditionVariable16WaitHoldingLocksEPNS_6ThreadE+92)
+06-19 10:19:04.187 12965 12965 F art     : art/runtime/runtime.cc:422]   native: #02 pc 0029f17b  /system/lib/libart.so (_ZN3art7Monitor4WaitEPNS_6ThreadExibNS_11ThreadStateE+514)
+06-19 10:19:04.187 12965 12965 F art     : art/runtime/runtime.cc:422]   native: #03 pc 002a09ab  /system/lib/libart.so (_ZN3art7Monitor4WaitEPNS_6ThreadEPNS_6mirror6ObjectExibNS_11ThreadStateE+258)
+06-19 10:19:04.187 12965 12965 F art     : art/runtime/runtime.cc:422]   native: #04 pc 002af1f3  /system/lib/libart.so (_ZN3artL13Object_waitJIEP7_JNIEnvP8_jobjectxi+36)
+06-19 10:19:04.187 12965 12965 F art     : art/runtime/runtime.cc:422]   native: #05 pc 00000655  /system/framework/arm/boot.oat (Java_java_lang_Object_wait__JI+96)
+06-19 10:19:04.187 12965 12965 F art     : art/runtime/runtime.cc:422]   at java.lang.Object.wait!(Native method)
+06-19 10:19:04.187 12965 12965 F art     : art/runtime/runtime.cc:422]   - waiting on <0x0a27ecd5> (a java.lang.Object)
+06-19 10:19:04.187 12965 12965 F art     : art/runtime/runtime.cc:422]   at java.lang.Object.wait(Object.java:407)
+06-19 10:19:04.187 12965 12965 F art     : art/runtime/runtime.cc:422]   at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:188)
+06-19 10:19:04.187 12965 12965 F art     : art/runtime/runtime.cc:422]   - locked <0x0a27ecd5> (a java.lang.Object)
+06-19 10:19:04.187 12965 12965 F art     : art/runtime/runtime.cc:422]   at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:209)
+06-19 10:19:04.187 12965 12965 F art     : art/runtime/runtime.cc:422]   at java.lang.Daemons$FinalizerDaemon.run(Daemons.java:204)
+06-19 10:19:04.187 12965 12965 F art     : art/runtime/runtime.cc:422]   at java.lang.Thread.run(Thread.java:761)
+06-19 10:19:04.187 12965 12965 F art     : art/runtime/runtime.cc:422] 
+06-19 10:19:04.187 12965 12965 F art     : art/runtime/runtime.cc:422] "Binder:12965_1" prio=10 tid=9 Native
+06-19 10:19:04.187 12965 12965 F art     : art/runtime/runtime.cc:422]   | group="" sCount=1 dsCount=0 obj=0x12c1f4c0 self=0xe6d3f600
+06-19 10:19:04.187 12965 12965 F art     : art/runtime/runtime.cc:422]   | sysTid=12977 nice=0 cgrp=default sched=0/0 handle=0xf1395920
+06-19 10:19:04.187 12965 12965 F art     : art/runtime/runtime.cc:422]   | state=S schedstat=( 4057081 877626 9 ) utm=0 stm=0 core=5 HZ=100
+06-19 10:19:04.187 12965 12965 F art     : art/runtime/runtime.cc:422]   | stack=0xf1299000-0xf129b000 stackSize=1014KB
+06-19 10:19:04.187 12965 12965 F art     : art/runtime/runtime.cc:422]   | held mutexes=
+06-19 10:19:04.187 12965 12965 F art     : art/runtime/runtime.cc:422]   kernel: __switch_to+0x9c/0xa8
+06-19 10:19:04.187 12965 12965 F art     : art/runtime/runtime.cc:422]   kernel: binder_thread_read+0x350/0x1080
+06-19 10:19:04.187 12965 12965 F art     : art/runtime/runtime.cc:422]   kernel: binder_ioctl_write_read+0x1b4/0x314
+06-19 10:19:04.187 12965 12965 F art     : art/runtime/runtime.cc:422]   kernel: binder_ioctl+0x1d0/0x668
+06-19 10:19:04.187 12965 12965 F art     : art/runtime/runtime.cc:422]   kernel: compat_SyS_ioctl+0x120/0x1130
+06-19 10:19:04.187 12965 12965 F art     : art/runtime/runtime.cc:422]   kernel: el0_svc_naked+0x24/0x28
+06-19 10:19:04.187 12965 12965 F art     : art/runtime/runtime.cc:422]   native: #00 pc 00048678  /system/lib/libc.so (__ioctl+8)
+06-19 10:19:04.187 12965 12965 F art     : art/runtime/runtime.cc:422]   native: #01 pc 0001ae3f  /system/lib/libc.so (ioctl+38)
+06-19 10:19:04.187 12965 12965 F art     : art/runtime/runtime.cc:422]   native: #02 pc 0003ccb7  /system/lib/libbinder.so (_ZN7android14IPCThreadState14talkWithDriverEb+202)
+06-19 10:19:04.187 12965 12965 F art     : art/runtime/runtime.cc:422]   native: #03 pc 0003cdcd  /system/lib/libbinder.so (_ZN7android14IPCThreadState20getAndExecuteCommandEv+8)
+06-19 10:19:04.187 12965 12965 F art     : art/runtime/runtime.cc:422]   native: #04 pc 0003d34b  /system/lib/libbinder.so (_ZN7android14IPCThreadState14joinThreadPoolEb+46)
+06-19 10:19:04.187 12965 12965 F art     : art/runtime/runtime.cc:422]   native: #05 pc 0004f8f5  /system/lib/libbinder.so (???)
+06-19 10:19:04.187 12965 12965 F art     : art/runtime/runtime.cc:422]   native: #06 pc 0000e345  /system/lib/libutils.so (_ZN7android6Thread11_threadLoopEPv+140)
+06-19 10:19:04.187 12965 12965 F art     : art/runtime/runtime.cc:422]   native: #07 pc 000667e5  /system/lib/libandroid_runtime.so (_ZN7android14AndroidRuntime15javaThreadShellEPv+80)
+06-19 10:19:04.187 12965 12965 F art     : art/runtime/runtime.cc:422]   native: #08 pc 000470c3  /system/lib/libc.so (_ZL15__pthread_startPv+22)
+06-19 10:19:04.187 12965 12965 F art     : art/runtime/runtime.cc:422]   native: #09 pc 00019e3d  /system/lib/libc.so (__start_thread+6)
+06-19 10:19:04.187 12965 12965 F art     : art/runtime/runtime.cc:422]   (no managed stack frames)
+06-19 10:19:04.187 12965 12965 F art     : art/runtime/runtime.cc:422] 
+06-19 10:19:04.187 12965 12965 F art     : art/runtime/runtime.cc:422] "Binder:12965_2" prio=10 tid=10 Native
+06-19 10:19:04.187 12965 12965 F art     : art/runtime/runtime.cc:422]   | group="" sCount=1 dsCount=0 obj=0x12c1f550 self=0xe958e800
+06-19 10:19:04.187 12965 12965 F art     : art/runtime/runtime.cc:422]   | sysTid=12978 nice=0 cgrp=default sched=0/0 handle=0xf1296920
+06-19 10:19:04.187 12965 12965 F art     : art/runtime/runtime.cc:422]   | state=S schedstat=( 9023876 6063165 35 ) utm=0 stm=0 core=5 HZ=100
+06-19 10:19:04.187 12965 12965 F art     : art/runtime/runtime.cc:422]   | stack=0xf119a000-0xf119c000 stackSize=1014KB
+06-19 10:19:04.187 12965 12965 F art     : art/runtime/runtime.cc:422]   | held mutexes=
+06-19 10:19:04.187 12965 12965 F art     : art/runtime/runtime.cc:422]   kernel: __switch_to+0x9c/0xa8
+06-19 10:19:04.187 12965 12965 F art     : art/runtime/runtime.cc:422]   kernel: binder_thread_read+0x350/0x1080
+06-19 10:19:04.187 12965 12965 F art     : art/runtime/runtime.cc:422]   kernel: binder_ioctl_write_read+0x1b4/0x314
+06-19 10:19:04.187 12965 12965 F art     : art/runtime/runtime.cc:422]   kernel: binder_ioctl+0x1d0/0x668
+06-19 10:19:04.187 12965 12965 F art     : art/runtime/runtime.cc:422]   kernel: compat_SyS_ioctl+0x120/0x1130
+06-19 10:19:04.187 12965 12965 F art     : art/runtime/runtime.cc:422]   kernel: el0_svc_naked+0x24/0x28
+06-19 10:19:04.187 12965 12965 F art     : art/runtime/runtime.cc:422]   native: #00 pc 00048678  /system/lib/libc.so (__ioctl+8)
+06-19 10:19:04.187 12965 12965 F art     : art/runtime/runtime.cc:422]   native: #01 pc 0001ae3f  /system/lib/libc.so (ioctl+38)
+06-19 10:19:04.187 12965 12965 F art     : art/runtime/runtime.cc:422]   native: #02 pc 0003ccb7  /system/lib/libbinder.so (_ZN7android14IPCThreadState14talkWithDriverEb+202)
+06-19 10:19:04.187 12965 12965 F art     : art/runtime/runtime.cc:422]   native: #03 pc 0003cdcd  /system/lib/libbinder.so (_ZN7android14IPCThreadState20getAndExecuteCommandEv+8)
+06-19 10:19:04.187 12965 12965 F art     : art/runtime/runtime.cc:422]   native: #04 pc 0003d34b  /system/lib/libbinder.so (_ZN7android14IPCThreadState14joinThreadPoolEb+46)
+06-19 10:19:04.187 12965 12965 F art     : art/runtime/runtime.cc:422]   native: #05 pc 0004f8f5  /system/lib/libbinder.so (???)
+06-19 10:19:04.187 12965 12965 F art     : art/runtime/runtime.cc:422]   native: #06 pc 0000e345  /system/lib/libutils.so (_ZN7android6Thread11_threadLoopEPv+140)
+06-19 10:19:04.187 12965 12965 F art     : art/runtime/runtime.cc:422]   native: #07 pc 000667e5  /system/lib/libandroid_runtime.so (_ZN7android14AndroidRuntime15javaThreadShellEPv+80)
+06-19 10:19:04.187 12965 12965 F art     : art/runtime/runtime.cc:422]   native: #08 pc 000470c3  /system/lib/libc.so (_ZL15__pthread_startPv+22)
+06-19 10:19:04.187 12965 12965 F art     : art/runtime/runtime.cc:422]   native: #09 pc 00019e3d  /system/lib/libc.so (__start_thread+6)
+06-19 10:19:04.187 12965 12965 F art     : art/runtime/runtime.cc:422]   (no managed stack frames)
+06-19 10:19:04.187 12965 12965 F art     : art/runtime/runtime.cc:422] 
+06-19 10:19:04.187 12965 12965 F art     : art/runtime/runtime.cc:422] "Profile Saver" prio=10 tid=11 Native
+06-19 10:19:04.187 12965 12965 F art     : art/runtime/runtime.cc:422]   | group="" sCount=1 dsCount=0 obj=0x12c1f670 self=0xf2486300
+06-19 10:19:04.187 12965 12965 F art     : art/runtime/runtime.cc:422]   | sysTid=12979 nice=-10 cgrp=default sched=0/0 handle=0xf114c920
+06-19 10:19:04.187 12965 12965 F art     : art/runtime/runtime.cc:422]   | state=S schedstat=( 4548833 0 9 ) utm=0 stm=0 core=4 HZ=100
+06-19 10:19:04.188 12965 12965 F art     : art/runtime/runtime.cc:422]   | stack=0xf1050000-0xf1052000 stackSize=1014KB
+06-19 10:19:04.188 12965 12965 F art     : art/runtime/runtime.cc:422]   | held mutexes=
+06-19 10:19:04.188 12965 12965 F art     : art/runtime/runtime.cc:422]   kernel: __switch_to+0x9c/0xa8
+06-19 10:19:04.188 12965 12965 F art     : art/runtime/runtime.cc:422]   kernel: futex_wait_queue_me+0xcc/0x130
+06-19 10:19:04.188 12965 12965 F art     : art/runtime/runtime.cc:422]   kernel: futex_wait+0xe8/0x1ec
+06-19 10:19:04.188 12965 12965 F art     : art/runtime/runtime.cc:422]   kernel: do_futex+0xdc/0x4e0
+06-19 10:19:04.188 12965 12965 F art     : art/runtime/runtime.cc:422]   kernel: compat_SyS_futex+0xdc/0x168
+06-19 10:19:04.188 12965 12965 F art     : art/runtime/runtime.cc:422]   kernel: el0_svc_naked+0x24/0x28
+06-19 10:19:04.188 12965 12965 F art     : art/runtime/runtime.cc:422]   native: #00 pc 00017404  /system/lib/libc.so (syscall+28)
+06-19 10:19:04.188 12965 12965 F art     : art/runtime/runtime.cc:422]   native: #01 pc 000b6e49  /system/lib/libart.so (_ZN3art17ConditionVariable16WaitHoldingLocksEPNS_6ThreadE+92)
+06-19 10:19:04.188 12965 12965 F art     : art/runtime/runtime.cc:422]   native: #02 pc 00259d2d  /system/lib/libart.so (_ZN3art12ProfileSaver3RunEv+296)
+06-19 10:19:04.188 12965 12965 F art     : art/runtime/runtime.cc:422]   native: #03 pc 0025b069  /system/lib/libart.so (_ZN3art12ProfileSaver21RunProfileSaverThreadEPv+52)
+06-19 10:19:04.188 12965 12965 F art     : art/runtime/runtime.cc:422]   native: #04 pc 000470c3  /system/lib/libc.so (_ZL15__pthread_startPv+22)
+06-19 10:19:04.188 12965 12965 F art     : art/runtime/runtime.cc:422]   native: #05 pc 00019e3d  /system/lib/libc.so (__start_thread+6)
+06-19 10:19:04.188 12965 12965 F art     : art/runtime/runtime.cc:422]   (no managed stack frames)
+06-19 10:19:04.188 12965 12965 F art     : art/runtime/runtime.cc:422] 
+06-19 10:19:04.188 12965 12965 F art     : art/runtime/runtime.cc:422] "RenderThread" prio=10 tid=12 Native
+06-19 10:19:04.188 12965 12965 F art     : art/runtime/runtime.cc:422]   | group="" sCount=1 dsCount=0 obj=0x12c718b0 self=0xe958fc00
+06-19 10:19:04.188 12965 12965 F art     : art/runtime/runtime.cc:422]   | sysTid=12981 nice=-10 cgrp=default sched=0/0 handle=0xf1032920
+06-19 10:19:04.188 12965 12965 F art     : art/runtime/runtime.cc:422]   | state=S schedstat=( 53141379 14817250 95 ) utm=3 stm=1 core=0 HZ=100
+06-19 10:19:04.188 12965 12965 F art     : art/runtime/runtime.cc:422]   | stack=0xf0f36000-0xf0f38000 stackSize=1014KB
+06-19 10:19:04.188 12965 12965 F art     : art/runtime/runtime.cc:422]   | held mutexes=
+06-19 10:19:04.188 12965 12965 F art     : art/runtime/runtime.cc:422]   kernel: __switch_to+0x9c/0xa8
+06-19 10:19:04.188 12965 12965 F art     : art/runtime/runtime.cc:422]   kernel: SyS_epoll_wait+0x2b8/0x368
+06-19 10:19:04.188 12965 12965 F art     : art/runtime/runtime.cc:422]   kernel: compat_SyS_epoll_pwait+0xc0/0x13c
+06-19 10:19:04.188 12965 12965 F art     : art/runtime/runtime.cc:422]   kernel: el0_svc_naked+0x24/0x28
+06-19 10:19:04.188 12965 12965 F art     : art/runtime/runtime.cc:422]   native: #00 pc 00048538  /system/lib/libc.so (__epoll_pwait+20)
+06-19 10:19:04.188 12965 12965 F art     : art/runtime/runtime.cc:422]   native: #01 pc 0001a1ed  /system/lib/libc.so (epoll_pwait+60)
+06-19 10:19:04.188 12965 12965 F art     : art/runtime/runtime.cc:422]   native: #02 pc 0001a21d  /system/lib/libc.so (epoll_wait+12)
+06-19 10:19:04.188 12965 12965 F art     : art/runtime/runtime.cc:422]   native: #03 pc 00011c83  /system/lib/libutils.so (_ZN7android6Looper9pollInnerEi+118)
+06-19 10:19:04.188 12965 12965 F art     : art/runtime/runtime.cc:422]   native: #04 pc 00011b7f  /system/lib/libutils.so (_ZN7android6Looper8pollOnceEiPiS1_PPv+26)
+06-19 10:19:04.188 12965 12965 F art     : art/runtime/runtime.cc:422]   native: #05 pc 00029161  /system/lib/libhwui.so (_ZN7android10uirenderer12renderthread12RenderThread10threadLoopEv+284)
+06-19 10:19:04.188 12965 12965 F art     : art/runtime/runtime.cc:422]   native: #06 pc 0000e345  /system/lib/libutils.so (_ZN7android6Thread11_threadLoopEPv+140)
+06-19 10:19:04.188 12965 12965 F art     : art/runtime/runtime.cc:422]   native: #07 pc 000667e5  /system/lib/libandroid_runtime.so (_ZN7android14AndroidRuntime15javaThreadShellEPv+80)
+06-19 10:19:04.188 12965 12965 F art     : art/runtime/runtime.cc:422]   native: #08 pc 000470c3  /system/lib/libc.so (_ZL15__pthread_startPv+22)
+06-19 10:19:04.188 12965 12965 F art     : art/runtime/runtime.cc:422]   native: #09 pc 00019e3d  /system/lib/libc.so (__start_thread+6)
+06-19 10:19:04.188 12965 12965 F art     : art/runtime/runtime.cc:422]   (no managed stack frames)
+06-19 10:19:04.188 12965 12965 F art     : art/runtime/runtime.cc:422] 
+06-19 10:19:04.188 12965 12965 F art     : art/runtime/runtime.cc:422] 
+06-19 10:19:04.188 12965 12965 F art     : art/runtime/runtime.cc:427] JNI DETECTED ERROR IN APPLICATION: use of invalid jobject 0xffa35658
+06-19 10:19:04.188 12965 12965 F art     : art/runtime/runtime.cc:427]     from void com.example.myndk.JNIUtils.operationArray2(int[])
+06-19 10:19:04.188 12965 12965 F art     : art/runtime/runtime.cc:427] "main" prio=5 tid=1 Runnable
+06-19 10:19:04.188 12965 12965 F art     : art/runtime/runtime.cc:427]   | group="main" sCount=0 dsCount=0 obj=0x743944a0 self=0xf2485400
+06-19 10:19:04.188 12965 12965 F art     : art/runtime/runtime.cc:427]   | sysTid=12965 nice=-10 cgrp=default sched=0/0 handle=0xf529a534
+06-19 10:19:04.188 12965 12965 F art     : art/runtime/runtime.cc:427]   | state=R schedstat=( 166985622 31155250 234 ) utm=10 stm=5 core=2 HZ=100
+06-19 10:19:04.188 12965 12965 F art     : art/runtime/runtime.cc:427]   | stack=0xff23a000-0xff23c000 stackSize=8MB
+06-19 10:19:04.190 12965 12965 F libc    : Fatal signal 6 (SIGABRT), code -6 in tid 12965 (m.example.myndk)
+06-19 10:19:04.191   219   219 W         : debuggerd: handling request: pid=12965 uid=10040 gid=10040 tid=12965
+06-19 10:19:04.276 12992 12992 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+06-19 10:19:04.277 12992 12992 F DEBUG   : Build fingerprint: 'Android/rk3399_mid/rk3399_mid:7.1.2/NHG47K/user.xshuo.20180613.115732:user/release-keys'
+06-19 10:19:04.277 12992 12992 F DEBUG   : Revision: '0'
+06-19 10:19:04.277 12992 12992 F DEBUG   : ABI: 'arm'
+06-19 10:19:04.277 12992 12992 F DEBUG   : pid: 12965, tid: 12965, name: m.example.myndk  >>> com.example.myndk <<<
+06-19 10:19:04.277 12992 12992 F DEBUG   : signal 6 (SIGABRT), code -6 (SI_TKILL), fault addr --------
+06-19 10:19:04.280 12992 12992 F DEBUG   : Abort message: 'art/runtime/java_vm_ext.cc:470] JNI DETECTED ERROR IN APPLICATION: use of invalid jobject 0xffa35658'
+06-19 10:19:04.280 12992 12992 F DEBUG   :     r0 00000000  r1 000032a5  r2 00000006  r3 00000008
+06-19 10:19:04.280 12992 12992 F DEBUG   :     r4 f529a58c  r5 00000006  r6 f529a534  r7 0000010c
+06-19 10:19:04.280 12992 12992 F DEBUG   :     r8 00000000  r9 0000000a  sl 00000acd  fp f2485400
+06-19 10:19:04.281 12992 12992 F DEBUG   :     ip 0000000b  sp ffa35230  lr f475f5f7  pc f4761e54  cpsr 200f0010
+06-19 10:19:04.291 12992 12992 F DEBUG   : 
+06-19 10:19:04.291 12992 12992 F DEBUG   : backtrace:
+06-19 10:19:04.291 12992 12992 F DEBUG   :     #00 pc 00049e54  /system/lib/libc.so (tgkill+12)
+06-19 10:19:04.291 12992 12992 F DEBUG   :     #01 pc 000475f3  /system/lib/libc.so (pthread_kill+34)
+06-19 10:19:04.291 12992 12992 F DEBUG   :     #02 pc 0001d8a5  /system/lib/libc.so (raise+10)
+06-19 10:19:04.291 12992 12992 F DEBUG   :     #03 pc 000193f1  /system/lib/libc.so (__libc_android_abort+34)
+06-19 10:19:04.291 12992 12992 F DEBUG   :     #04 pc 00017034  /system/lib/libc.so (abort+4)
+06-19 10:19:04.291 12992 12992 F DEBUG   :     #05 pc 0031af11  /system/lib/libart.so (_ZN3art7Runtime5AbortEPKc+328)
+06-19 10:19:04.291 12992 12992 F DEBUG   :     #06 pc 000b5285  /system/lib/libart.so (_ZN3art10LogMessageD2Ev+1132)
+06-19 10:19:04.291 12992 12992 F DEBUG   :     #07 pc 00239bc5  /system/lib/libart.so (_ZN3art9JavaVMExt8JniAbortEPKcS2_+1664)
+06-19 10:19:04.292 12992 12992 F DEBUG   :     #08 pc 00239e2b  /system/lib/libart.so (_ZN3art9JavaVMExt9JniAbortFEPKcS2_z+66)
+06-19 10:19:04.292 12992 12992 F DEBUG   :     #09 pc 00334c63  /system/lib/libart.so (_ZNK3art6Thread13DecodeJObjectEP8_jobject+302)
+06-19 10:19:04.292 12992 12992 F DEBUG   :     #10 pc 000ca195  /system/lib/libart.so (_ZN3art11ScopedCheck10CheckArrayERNS_18ScopedObjectAccessEP7_jarray+28)
+06-19 10:19:04.292 12992 12992 F DEBUG   :     #11 pc 000c985f  /system/lib/libart.so (_ZN3art11ScopedCheck22CheckPossibleHeapValueERNS_18ScopedObjectAccessEcNS_12JniValueTypeE+74)
+06-19 10:19:04.292 12992 12992 F DEBUG   :     #12 pc 000c8d0b  /system/lib/libart.so (_ZN3art11ScopedCheck5CheckERNS_18ScopedObjectAccessEbPKcPNS_12JniValueTypeE+802)
+06-19 10:19:04.292 12992 12992 F DEBUG   :     #13 pc 000d1563  /system/lib/libart.so (_ZN3art8CheckJNI23SetPrimitiveArrayRegionEPKcNS_9Primitive4TypeEP7_JNIEnvP7_jarrayiiPKv+478)
+06-19 10:19:04.292 12992 12992 F DEBUG   :     #14 pc 000c60c7  /system/lib/libart.so (_ZN3art8CheckJNI17SetIntArrayRegionEP7_JNIEnvP10_jintArrayiiPKi+26)
+06-19 10:19:04.292 12992 12992 F DEBUG   :     #15 pc 00000a79  /data/app/com.example.myndk-1/lib/arm/libhello-lib.so (Java_com_example_myndk_JNIUtils_operationArray2+172)
+06-19 10:19:04.292 12992 12992 F DEBUG   :     #16 pc 00041e15  /data/app/com.example.myndk-1/oat/arm/base.odex (offset 0x3f000)
+06-19 10:19:04.596   328   362 D alsa_route: route_set_controls() set route 24
+06-19 10:19:04.597   328   362 D AudioHardwareTiny: close device
+06-19 10:19:04.722   601 12993 W ActivityManager:   Force finishing activity com.example.myndk/.MainActivity
+06-19 10:19:04.728   219   219 W         : debuggerd: resuming target 12965
+06-19 10:19:04.731   601   618 I BootReceiver: Copying /data/tombstones/tombstone_06 to DropBox (SYSTEM_TOMBSTONE)
+06-19 10:19:04.735   601 12993 W ActivityManager:   Force finishing activity com.example.myndk/.MainActivity
+06-19 10:19:04.735   601 12993 W ActivityManager: Duplicate finish request for ActivityRecord{c8add19 u0 com.example.myndk/.MainActivity t25 f}
+06-19 10:19:04.780   601   637 W InputDispatcher: channel 'cd23eb5 com.example.myndk/com.example.myndk.MainActivity (server)' ~ Consumer closed input channel or an error occurred.  events=0x9
+06-19 10:19:04.780   601   637 E InputDispatcher: channel 'cd23eb5 com.example.myndk/com.example.myndk.MainActivity (server)' ~ Channel is unrecoverably broken and will be disposed!
+06-19 10:19:04.791   601  1060 D GraphicsStats: Buffer count: 5
+06-19 10:19:04.792   601  1407 I ActivityManager: Process com.example.myndk (pid 12965) has died
+06-19 10:19:04.793   327   327 I Zygote  : Process 12965 exited due to signal (6)
+06-19 10:19:04.796   601  1407 D ActivityManager: cleanUpApplicationRecord -- 12965
+06-19 10:19:04.798   601 12058 I OpenGLRenderer: Initialized EGL, version 1.4
+06-19 10:19:04.798   236   702 D GRALLOC-ROCKCHIP: enter, w : 567, h : 371, format : 0x1, usage : 0x900.
+06-19 10:19:04.798   601 12058 D OpenGLRenderer: Swap behavior 1
+06-19 10:19:04.802   236   702 D GRALLOC-ROCKCHIP: enter, w : 567, h : 371, format : 0x1, usage : 0x900.
+06-19 10:19:04.803   601   626 I WindowManager: WIN DEATH: Window{cd23eb5 u0 com.example.myndk/com.example.myndk.MainActivity}
+06-19 10:19:04.803   601   626 W InputDispatcher: Attempted to unregister already unregistered input channel 'cd23eb5 com.example.myndk/com.example.myndk.MainActivity (server)'
+06-19 10:19:04.805   236   702 D GRALLOC-ROCKCHIP: enter, w : 567, h : 371, format : 0x1, usage : 0x900.
+06-19 10:19:04.808   236   702 D GRALLOC-ROCKCHIP: enter, w : 567, h : 371, format : 0x1, usage : 0x900.
+06-19 10:19:04.822   236   243 E BufferQueueProducer: [Application Error: com.example.myndk] connect: already connected (cur=1 req=1)
+06-19 10:19:04.822   601 12058 D mali_winsys: EGLint new_window_surface(egl_winsys_display*, void*, EGLSurface, EGLConfig, egl_winsys_surface**, egl_color_buffer_format*, EGLBoolean) returns 0x3000
+06-19 10:19:04.836   236   243 D GRALLOC-ROCKCHIP: enter, w : 567, h : 371, format : 0x1, usage : 0xb00.
+06-19 10:19:04.839   601 12058 D GRALLOC-ROCKCHIP: enter, w : 567, h : 371, format : 0x1, usage : 0xb00.
+06-19 10:19:04.843  8030  8030 D CrashReport: >>> com.sogou.teemo.translate.launcher.Launcher2 onResumed <<<
+06-19 10:19:04.844  8030  8030 I CrashReport-Native: Set native info: isAppForeground(true)
+06-19 10:19:04.845  8030  8030 D _TR_VOICE: zhl-lifecircle onResume
+06-19 10:19:04.845  8030  8030 D _TR_VOICE: zhl-onResume setVoiceTranslateOffline
+06-19 10:19:04.845  8030  8030 W tmtcp   : zhl-network is not available
+06-19 10:19:04.847  8030  8046 I LogService: com.sogou.teemo.watch.log|com.sogou.teemo.watch.log.service.LogService
+06-19 10:19:04.847  8030  8046 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1357 android.content.ContextWrapper.startService:613 com.sogou.teemo.watch.log.utils.TimoLogUtils.doLog:255 com.sogou.teemo.watch.log.utils.TimoLogUtils.log:233 com.sogou.teemo.watch.log.utils.TimoLogUtils.info:65 
+06-19 10:19:04.848  8030  8030 D _TR_    : -->VoiceTranslate setIsCanInit:false
+06-19 10:19:04.848  8030  8030 E SogouSpeech: -->zhl-initOfflineLanguageData:directionChange:false,offline:true,offlineInitError:false
+06-19 10:19:04.848  8030  8030 D _TR_    : -->VoiceTranslate setIsCanInit:true
+06-19 10:19:04.848  8030  8030 D SogouSpeech: -->feifei setIsOffline:true
+06-19 10:19:04.852  1362  1362 I LogService: LogService|onStartCommand
+06-19 10:19:04.853  8030  8046 I LogService: com.sogou.teemo.watch.log|com.sogou.teemo.watch.log.service.LogService
+06-19 10:19:04.853  8030  8046 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1357 android.content.ContextWrapper.startService:613 com.sogou.teemo.watch.log.utils.TimoLogUtils.doLog:255 com.sogou.teemo.watch.log.utils.TimoLogUtils.log:233 com.sogou.teemo.watch.log.utils.TimoLogUtils.info:65 
+06-19 10:19:04.858  1362  1362 I LogService: LogService|onStartCommand
+06-19 10:19:04.859  8030  8046 I LogService: com.sogou.teemo.watch.log|com.sogou.teemo.watch.log.service.LogService
+06-19 10:19:04.860  8030  8046 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1357 android.content.ContextWrapper.startService:613 com.sogou.teemo.watch.log.utils.TimoLogUtils.doLog:255 com.sogou.teemo.watch.log.utils.TimoLogUtils.log:233 com.sogou.teemo.watch.log.utils.TimoLogUtils.info:65 
+06-19 10:19:04.861   236   243 D GRALLOC-ROCKCHIP: enter, w : 480, h : 800, format : 0x1, usage : 0x900.
+06-19 10:19:04.868   236   243 D GRALLOC-ROCKCHIP: enter, w : 480, h : 800, format : 0x1, usage : 0x900.
+06-19 10:19:04.871   236   275 D GRALLOC-ROCKCHIP: enter, w : 567, h : 371, format : 0x1, usage : 0xb00.
+06-19 10:19:04.873   236   243 D GRALLOC-ROCKCHIP: enter, w : 480, h : 800, format : 0x1, usage : 0x900.
+06-19 10:19:04.878   236   243 D GRALLOC-ROCKCHIP: enter, w : 480, h : 800, format : 0x1, usage : 0x900.
+06-19 10:19:04.878   601 12058 D GRALLOC-ROCKCHIP: enter, w : 567, h : 371, format : 0x1, usage : 0xb00.
+06-19 10:19:04.885   236   245 E BufferQueueProducer: [com.sogou.teemo.translate.launcher/com.sogou.teemo.translate.launcher.HomeActivity2] connect: already connected (cur=1 req=1)
+06-19 10:19:04.885  8030  8064 D mali_winsys: EGLint new_window_surface(egl_winsys_display*, void*, EGLSurface, EGLConfig, egl_winsys_surface**, egl_color_buffer_format*, EGLBoolean) returns 0x3000
+06-19 10:19:04.887  1362  1362 I LogService: LogService|onStartCommand
+06-19 10:19:04.887  1362 12916 I LogUtils: getFileNames|排除tmlog.log
+06-19 10:19:04.888  1362 12916 I LogUtils: read|[/storage/emulated/0/log/app/tmlog.log.2018-06-15, /storage/emulated/0/log/app/tmlog.log.2018-06-16, /storage/emulated/0/log/app/tmlog.log.2018-06-17, /storage/emulated/0/log/app/tmlog.log.2018-06-18]
+06-19 10:19:04.894   236   245 D GRALLOC-ROCKCHIP: enter, w : 567, h : 371, format : 0x1, usage : 0xb00.
+06-19 10:19:04.895   236   275 D GRALLOC-ROCKCHIP: enter, w : 480, h : 800, format : 0x1, usage : 0x900.
+06-19 10:19:04.901   601 12058 D GRALLOC-ROCKCHIP: enter, w : 567, h : 371, format : 0x1, usage : 0xb00.
+06-19 10:19:04.901  1362 12918 I LogUtils: getFileNames|排除tmlog.log
+06-19 10:19:04.901  1362 12918 I LogUtils: read|[/storage/emulated/0/log/app/tmlog.log.2018-06-15, /storage/emulated/0/log/app/tmlog.log.2018-06-16, /storage/emulated/0/log/app/tmlog.log.2018-06-17, /storage/emulated/0/log/app/tmlog.log.2018-06-18]
+06-19 10:19:04.902   236   275 D GRALLOC-ROCKCHIP: enter, w : 480, h : 800, format : 0x1, usage : 0x900.
+06-19 10:19:04.908   236   275 D GRALLOC-ROCKCHIP: enter, w : 480, h : 800, format : 0x1, usage : 0x900.
+06-19 10:19:04.908  1362 12917 I LogUtils: getFileNames|排除tmlog.log
+06-19 10:19:04.908  1362 12917 I LogUtils: read|[/storage/emulated/0/log/app/tmlog.log.2018-06-15, /storage/emulated/0/log/app/tmlog.log.2018-06-16, /storage/emulated/0/log/app/tmlog.log.2018-06-17, /storage/emulated/0/log/app/tmlog.log.2018-06-18]
+06-19 10:19:04.913   236   275 D GRALLOC-ROCKCHIP: enter, w : 480, h : 800, format : 0x1, usage : 0x900.
+06-19 10:19:04.920   236   275 E BufferQueueProducer: [com.sogou.teemo.translate.launcher/com.sogou.teemo.translate.launcher.Launcher2] connect: already connected (cur=1 req=1)
+06-19 10:19:04.920  8030  8064 D mali_winsys: EGLint new_window_surface(egl_winsys_display*, void*, EGLSurface, EGLConfig, egl_winsys_surface**, egl_color_buffer_format*, EGLBoolean) returns 0x3000
+06-19 10:19:04.936   236   639 D GRALLOC-ROCKCHIP: enter, w : 480, h : 800, format : 0x1, usage : 0xb00.
+06-19 10:19:04.941  8030  8064 D GRALLOC-ROCKCHIP: enter, w : 480, h : 800, format : 0x1, usage : 0xb00.
+06-19 10:19:04.952   236   243 D GRALLOC-ROCKCHIP: enter, w : 480, h : 800, format : 0x1, usage : 0xb00.
+06-19 10:19:04.958  8030  8064 D GRALLOC-ROCKCHIP: enter, w : 480, h : 800, format : 0x1, usage : 0xb00.
+06-19 10:19:04.977   236   639 D GRALLOC-ROCKCHIP: enter, w : 480, h : 800, format : 0x1, usage : 0xb00.
+06-19 10:19:04.981  8030  8064 D GRALLOC-ROCKCHIP: enter, w : 480, h : 800, format : 0x1, usage : 0xb00.
+06-19 10:19:04.991   236   243 D GRALLOC-ROCKCHIP: enter, w : 480, h : 800, format : 0x1, usage : 0xb00.
+06-19 10:19:04.996  8030  8064 D GRALLOC-ROCKCHIP: enter, w : 480, h : 800, format : 0x1, usage : 0xb00.

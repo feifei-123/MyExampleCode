@@ -1,0 +1,102 @@
+Classfile /Users/feifei/Desktop/TM/Github/MyExampleCode/testjvm/src/main/java/com/example/testjvm/TestRunTime.class
+  Last modified 2018-9-5; size 584 bytes
+  MD5 checksum 044e8e48cf8be83ab7e6f5c5023278df
+  Compiled from "TestRunTime.java"
+public class com.example.testjvm.TestRunTime
+  minor version: 0
+  major version: 52
+  flags: ACC_PUBLIC, ACC_SUPER
+Constant pool:
+   #1 = Methodref          #6.#24         // java/lang/Object."<init>":()V
+   #2 = String             #25            // feifei
+   #3 = Fieldref           #4.#26         // com/example/testjvm/TestRunTime.name:Ljava/lang/String;
+   #4 = Class              #27            // com/example/testjvm/TestRunTime
+   #5 = Methodref          #4.#24         // com/example/testjvm/TestRunTime."<init>":()V
+   #6 = Class              #28            // java/lang/Object
+   #7 = Utf8               tag
+   #8 = Utf8               Ljava/lang/String;
+   #9 = Utf8               ConstantValue
+  #10 = String             #29            // feifei_tag
+  #11 = Utf8               name
+  #12 = Utf8               <init>
+  #13 = Utf8               ()V
+  #14 = Utf8               Code
+  #15 = Utf8               LineNumberTable
+  #16 = Utf8               getName
+  #17 = Utf8               ()Ljava/lang/String;
+  #18 = Utf8               setName
+  #19 = Utf8               (Ljava/lang/String;)V
+  #20 = Utf8               main
+  #21 = Utf8               ([Ljava/lang/String;)V
+  #22 = Utf8               SourceFile
+  #23 = Utf8               TestRunTime.java
+  #24 = NameAndType        #12:#13        // "<init>":()V
+  #25 = Utf8               feifei
+  #26 = NameAndType        #11:#8         // name:Ljava/lang/String;
+  #27 = Utf8               com/example/testjvm/TestRunTime
+  #28 = Utf8               java/lang/Object
+  #29 = Utf8               feifei_tag
+{
+  public static final java.lang.String tag;
+    descriptor: Ljava/lang/String;
+    flags: ACC_PUBLIC, ACC_STATIC, ACC_FINAL
+    ConstantValue: String feifei_tag
+
+  public java.lang.String name;
+    descriptor: Ljava/lang/String;
+    flags: ACC_PUBLIC
+
+  public com.example.testjvm.TestRunTime();
+    descriptor: ()V
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=1, args_size=1
+         0: aload_0
+         1: invokespecial #1                  // Method java/lang/Object."<init>":()V
+         4: aload_0
+         5: ldc           #2                  // String feifei
+         7: putfield      #3                  // Field name:Ljava/lang/String;
+        10: return
+      LineNumberTable:
+        line 3: 0
+        line 5: 4
+
+  public java.lang.String getName();
+    descriptor: ()Ljava/lang/String;
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: getfield      #3                  // Field name:Ljava/lang/String;
+         4: areturn
+      LineNumberTable:
+        line 8: 0
+
+  public void setName(java.lang.String);
+    descriptor: (Ljava/lang/String;)V
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=2, args_size=2
+         0: aload_0
+         1: aload_1
+         2: putfield      #3                  // Field name:Ljava/lang/String;
+         5: return
+      LineNumberTable:
+        line 11: 0
+        line 12: 5
+
+  public static void main(java.lang.String[]);
+    descriptor: ([Ljava/lang/String;)V
+    flags: ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=2, locals=2, args_size=1
+         0: new           #4                  // class com/example/testjvm/TestRunTime
+         3: dup
+         4: invokespecial #5                  // Method "<init>":()V
+         7: astore_1
+         8: return
+      LineNumberTable:
+        line 15: 0
+        line 16: 8
+}
+SourceFile: "TestRunTime.java"
