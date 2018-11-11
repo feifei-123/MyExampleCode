@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+
+    <Button
+        android:id="@+id/btn_initSDK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="initSDK"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_weight="1.0"
+        android:padding="5dp"
+        android:onClick="onClick"/>
+
+    <Button
+        android:id="@+id/btn_releaseSDK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="releaseSDK"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:onClick="onClick"
+        android:padding="5dp"
+        android:layout_weight="1.0"
+        />
+
+    <Button
+        android:id="@+id/btn_putJava2CObject"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Java2CObject"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:onClick="onClick"
+        android:padding="5dp"
+        android:layout_weight="1.0"
+        />
+
+    <Button
+        android:id="@+id/btn_releaseJavaInC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="releaseJavaInCObject"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:onClick="onClick"
+        android:layout_weight="1.0"
+        android:padding="5dp"
+        />
+
+    <Button
+        android:id="@+id/btn_testStr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="testStr"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:onClick="onClick"
+        android:layout_weight="1.0"
+        android:padding="5dp"
+        />
+
+</LinearLayout>
