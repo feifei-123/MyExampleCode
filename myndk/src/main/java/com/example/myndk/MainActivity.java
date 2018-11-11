@@ -21,7 +21,10 @@ public class MainActivity extends Activity implements View.OnClickListener{
 
         TextView tv_tips = (TextView) findViewById(R.id.tv_tips);
         tv_tips.setText(new JNIUtils().stringFromJNI());
+        jniUtils = new JNIUtils();
     }
+
+    public JNIUtils jniUtils;
 
 
     @Override
@@ -45,6 +48,15 @@ public class MainActivity extends Activity implements View.OnClickListener{
                     Log.d(TAG, "testData2: after " + testData2[i]);
                 }
             }
+                break;
+            case R.id.btn_malloc:
+                Log.d("feifei","jniUtils.initSDK():"+jniUtils);
+                jniUtils.initSDK();
+                break;
+
+            case R.id.btn_free:
+                Log.d("feifei","jniUtils.releaseSDK():"+jniUtils);
+                jniUtils.releaseSDK();
                 break;
 
         }

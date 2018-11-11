@@ -13,4 +13,12 @@ public class JNIUtils {
     public native void operationArray(int[]args);
     public native void operationArray2(int[]args);
 
+    public native void initSDK();
+
+    public native void releaseSDK();
+
+    public native long natvieLock();
+    public native int getAge(long natvieId);
+
+
 }

@@ -1,4 +1,13 @@
 package com.example.testkotlin2
 
-class Student {
+data class Student (val name:String,val age:String) {
+
+    companion object {
+
+    }
+
 }
+
+
+
+

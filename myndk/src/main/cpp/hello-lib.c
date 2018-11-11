@@ -6,13 +6,14 @@
 #include <stdio.h>
 #include <string.h>
 #include <android/log.h>
-
+#include<malloc.h>
 #define  LOG    "JNILOG" // 这个是自定义的LOG的TAG
 #define  LOGD(...)  __android_log_print(ANDROID_LOG_DEBUG,LOG,__VA_ARGS__) // 定义LOGD类型
 #define  LOGI(...)  __android_log_print(ANDROID_LOG_INFO,LOG,__VA_ARGS__) // 定义LOGI类型
 #define  LOGW(...)  __android_log_print(ANDROID_LOG_WARN,LOG,__VA_ARGS__) // 定义LOGW类型
 #define LOGE(...)  __android_log_print(ANDROID_LOG_ERROR,LOG,__VA_ARGS__) // 定义LOGE类型
 #define LOGF(...)  __android_log_print(ANDROID_LOG_FATAL,LOG,__VA_ARGS__) // 定义LOGF类型
+
 
 
 JNIEXPORT jstring JNICALL
@@ -79,4 +80,43 @@ Java_com_example_myndk_JNIUtils_operationArray2(JNIEnv *env, jobject instance, j
     (*env)->SetIntArrayRegion(env,nativieArray,0,5,args_);
 
     (*env)->ReleaseIntArrayElements(env, args_, args, 0);
+}
+
+static char * ptr ;
+
+JNIEXPORT void JNICALL
+Java_com_example_myndk_JNIUtils_initSDK(JNIEnv *env, jobject instance) {
+    int size = 100*1000*1000*1000;
+    ptr = (char *)malloc(size);
+    LOGD("feifei - 申请了 100M内存");
+
+    printf("feifei 测试测试:%s",&ptr);
+}
+
+JNIEXPORT void JNICALL
+Java_com_example_myndk_JNIUtils_releaseSDK(JNIEnv *env, jobject instance) {
+
+    if(ptr != NULL){
+        free(ptr);
+        ptr = NULL;
+        LOGD("feifei - release ptr ");
+    } else{
+        LOGD("feifei - ptr == null  No need 2 Release");
+    }
+
+}
+
+
+JNIEXPORT jlong JNICALL
+Java_com_example_myndk_JNIUtils_natvieLock(JNIEnv *env, jobject instance) {
+
+    // TODO
+
+}
+
+JNIEXPORT jint JNICALL
+Java_com_example_myndk_JNIUtils_getAge(JNIEnv *env, jobject instance, jlong natvieId) {
+
+    // TODO
+
 }

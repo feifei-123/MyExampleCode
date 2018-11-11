@@ -3,7 +3,20 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 27
 
-
+    signingConfigs {
+        release {
+            keyAlias 'androiddebugkey'
+            keyPassword 'android'
+            storeFile file('../key/platform.keystore')
+            storePassword 'android'
+        }
+        debug {
+            keyAlias 'androiddebugkey'
+            keyPassword 'android'
+            storeFile file('../key/platform.keystore')
+            storePassword 'android'
+        }
+    }
 
     defaultConfig {
         applicationId "com.example.testlock"
@@ -19,7 +32,14 @@ android {
     buildTypes {
         release {
             minifyEnabled false
+            signingConfig signingConfigs.release
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+
+        debug{
+            minifyEnabled false
+            signingConfig signingConfigs.release
+            debuggable true
         }
     }
 

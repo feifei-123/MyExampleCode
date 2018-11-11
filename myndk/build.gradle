@@ -25,12 +25,32 @@ android {
             abiFilters  "armeabi-v7a", "x86"  //输出指定三种abi体系结构下的so库。
         }
 
-
+        signingConfigs {
+            release {
+                keyAlias 'androiddebugkey'
+                keyPassword 'android'
+                storeFile file('../key/platform.keystore')
+                storePassword 'android'
+            }
+            debug {
+                keyAlias 'androiddebugkey'
+                keyPassword 'android'
+                storeFile file('../key/platform.keystore')
+                storePassword 'android'
+            }
+        }
     }
 
     buildTypes {
         release {
             minifyEnabled false
+            signingConfig signingConfigs.release
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+
+        debug{
+            minifyEnabled false
+            signingConfig signingConfigs.release
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }

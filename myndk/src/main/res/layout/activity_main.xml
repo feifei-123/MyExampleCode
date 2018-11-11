@@ -38,4 +38,26 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_file"/>
 
+    <Button
+        android:id="@+id/btn_malloc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="malloc"
+        android:onClick="onClick"
+        app:layout_constraintBottom_toTopOf="@+id/tv_tips"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+       />
+
+    <Button
+        android:id="@+id/btn_free"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="free"
+        android:onClick="onClick"
+        app:layout_constraintBottom_toTopOf="@+id/btn_malloc"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        />
+
 </android.support.constraint.ConstraintLayout>

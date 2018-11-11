@@ -34,4 +34,13 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+    //Android 工程使用
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:0.20"
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:0.20"
+}
+
+kotlin {
+    experimental {
+        coroutines 'enable'
+    }
 }

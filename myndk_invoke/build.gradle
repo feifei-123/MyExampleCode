@@ -14,11 +14,33 @@ android {
 
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
 
+        signingConfigs {
+            release {
+                keyAlias 'androiddebugkey'
+                keyPassword 'android'
+                storeFile file('../key/platform.keystore')
+                storePassword 'android'
+            }
+            debug {
+                keyAlias 'androiddebugkey'
+                keyPassword 'android'
+                storeFile file('../key/platform.keystore')
+                storePassword 'android'
+            }
+        }
+
     }
 
     buildTypes {
         release {
             minifyEnabled false
+            signingConfig signingConfigs.release
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+
+        debug{
+            minifyEnabled false
+            signingConfig signingConfigs.release
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
