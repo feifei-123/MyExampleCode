@@ -29,6 +29,7 @@
       <module fileurl="file://$PROJECT_DIR$/testleakcanary/testleakcanary.iml" filepath="$PROJECT_DIR$/testleakcanary/testleakcanary.iml" />
       <module fileurl="file://$PROJECT_DIR$/testlifecircel/testlifecircel.iml" filepath="$PROJECT_DIR$/testlifecircel/testlifecircel.iml" />
       <module fileurl="file://$PROJECT_DIR$/testlock/testlock.iml" filepath="$PROJECT_DIR$/testlock/testlock.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testmemorylink/testmemorylink.iml" filepath="$PROJECT_DIR$/testmemorylink/testmemorylink.iml" />
       <module fileurl="file://$PROJECT_DIR$/teststring/teststring.iml" filepath="$PROJECT_DIR$/teststring/teststring.iml" />
       <module fileurl="file://$PROJECT_DIR$/wifi/wifi.iml" filepath="$PROJECT_DIR$/wifi/wifi.iml" />
     </modules>
