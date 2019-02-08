@@ -3,6 +3,8 @@ package com.example.myroom;
 import android.arch.persistence.room.ColumnInfo;
 import android.arch.persistence.room.Entity;
 import android.arch.persistence.room.Ignore;
+import android.arch.persistence.room.Index;
+import android.arch.persistence.room.Insert;
 import android.arch.persistence.room.PrimaryKey;
 import android.arch.persistence.room.TypeConverters;
 import android.graphics.Bitmap;
@@ -10,7 +12,7 @@ import android.graphics.Bitmap;
 import java.util.Date;
 
 //Entity定义数据实体,tableName 指定表名
-@Entity(tableName = "MyUser")
+@Entity(tableName = "MyUser",indices = {@Index("first_name")})
 public class User {
 
     //PrimaryKey指定主键

@@ -22,6 +22,7 @@ public class MainActivity extends Activity implements View.OnClickListener{
         TextView tv_tips = (TextView) findViewById(R.id.tv_tips);
         tv_tips.setText(new JNIUtils().stringFromJNI());
         jniUtils = new JNIUtils();
+
     }
 
     public JNIUtils jniUtils;
@@ -52,6 +53,7 @@ public class MainActivity extends Activity implements View.OnClickListener{
             case R.id.btn_malloc:
                 Log.d("feifei","jniUtils.initSDK():"+jniUtils);
                 jniUtils.initSDK();
+                testmkdir();
                 break;
 
             case R.id.btn_free:
@@ -61,5 +63,16 @@ public class MainActivity extends Activity implements View.OnClickListener{
 
         }
 
+    }
+
+    public  void testmkdir(){
+
+        String path = "/data/local/model_file/langs/fr_tmp";
+        File file = new File(path);
+        if(file.exists()){
+            file.delete();
+        }
+        boolean succes = file.mkdir();
+        Log.d(TAG,"file:"+file.getAbsolutePath()+",mkdir:"+succes);
     }
 }
