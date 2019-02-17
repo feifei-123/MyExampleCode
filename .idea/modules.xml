@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/myanimation/myanimation.iml" filepath="$PROJECT_DIR$/myanimation/myanimation.iml" />
       <module fileurl="file://$PROJECT_DIR$/mybinder/mybinder.iml" filepath="$PROJECT_DIR$/mybinder/mybinder.iml" />
       <module fileurl="file://$PROJECT_DIR$/mybreakpointdownload/mybreakpointdownload.iml" filepath="$PROJECT_DIR$/mybreakpointdownload/mybreakpointdownload.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mycamera/mycamera.iml" filepath="$PROJECT_DIR$/mycamera/mycamera.iml" />
       <module fileurl="file://$PROJECT_DIR$/myclassloader/myclassloader.iml" filepath="$PROJECT_DIR$/myclassloader/myclassloader.iml" />
       <module fileurl="file://$PROJECT_DIR$/mydictionary/mydictionary.iml" filepath="$PROJECT_DIR$/mydictionary/mydictionary.iml" />
       <module fileurl="file://$PROJECT_DIR$/mygradletask/mygradletask.iml" filepath="$PROJECT_DIR$/mygradletask/mygradletask.iml" />

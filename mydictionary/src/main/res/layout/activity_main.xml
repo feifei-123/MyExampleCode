@@ -9,14 +9,44 @@
     android:onClick="onClick"
     >
 
+
+
+    <LinearLayout
+        android:id="@+id/ll_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toTopOf="parent"
+        >
+        <CheckBox
+            android:id="@+id/box_db"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="db"
+            android:checked="true"
+            />
+
+        <CheckBox
+            android:id="@+id/box_tree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="tree"/>
+
+        <CheckBox
+            android:id="@+id/box_map"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="map"/>
+    </LinearLayout>
+
     <Button
         android:id="@+id/btn_generate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="generateDictionary"
-        app:layout_constraintTop_toTopOf="parent"
+        android:text="generate"
+        app:layout_constraintTop_toBottomOf="@+id/ll_checkbox"
         android:onClick="onClick"
-         />
+        />
 
     <EditText
         android:id="@+id/et_search"

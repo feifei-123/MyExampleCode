@@ -1,8 +1,15 @@
 package com.sogou.teemo.mydictionary.tree;
 
+import android.util.Log;
+
 public class TrieTest {
 
-    private static final int CHARACTER_SIZE = 26;
+    public static final String TAG = TrieTest.class.getSimpleName();
+    public TrieTest(){
+        root = new TrieNode();
+    }
+
+    private static final int CHARACTER_SIZE = 126;
 
     private TrieNode root;
 
@@ -20,12 +27,14 @@ public class TrieTest {
     }
 
     public void insert(String key){
+        key = key.toLowerCase();
         TrieNode newNode = root;
         int index;
 
         for(int i = 0; i < key.length();i++){
-            index = key.charAt(i)-'a';
 
+            index = key.charAt(i)-'#';
+            Log.d(TAG,"insert "+key+",i:"+i+",key.charAt(i)"+key.charAt(i)+",index:"+index);
             if(newNode.childen[index] == null){
                 newNode.childen[index] = new TrieNode();
             }
@@ -37,6 +46,7 @@ public class TrieTest {
 
 
     public boolean search(String key){
+        key = key.toLowerCase();
         TrieNode searchNode = root;
         int index;
 
