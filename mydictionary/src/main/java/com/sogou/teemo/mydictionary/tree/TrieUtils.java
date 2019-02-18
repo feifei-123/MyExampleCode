@@ -8,6 +8,9 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
+/**
+ * 前缀树算法 测试
+ */
 public class TrieUtils {
 
     public static final String TAG = "TrieUtils_";
@@ -159,7 +162,7 @@ public class TrieUtils {
     }
 
 
-    public boolean isEmpty(String str){
+    public static boolean isEmpty(String str){
         return str == null || str.equals("");
     }
 
@@ -172,6 +175,11 @@ public class TrieUtils {
     }
 
     public static void main(String[]args){
+
+        String tmp = "adc";
+        tmp = tmp.substring(3);
+        int length = tmp.length();
+         System.out.println("tmp.length:"+length+",tmp:"+tmp+",tmp==\0:"+(tmp.equals('\0')));
 
         ArrayList<String>words = new ArrayList<String>();
         words.add("w");
@@ -186,6 +194,7 @@ public class TrieUtils {
         words.add("is");
         words.add("a");
         words.add("good");
+
 
         TrieUtils trieUtils = new TrieUtils();
         for(int i = 0; i< words.size();i++){

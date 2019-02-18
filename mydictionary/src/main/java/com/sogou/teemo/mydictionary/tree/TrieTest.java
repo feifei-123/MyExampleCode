@@ -2,6 +2,9 @@ package com.sogou.teemo.mydictionary.tree;
 
 import android.util.Log;
 
+/**
+ *
+ */
 public class TrieTest {
 
     public static final String TAG = TrieTest.class.getSimpleName();
