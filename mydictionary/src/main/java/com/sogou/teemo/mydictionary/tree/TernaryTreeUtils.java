@@ -11,14 +11,16 @@ public class TernaryTreeUtils {
 
     public static final String TAG = "TernaryTreeUtils_";
 
+
+    public long nodeCount = 0;
     public static class TNode implements Comparable<TNode>{
         Character splitchar;
         TNode lokid;
         TNode eqkid;
         TNode hikid;
-//        boolean isWord = false;
         public String prefix;
         public String explation;
+        public static int nodeCount;
 
         public String getWholeWord(){
             return prefix+splitchar;
@@ -87,7 +89,8 @@ public class TernaryTreeUtils {
             p = new TNode();
             p.splitchar = character;
             p.prefix = prefix;
-            System.out.println(TAG+"insertNode:"+p.splitchar+",prefix:"+p.prefix);
+            nodeCount++;
+            //System.out.println(TAG+"insertNode:"+p.splitchar+",prefix:"+p.prefix);
         }
 
         if(character.compareTo(p.splitchar) < 0){ //character < p.splitchar
@@ -95,7 +98,7 @@ public class TernaryTreeUtils {
         }else if(character.compareTo(p.splitchar) ==0){ //character == p.splitchar
             if(words.length()==1){//只有一个单词
                 p.explation = explataion;
-                System.out.println(TAG+"insertNode 完成:"+explataion);
+                //System.out.println(TAG+"insertNode 完成:"+explataion);
             }else { //还有其他要匹配
                 String newprefix  = p.getWholeWord();
                 p.eqkid = insertNode(p.eqkid,newprefix,words.substring(1),explataion);

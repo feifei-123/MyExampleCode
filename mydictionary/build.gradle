@@ -50,6 +50,10 @@ dependencies {
 //        exclude group: 'com.google.code.gson'
 //    }
     implementation 'com.google.code.gson:gson:2.6.2'
+
+    implementation 'net.zetetic:android-database-sqlcipher:3.5.7@aar'
+
+
 }
 repositories {
     mavenCentral()

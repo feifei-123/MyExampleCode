@@ -64,10 +64,10 @@ public class TrieUtils {
 
         TreeNode curNode = root;
 
-        System.out.println(TAG+"_"+word+":"+word.length());
+        //System.out.println(TAG+"_"+word+":"+word.length());
 
         for(int i = 0;i< word.length();i++){
-            System.out.println(TAG+"_"+word+" word.charAt("+i+"):"+word.charAt(i));
+            //System.out.println(TAG+"_"+word+" word.charAt("+i+"):"+word.charAt(i));
             Character character = word.charAt(i);
             if(curNode.sons.containsKey(character)){
                 curNode = curNode.sons.get(character);
@@ -81,7 +81,7 @@ public class TrieUtils {
             }
             if(i == word.length() -1){
                 curNode.explanation = explation;
-                System.out.println(TAG+"_insertNode > "+curNode.toString());
+                //System.out.println(TAG+"_insertNode > "+curNode.toString());
             }
         }
     }
@@ -142,12 +142,12 @@ public class TrieUtils {
      */
     public void traverseTreeNode(TreeNode root,List<TreeNode>collection){
         if(collection == null){
-            System.out.println(TAG+"traverseTreeNode - collection was null");
+            //System.out.println(TAG+"traverseTreeNode - collection was null");
             return;
         }
 
         if(isWord(root)){ //当前节点是一个单词
-            System.out.println(TAG+"traverseTreeNode add "+root.getWholeWord());
+            //System.out.println(TAG+"traverseTreeNode add "+root.getWholeWord());
             collection.add(root);
         }
 

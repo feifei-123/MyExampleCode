@@ -12,4 +12,8 @@ public class MapTest {
     public String search(String searchWord){
        return dictMap.get(searchWord);
     }
+
+    public int getSize(){
+        return  dictMap.size();
+    }
 }

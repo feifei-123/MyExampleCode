@@ -5,7 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-
     android:onClick="onClick"
     >
 
@@ -14,9 +13,10 @@
     <LinearLayout
         android:id="@+id/ll_checkbox"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:orientation="horizontal"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/ll_checkbox_direction"
         >
         <CheckBox
             android:id="@+id/box_db"
@@ -27,10 +27,15 @@
             />
 
         <CheckBox
-            android:id="@+id/box_tree"
+            android:id="@+id/box_pretree"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="tree"/>
+        <CheckBox
+            android:id="@+id/box_ternarytree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ternarytree"/>
 
         <CheckBox
             android:id="@+id/box_map"
@@ -39,30 +44,106 @@
             android:text="map"/>
     </LinearLayout>
 
+    <LinearLayout
+        android:id="@+id/ll_checkbox_direction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="30px"
+        app:layout_constraintTop_toBottomOf="@+id/ll_checkbox"
+
+        >
+        <CheckBox
+            android:id="@+id/box_en_zh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="英->中"
+            android:checked="true"
+            />
+
+        <CheckBox
+            android:id="@+id/box_zh_en"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="中->英"
+            />
+
+
+
+        <CheckBox
+            android:id="@+id/box_should_encrypt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="数据库加密"
+            android:checked="true"
+            />
+
+    </LinearLayout>
+
     <Button
         android:id="@+id/btn_generate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="generate"
-        app:layout_constraintTop_toBottomOf="@+id/ll_checkbox"
+        android:text="生成数据"
+        app:layout_constraintTop_toBottomOf="@+id/ll_checkbox_direction"
         android:onClick="onClick"
         />
 
+    <Button
+        android:id="@+id/btn_db_encrypt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="加密"
+        app:layout_constraintTop_toBottomOf="@+id/ll_checkbox_direction"
+        app:layout_constraintLeft_toRightOf="@+id/btn_generate"
+        android:onClick="onClick"
+        />
+    <Button
+        android:id="@+id/btn_db_decrypt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="解密"
+        app:layout_constraintTop_toBottomOf="@+id/ll_checkbox_direction"
+        app:layout_constraintLeft_toRightOf="@+id/btn_db_encrypt"
+        android:onClick="onClick"
+        />
+
+    <Button
+        android:id="@+id/btn_random_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="随机搜索"
+        android:onClick="onClick"
+        app:layout_constraintTop_toBottomOf="@+id/btn_db_decrypt"
+        app:layout_constraintLeft_toLeftOf="parent"
+        />
+
+    <Button
+        android:id="@+id/btn_random_search_like"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="随机联想搜索"
+        android:onClick="onClick"
+        app:layout_constraintTop_toBottomOf="@+id/btn_db_decrypt"
+        app:layout_constraintLeft_toRightOf="@+id/btn_random_search"/>
+
+
     <EditText
         android:id="@+id/et_search"
-        android:layout_width="200dp"
+        android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:text="search"
-        app:layout_constraintTop_toBottomOf="@+id/btn_generate"/>
+        app:layout_constraintTop_toBottomOf="@+id/btn_random_search_like"/>
 
     <Button
         android:id="@+id/btn_search"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="btn_search"
+        android:text="search"
         android:onClick="onClick"
         app:layout_constraintTop_toTopOf="@+id/et_search"
         app:layout_constraintLeft_toRightOf="@+id/et_search"/>
+
 
     <TextView
         android:id="@+id/tv_search_result"
