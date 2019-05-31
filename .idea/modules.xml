@@ -5,12 +5,15 @@
       <module fileurl="file://$PROJECT_DIR$/MyExampleCode.iml" filepath="$PROJECT_DIR$/MyExampleCode.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/audiorecoder/audiorecoder.iml" filepath="$PROJECT_DIR$/audiorecoder/audiorecoder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/breakpad-build/breakpad-build.iml" filepath="$PROJECT_DIR$/breakpad-build/breakpad-build.iml" />
       <module fileurl="file://$PROJECT_DIR$/intentserviceexample/intentserviceexample.iml" filepath="$PROJECT_DIR$/intentserviceexample/intentserviceexample.iml" />
       <module fileurl="file://$PROJECT_DIR$/myanimation/myanimation.iml" filepath="$PROJECT_DIR$/myanimation/myanimation.iml" />
       <module fileurl="file://$PROJECT_DIR$/mybinder/mybinder.iml" filepath="$PROJECT_DIR$/mybinder/mybinder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybreakpad/mybreakpad.iml" filepath="$PROJECT_DIR$/mybreakpad/mybreakpad.iml" />
       <module fileurl="file://$PROJECT_DIR$/mybreakpointdownload/mybreakpointdownload.iml" filepath="$PROJECT_DIR$/mybreakpointdownload/mybreakpointdownload.iml" />
       <module fileurl="file://$PROJECT_DIR$/mycamera/mycamera.iml" filepath="$PROJECT_DIR$/mycamera/mycamera.iml" />
       <module fileurl="file://$PROJECT_DIR$/myclassloader/myclassloader.iml" filepath="$PROJECT_DIR$/myclassloader/myclassloader.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mycropbitmap/mycropbitmap.iml" filepath="$PROJECT_DIR$/mycropbitmap/mycropbitmap.iml" />
       <module fileurl="file://$PROJECT_DIR$/mydictionary/mydictionary.iml" filepath="$PROJECT_DIR$/mydictionary/mydictionary.iml" />
       <module fileurl="file://$PROJECT_DIR$/mygradletask/mygradletask.iml" filepath="$PROJECT_DIR$/mygradletask/mygradletask.iml" />
       <module fileurl="file://$PROJECT_DIR$/myhook/myhook.iml" filepath="$PROJECT_DIR$/myhook/myhook.iml" />
@@ -18,13 +21,14 @@
       <module fileurl="file://$PROJECT_DIR$/myjni/myjni.iml" filepath="$PROJECT_DIR$/myjni/myjni.iml" />
       <module fileurl="file://$PROJECT_DIR$/mylifecircle/mylifecircle.iml" filepath="$PROJECT_DIR$/mylifecircle/mylifecircle.iml" />
       <module fileurl="file://$PROJECT_DIR$/mylock/mylock.iml" filepath="$PROJECT_DIR$/mylock/mylock.iml" />
-      <module fileurl="file://$PROJECT_DIR$/myndk/myndk.iml" filepath="$PROJECT_DIR$/myndk/myndk.iml" />
       <module fileurl="file://$PROJECT_DIR$/myndk_invoke/myndk_invoke.iml" filepath="$PROJECT_DIR$/myndk_invoke/myndk_invoke.iml" />
       <module fileurl="file://$PROJECT_DIR$/myopenalipay/myopenalipay.iml" filepath="$PROJECT_DIR$/myopenalipay/myopenalipay.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myplayvideo/myplayvideo.iml" filepath="$PROJECT_DIR$/myplayvideo/myplayvideo.iml" />
       <module fileurl="file://$PROJECT_DIR$/myreplugin/myreplugin.iml" filepath="$PROJECT_DIR$/myreplugin/myreplugin.iml" />
       <module fileurl="file://$PROJECT_DIR$/myroom/myroom.iml" filepath="$PROJECT_DIR$/myroom/myroom.iml" />
       <module fileurl="file://$PROJECT_DIR$/myrxjava2/myrxjava2.iml" filepath="$PROJECT_DIR$/myrxjava2/myrxjava2.iml" />
       <module fileurl="file://$PROJECT_DIR$/mythreadpool/mythreadpool.iml" filepath="$PROJECT_DIR$/mythreadpool/mythreadpool.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mytraceview/mytraceview.iml" filepath="$PROJECT_DIR$/mytraceview/mytraceview.iml" />
       <module fileurl="file://$PROJECT_DIR$/myviewmodel/myviewmodel.iml" filepath="$PROJECT_DIR$/myviewmodel/myviewmodel.iml" />
       <module fileurl="file://$PROJECT_DIR$/mywebview/mywebview.iml" filepath="$PROJECT_DIR$/mywebview/mywebview.iml" />
       <module fileurl="file://$PROJECT_DIR$/mywindowmanager/mywindowmanager.iml" filepath="$PROJECT_DIR$/mywindowmanager/mywindowmanager.iml" />
@@ -32,6 +36,7 @@
       <module fileurl="file://$PROJECT_DIR$/testbreakpointdebug/testbreakpointdebug.iml" filepath="$PROJECT_DIR$/testbreakpointdebug/testbreakpointdebug.iml" />
       <module fileurl="file://$PROJECT_DIR$/testdpi/testdpi.iml" filepath="$PROJECT_DIR$/testdpi/testdpi.iml" />
       <module fileurl="file://$PROJECT_DIR$/testfiledownloader/testfiledownloader.iml" filepath="$PROJECT_DIR$/testfiledownloader/testfiledownloader.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testidlehandler/testidlehandler.iml" filepath="$PROJECT_DIR$/testidlehandler/testidlehandler.iml" />
       <module fileurl="file://$PROJECT_DIR$/testjvm/testjvm.iml" filepath="$PROJECT_DIR$/testjvm/testjvm.iml" />
       <module fileurl="file://$PROJECT_DIR$/testkotlin2/testkotlin2.iml" filepath="$PROJECT_DIR$/testkotlin2/testkotlin2.iml" />
       <module fileurl="file://$PROJECT_DIR$/testleakcanary/testleakcanary.iml" filepath="$PROJECT_DIR$/testleakcanary/testleakcanary.iml" />
@@ -40,6 +45,7 @@
       <module fileurl="file://$PROJECT_DIR$/testmemorylink/testmemorylink.iml" filepath="$PROJECT_DIR$/testmemorylink/testmemorylink.iml" />
       <module fileurl="file://$PROJECT_DIR$/teststring/teststring.iml" filepath="$PROJECT_DIR$/teststring/teststring.iml" />
       <module fileurl="file://$PROJECT_DIR$/testuiautomator/testuiautomator.iml" filepath="$PROJECT_DIR$/testuiautomator/testuiautomator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testweakreference/testweakreference.iml" filepath="$PROJECT_DIR$/testweakreference/testweakreference.iml" />
       <module fileurl="file://$PROJECT_DIR$/wifi/wifi.iml" filepath="$PROJECT_DIR$/wifi/wifi.iml" />
     </modules>
   </component>

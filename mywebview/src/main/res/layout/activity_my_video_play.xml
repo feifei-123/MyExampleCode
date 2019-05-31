@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入文件名称例如:"/>
+
+    <SurfaceView
+        android:id="@+id/sfv"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="200dp" />
+
+    <SeekBar
+        android:id="@+id/sb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/play"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:onClick="play"
+            android:text="播放"/>
+
+        <Button
+            android:id="@+id/pause"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:onClick="pause"
+            android:text="暂停"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:onClick="stop"
+            android:text="停止"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:onClick="replay"
+            android:text="重播"/>
+
+    </LinearLayout>
+
+</LinearLayout>

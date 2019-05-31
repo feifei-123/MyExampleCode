@@ -24,7 +24,6 @@ public class MainActivity extends Activity implements View.OnClickListener {
 
 
 
-
     public long mNatvieObject;
     public TestNatvie testNatvie = new TestNatvie();
     @Override

@@ -42,24 +42,24 @@ public class PaymentActivity extends Activity {
 
         mWebView = (WebView) findViewById(R.id.webview);
         WebSettings settings = mWebView.getSettings();
-//        settings.setUseWideViewPort(true);
-//        settings.setLoadWithOverviewMode(true);
-//        settings.setSupportZoom(true);//支持放缩 - 但不显示放缩控件
-//        settings.setBuiltInZoomControls(true);
-//        settings.setDisplayZoomControls(false);
+        settings.setUseWideViewPort(true);
+        settings.setLoadWithOverviewMode(true);
+        settings.setSupportZoom(true);//支持放缩 - 但不显示放缩控件
+        settings.setBuiltInZoomControls(true);
+        settings.setDisplayZoomControls(false);
         settings.setJavaScriptEnabled(true);//webview设置支持Javascript
-//        settings.setSavePassword(false);//不保存密码
-//        settings.setSaveFormData(true);
-//        settings.setAllowFileAccess(true);
-//        settings.setDomStorageEnabled(true);
-//		settings.setAppCacheEnabled(true);
-//        settings.setJavaScriptCanOpenWindowsAutomatically(true);//支持通过JS 打开新窗口
-//        settings.setDomStorageEnabled(true);
-        mWebView.setLayerType(View.LAYER_TYPE_SOFTWARE,null);
+        settings.setSavePassword(false);//不保存密码
+        settings.setSaveFormData(true);
+        settings.setAllowFileAccess(true);
+        settings.setDomStorageEnabled(true);
+		settings.setAppCacheEnabled(true);
+        settings.setJavaScriptCanOpenWindowsAutomatically(true);//支持通过JS 打开新窗口
+        settings.setDomStorageEnabled(true);
+//        mWebView.setLayerType(View.LAYER_TYPE_SOFTWARE,null);
         mWebView.setBackgroundColor(0);
         mWebView.setAlpha(1);
-        String httpUrl = "https://account.sogou.com/connect/login?provider=weixin&client_id=10425&ru=https%3A%2F%2Fwan.sogou.com%2Foauth%2Frecieveru.do%3Fcb%3Dhttps%253A%252F%252Fwan.sogou.com%252F&third_appid=wx6634d697e8cc0a29&href=https%3A%2F%2Fwan01.sogoucdn.com%2Fcdn%2Fstatic%2Fcss%2Fspecial%2Fweixin-login%2Fnormal.css";
-        httpUrl =  "https://account.sogou.com/connect/login?provider=weixin&client_id=10425&ru=https://www.sogou.com/&third_appid=wx6634d697e8cc0a29&href=https%3A%2F%2Fwan01.sogoucdn.com%2Fcdn%2Fstatic%2Fcss%2Fspecial%2Fweixin-login%2Fnormal.css";
+       // String httpUrl = "https://account.sogou.com/connect/login?provider=weixin&client_id=10425&ru=https%3A%2F%2Fwan.sogou.com%2Foauth%2Frecieveru.do%3Fcb%3Dhttps%253A%252F%252Fwan.sogou.com%252F&third_appid=wx6634d697e8cc0a29&href=https%3A%2F%2Fwan01.sogoucdn.com%2Fcdn%2Fstatic%2Fcss%2Fspecial%2Fweixin-login%2Fnormal.css";
+        String httpUrl =  "http://www.baidu.com";
         mWebView.loadUrl(httpUrl);
 //        mWebView.loadUrl("http://iot.sogou.com/web/tr1_user_agreement.html");
         Log.d(TAG,"enter:");
@@ -75,6 +75,7 @@ public class PaymentActivity extends Activity {
                 mWebView.loadUrl(request.getUrl().toString());
                 return true;
             }
+
 
             @Override
             public boolean shouldOverrideUrlLoading(WebView view, String url) {

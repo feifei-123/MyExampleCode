@@ -7,6 +7,7 @@ import android.widget.TextView;
 
 import com.example.feifei.testjni.TestNatvie;
 import com.example.myndk.JNIUtils;
+import com.example.myndk_invoke.R;
 
 public class MainActivity extends Activity implements View.OnClickListener{
 
