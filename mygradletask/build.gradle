@@ -70,3 +70,44 @@ task taskMake(type:Copy){
 task taskDelete(type:Delete){
     delete('src/script/output')
 }
+
+task('这是任务的名称',{
+    doFirst{
+        println "任务的逻辑"
+    }
+})
+
+task("做饭",{
+
+    group="厨房"
+    description="这是做饭的阶段"
+    doFirst{
+        println("做饭的步骤 version=${version}")
+    }
+}).dependsOn('切菜')
+
+task("买菜",{
+    group="厨房"
+    description="这是买菜的阶段"
+    doFirst{
+        println("买菜的步骤")
+    }
+})
+
+task("切菜",{
+    group="厨房"
+    description="这是切菜的阶段"
+    doFirst{
+        println("切菜的步骤")
+    }
+}).dependsOn('买菜')
+
+gradle.taskGraph.whenReady {taskGraph->
+    if(taskGraph.hasTask("买菜")){
+        version = '1.0'
+    }else{
+        version = "1.0-SNAPSHOT"
+    }
+
+}
+

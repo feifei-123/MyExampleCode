@@ -3,9 +3,12 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MyExampleCode.iml" filepath="$PROJECT_DIR$/MyExampleCode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TestCompilerlib/TestCompilerlib.iml" filepath="$PROJECT_DIR$/TestCompilerlib/TestCompilerlib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/annotationlib/annotationlib.iml" filepath="$PROJECT_DIR$/annotationlib/annotationlib.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/audiorecoder/audiorecoder.iml" filepath="$PROJECT_DIR$/audiorecoder/audiorecoder.iml" />
       <module fileurl="file://$PROJECT_DIR$/breakpad-build/breakpad-build.iml" filepath="$PROJECT_DIR$/breakpad-build/breakpad-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/buildsrc/buildsrc.iml" filepath="$PROJECT_DIR$/buildsrc/buildsrc.iml" />
       <module fileurl="file://$PROJECT_DIR$/intentserviceexample/intentserviceexample.iml" filepath="$PROJECT_DIR$/intentserviceexample/intentserviceexample.iml" />
       <module fileurl="file://$PROJECT_DIR$/myanimation/myanimation.iml" filepath="$PROJECT_DIR$/myanimation/myanimation.iml" />
       <module fileurl="file://$PROJECT_DIR$/mybinder/mybinder.iml" filepath="$PROJECT_DIR$/mybinder/mybinder.iml" />
@@ -32,6 +35,11 @@
       <module fileurl="file://$PROJECT_DIR$/myviewmodel/myviewmodel.iml" filepath="$PROJECT_DIR$/myviewmodel/myviewmodel.iml" />
       <module fileurl="file://$PROJECT_DIR$/mywebview/mywebview.iml" filepath="$PROJECT_DIR$/mywebview/mywebview.iml" />
       <module fileurl="file://$PROJECT_DIR$/mywindowmanager/mywindowmanager.iml" filepath="$PROJECT_DIR$/mywindowmanager/mywindowmanager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test_gradle_plugin/test_gradle_plugin.iml" filepath="$PROJECT_DIR$/test_gradle_plugin/test_gradle_plugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test_gradle_use_plugin/test_gradle_use_plugin.iml" filepath="$PROJECT_DIR$/test_gradle_use_plugin/test_gradle_use_plugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test_hprof/test_hprof.iml" filepath="$PROJECT_DIR$/test_hprof/test_hprof.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test_netspeed/test_netspeed.iml" filepath="$PROJECT_DIR$/test_netspeed/test_netspeed.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testannotation/testannotation.iml" filepath="$PROJECT_DIR$/testannotation/testannotation.iml" />
       <module fileurl="file://$PROJECT_DIR$/testautomaster/testautomaster.iml" filepath="$PROJECT_DIR$/testautomaster/testautomaster.iml" />
       <module fileurl="file://$PROJECT_DIR$/testbreakpointdebug/testbreakpointdebug.iml" filepath="$PROJECT_DIR$/testbreakpointdebug/testbreakpointdebug.iml" />
       <module fileurl="file://$PROJECT_DIR$/testdpi/testdpi.iml" filepath="$PROJECT_DIR$/testdpi/testdpi.iml" />

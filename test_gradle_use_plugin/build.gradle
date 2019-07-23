@@ -1,0 +1,70 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+android {
+    compileSdkVersion 28
+
+
+    defaultConfig {
+        applicationId "com.sogou.teemo.test_use_gradle_plugin"
+        minSdkVersion 15
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+//    implementation project(':buildsrc')
+
+    implementation 'com.android.support.constraint:constraint-layout:1.1.0'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+}
+
+
+buildscript {
+    repositories {
+        maven {//本地Maven仓库地址
+            url uri("file:///Users/feifei/Desktop/TM/Github/maven-lib")
+        }
+    }
+    dependencies {
+        //格式为-->group:module:version
+        classpath 'com.feifei.plugin:test_gradle_plugin:1.0.1'
+    }
+}
+/**
+ * 引入 公开的gradle 插件
+ */
+//apply plugin: 'com.feifei.gradle'
+
+/**
+ * 注意: 引入 apply plugin: 'com.feifei.second' 后 不需要implementation project(':buildsrc')
+ */
+apply plugin: 'com.feifei.second'
+
+pluginExt{
+    param1 = "app param1"
+    param2 = "app param2"
+
+    nestExt{
+        nestParam1 = "app nest Param1"
+        nestParam2 = "app nest Param2"
+    }
+}
+
