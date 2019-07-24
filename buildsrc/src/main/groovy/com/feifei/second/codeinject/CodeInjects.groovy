@@ -13,6 +13,7 @@ public class CodeInjects {
         //当前路径加入类池，不然找不到这个类
         pool.appendClassPath(path)
 
+
         //project.android.bootClasspath 加入android.jar，不然找不到android相关的所有类
         pool.appendClassPath(project.android.bootClasspath[0].toString())
 

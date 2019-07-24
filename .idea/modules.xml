@@ -21,12 +21,11 @@
       <module fileurl="file://$PROJECT_DIR$/mygradletask/mygradletask.iml" filepath="$PROJECT_DIR$/mygradletask/mygradletask.iml" />
       <module fileurl="file://$PROJECT_DIR$/myhook/myhook.iml" filepath="$PROJECT_DIR$/myhook/myhook.iml" />
       <module fileurl="file://$PROJECT_DIR$/myinstrument/myinstrument.iml" filepath="$PROJECT_DIR$/myinstrument/myinstrument.iml" />
-      <module fileurl="file://$PROJECT_DIR$/myjni/myjni.iml" filepath="$PROJECT_DIR$/myjni/myjni.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myjavassist/myjavassist.iml" filepath="$PROJECT_DIR$/myjavassist/myjavassist.iml" />
       <module fileurl="file://$PROJECT_DIR$/mylifecircle/mylifecircle.iml" filepath="$PROJECT_DIR$/mylifecircle/mylifecircle.iml" />
       <module fileurl="file://$PROJECT_DIR$/mylock/mylock.iml" filepath="$PROJECT_DIR$/mylock/mylock.iml" />
       <module fileurl="file://$PROJECT_DIR$/myndk_invoke/myndk_invoke.iml" filepath="$PROJECT_DIR$/myndk_invoke/myndk_invoke.iml" />
       <module fileurl="file://$PROJECT_DIR$/myopenalipay/myopenalipay.iml" filepath="$PROJECT_DIR$/myopenalipay/myopenalipay.iml" />
-      <module fileurl="file://$PROJECT_DIR$/myplayvideo/myplayvideo.iml" filepath="$PROJECT_DIR$/myplayvideo/myplayvideo.iml" />
       <module fileurl="file://$PROJECT_DIR$/myreplugin/myreplugin.iml" filepath="$PROJECT_DIR$/myreplugin/myreplugin.iml" />
       <module fileurl="file://$PROJECT_DIR$/myroom/myroom.iml" filepath="$PROJECT_DIR$/myroom/myroom.iml" />
       <module fileurl="file://$PROJECT_DIR$/myrxjava2/myrxjava2.iml" filepath="$PROJECT_DIR$/myrxjava2/myrxjava2.iml" />
@@ -48,7 +47,7 @@
       <module fileurl="file://$PROJECT_DIR$/testjvm/testjvm.iml" filepath="$PROJECT_DIR$/testjvm/testjvm.iml" />
       <module fileurl="file://$PROJECT_DIR$/testkotlin2/testkotlin2.iml" filepath="$PROJECT_DIR$/testkotlin2/testkotlin2.iml" />
       <module fileurl="file://$PROJECT_DIR$/testleakcanary/testleakcanary.iml" filepath="$PROJECT_DIR$/testleakcanary/testleakcanary.iml" />
-      <module fileurl="file://$PROJECT_DIR$/testlifecircel/testlifecircel.iml" filepath="$PROJECT_DIR$/testlifecircel/testlifecircel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testlifecirce/testlifecirce.iml" filepath="$PROJECT_DIR$/testlifecirce/testlifecirce.iml" />
       <module fileurl="file://$PROJECT_DIR$/testlock/testlock.iml" filepath="$PROJECT_DIR$/testlock/testlock.iml" />
       <module fileurl="file://$PROJECT_DIR$/testmemorylink/testmemorylink.iml" filepath="$PROJECT_DIR$/testmemorylink/testmemorylink.iml" />
       <module fileurl="file://$PROJECT_DIR$/teststring/teststring.iml" filepath="$PROJECT_DIR$/teststring/teststring.iml" />
