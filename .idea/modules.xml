@@ -18,6 +18,7 @@
       <module fileurl="file://$PROJECT_DIR$/myclassloader/myclassloader.iml" filepath="$PROJECT_DIR$/myclassloader/myclassloader.iml" />
       <module fileurl="file://$PROJECT_DIR$/mycropbitmap/mycropbitmap.iml" filepath="$PROJECT_DIR$/mycropbitmap/mycropbitmap.iml" />
       <module fileurl="file://$PROJECT_DIR$/mydictionary/mydictionary.iml" filepath="$PROJECT_DIR$/mydictionary/mydictionary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myglide/myglide.iml" filepath="$PROJECT_DIR$/myglide/myglide.iml" />
       <module fileurl="file://$PROJECT_DIR$/mygradletask/mygradletask.iml" filepath="$PROJECT_DIR$/mygradletask/mygradletask.iml" />
       <module fileurl="file://$PROJECT_DIR$/myhook/myhook.iml" filepath="$PROJECT_DIR$/myhook/myhook.iml" />
       <module fileurl="file://$PROJECT_DIR$/myinstrument/myinstrument.iml" filepath="$PROJECT_DIR$/myinstrument/myinstrument.iml" />

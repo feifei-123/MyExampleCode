@@ -15,6 +15,7 @@ public class CodeInjects {
 
 
         //project.android.bootClasspath 加入android.jar，不然找不到android相关的所有类
+        //println "android.jar 位置:"+project.android.bootClasspath[0].toString()
         pool.appendClassPath(project.android.bootClasspath[0].toString())
 
         pool.importPackage("android.os.Bundle");
